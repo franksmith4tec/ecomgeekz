@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 18.1 18.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b00bc5;
+        stroke: #b00bc5;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Component_41_1" data-name="Component 41 1">
+    <path id="Path_20888" data-name="Path 20888" class="cls-1" d="M1.4,17l3.8-3.9L16.6,1.4"/>
+    <path id="Path_20889" data-name="Path 20889" class="cls-1" d="M5.4,1.4h11.1"/>
+    <path id="Path_20890" data-name="Path 20890" class="cls-1" d="M16.6,1.4v11.1"/>
+  </g>
+</svg>

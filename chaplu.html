@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue.js WooCommerce Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>WooCommerce Products</h1>
+    <ul>
+      <li v-for="product in products" :key="product.id">
+        {{ product.name }} - {{ product.price }}
+      </li>
+    </ul>
+    <p>Cart Count: {{ cartCount }}</p>
+    <button @click="fetchCartCount">Update Cart Count</button>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        products: [],
+        cartCount: 0,
+      },
+      methods: {
+        fetchProducts() {
+          const url = 'http://localhost/vue-wordpress/wp-json/wc/v3/products';
+          const username = 'admin';
+          const appPassword = 'C9kyA5aeXJNfx8SusWVbn90S';
+
+          axios.get(url, {
+            auth: {
+              username: username,
+              password: appPassword,
+            },
+          })
+          .then(response => {
+            this.products = response.data;
+          })
+          .catch(error => {
+            console.error('Error fetching products:', error);
+          });
+        },
+        fetchCartCount() {
+          // Replace this with your logic to fetch the cart count
+          // For example, you can use a custom endpoint or WooCommerce's built-in functions
+          this.cartCount = Math.floor(Math.random() * 10); // Placeholder
+        },
+      },
+      mounted() {
+        this.fetchProducts();
+      },
+    });
+  </script>
+</body>
+</html>

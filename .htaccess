@@ -1,0 +1,208 @@
+RewriteEngine On
+RewriteBase /
+
+
+
+
+
+# Redirect /index.php https://ecomgeekz.com/
+# Redirect /about.php https://ecomgeekz.com/about.php
+# Redirect /index.php https://ecomgeekz.com/
+# Redirect /amazon-fba-automation.php https://ecomgeekz.com/amazon-fba-automation
+# Redirect /amazon-private-label.php https://ecomgeekz.com/amazon-private-label
+# Redirect /amazon-reinstatement.php https://ecomgeekz.com/amazon-reinstatement
+# Redirect /application.php https://ecomgeekz.com/application
+# Redirect /appointment.php https://ecomgeekz.com/appointment
+# Redirect /at-appointment.php https://ecomgeekz.com/at-appointment
+# Redirect /business-formation.php https://ecomgeekz.com/business-formation
+# Redirect /contact.php https://ecomgeekz.com/contact
+# Redirect /create-revenue-streams.php https://ecomgeekz.com/create-revenue-streams
+# Redirect /dropshipping-shopify-automation.php https://ecomgeekz.com/dropshipping-shopify-automation
+# Redirect /faq.php https://ecomgeekz.com/faq
+# Redirect /free-audit.php https://ecomgeekz.com/free-audit
+# Redirect /kickstarter-campaign.php https://ecomgeekz.com/kickstarter-campaign
+# Redirect /kickstarter-campaign-2.php https://ecomgeekz.com/kickstarter-campaign-2
+# Redirect /launch-mobile-application.php https://ecomgeekz.com/launch-mobile-application
+# Redirect /personal-branding.php https://ecomgeekz.com/personal-branding
+# Redirect /privacy-policy.php https://ecomgeekz.com/privacy-policy
+# Redirect /service.php https://ecomgeekz.com/service
+# Redirect /shopify-dropshipping-automation.php https://ecomgeekz.com/shopify-dropshipping-automation
+# Redirect /social-media-marketing.php https://ecomgeekz.com/social-media-marketing
+# Redirect /start-marketing-agency.php https://ecomgeekz.com/start-marketing-agency
+# Redirect /start-your-ecommerce-brand.php https://ecomgeekz.com/start-your-ecommerce-brand
+# Redirect /start-your-marketing-agency.php https://ecomgeekz.com/start-your-marketing-agency
+# Redirect /support-consultancy.php https://ecomgeekz.com/support-consultancy
+# Redirect /terms-of-service.php https://ecomgeekz.com/terms-of-service
+# Redirect /thank-you.php https://ecomgeekz.com/thank-you
+# Redirect /tiktok-shop-automation.php https://ecomgeekz.com/tiktok-shop-automation
+# Redirect /walmart-automation.php https://ecomgeekz.com/walmart-automation
+# Redirect /youtube-automation.php https://ecomgeekz.com/youtube-automation
+
+
+
+
+
+    
+
+
+
+
+    
+#HTTPS Rewrite after SSL
+RewriteCond %{HTTP} off
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [L]
+
+#Non www redirection
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+    
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    
+# Handle Authorization Header
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Redirect Trailing Slashes If Not A Folder...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    
+    
+      #      ErrorDocument 404 https://demo.ecomgeekz.com/404
+      #   RewriteRule . https://demo.ecomgeekz.com/404 [L]
+    
+   
+      #   Redirect 301 /index https://demo.ecomgeekz.com
+      #   Redirect 301 /home https://demo.ecomgeekz.com
+    
+
+    # Rewrite rule to add the directory 'folder' to the specific page 'example.php'
+ # RewriteRule ^folder/example/?$ example.php [L,QSA]
+     #   RewriteRule ^lp/lp/?$ lp.php [L,QSA]
+ 
+    # Rewrite rule to internally forward requests to the directory
+  # RewriteRule ^hidden/(.*)$ lp/$1 [L]
+    
+    
+</IfModule>
+
+
+# BEGIN Cache-Control Headers
+<IfModule mod_expires.c>
+  <IfModule mod_headers.c>
+    <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+      Header append Cache-Control "public"  
+    </filesMatch>
+    <filesMatch "\.(css)$">
+      Header append Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(js)$">
+      Header append Cache-Control "private"
+  </filesMatch>
+    <filesMatch "\.(x?html?|php)$">
+      Header append Cache-Control "private, must-revalidate"
+    </filesMatch>
+  </IfModule>
+</IfModule>
+
+## EXPIRES HEADER CACHING ##
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access 1 year"
+    ExpiresByType image/jpeg "access 1 year"
+    ExpiresByType image/gif "access 1 year"
+    ExpiresByType image/png "access 1 year"
+    ExpiresByType image/svg "access 1 year"
+    ExpiresByType image/webp "access plus 4 months"
+    ExpiresByType video/ogg "access plus 4 months"
+    ExpiresByType audio/ogg "access plus 4 months"
+    ExpiresByType video/mp4 "access plus 4 months"
+    ExpiresByType video/webm "access plus 4 months"
+    ExpiresByType text/html "access plus 1 month"
+    ExpiresByType text/css "access 1 month"
+    ExpiresByType application/pdf "access 1 month"
+    # Data
+    ExpiresByType application/xml "access plus 1 month"
+    ExpiresByType application/json "access plus 1 month"
+    ExpiresByType application/javascript "access 1 month"
+    ExpiresByType application/x-javascript "access 1 month"
+    ExpiresByType application/x-shockwave-flash "access 1 month"
+    ExpiresByType image/x-icon "access 1 year"
+    ExpiresByType text/xml "access plus 1 month"
+    # Feed
+    ExpiresByType application/rss+xml "access plus 1 hour"
+    ExpiresByType application/atom+xml "access plus 1 hour"
+    ExpiresByType text/cache-manifest "access plus 1 month"
+    ExpiresByType text/x-component "access plus 1 month"
+    # Webfonts
+    ExpiresByType font/ttf "access plus 4 months"
+    ExpiresByType font/otf "access plus 4 months"
+    ExpiresByType font/woff "access plus 4 months"
+    ExpiresByType font/woff2 "access plus 4 months"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+    ExpiresDefault "access 3 days"
+
+</IfModule>
+## EXPIRES HEADER CACHING ##
+
+<IfModule mod_deflate.c>
+    # Compress HTML, CSS, JavaScript, Text, XML and fonts
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+    AddOutputFilterByType DEFLATE application/x-font
+    AddOutputFilterByType DEFLATE application/x-font-opentype
+    AddOutputFilterByType DEFLATE application/x-font-otf
+    AddOutputFilterByType DEFLATE application/x-font-truetype
+    AddOutputFilterByType DEFLATE application/x-font-ttf
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE font/opentype
+    AddOutputFilterByType DEFLATE font/otf
+    AddOutputFilterByType DEFLATE font/ttf
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE image/x-icon
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/xml
+    
+    # Remove browser bugs (only needed for really old browsers)
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+    Header append Vary User-Agent
+</IfModule>
+
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_include handler ^cgi-script$
+</ifModule>
+
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 38.68.134.126

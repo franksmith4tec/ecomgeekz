@@ -1,0 +1,5 @@
+[06-Mar-2025 21:46:32 UTC] PHP Warning:  include(include/footer-form.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomgeekz.com/include/footer.php on line 1
+[06-Mar-2025 21:46:32 UTC] PHP Warning:  include(): Failed opening 'include/footer-form.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomgeekz.com/include/footer.php on line 1
+[06-Mar-2025 21:46:32 UTC] PHP Warning:  Undefined variable $countryname in /home/tradpnbg/ecomgeekz.com/include/footer.php on line 110
+[06-Mar-2025 21:46:32 UTC] PHP Warning:  Undefined variable $cityname in /home/tradpnbg/ecomgeekz.com/include/footer.php on line 111
+[06-Mar-2025 21:46:32 UTC] PHP Warning:  Undefined variable $time in /home/tradpnbg/ecomgeekz.com/include/footer.php on line 112

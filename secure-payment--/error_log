@@ -1,0 +1,39 @@
+[06-Mar-2025 21:15:10 UTC] PHP Warning:  Undefined array key "phone_code" in /home/tradpnbg/ecomunified.com/secure-payment/stripe_payment.php on line 84
+[06-Mar-2025 21:16:00 UTC] PHP Warning:  Undefined array key "phone_code" in /home/tradpnbg/ecomunified.com/secure-payment/payment.php on line 41
+[06-Mar-2025 21:16:02 UTC] PHP Warning:  Undefined array key "phone_code" in /home/tradpnbg/ecomunified.com/secure-payment/payment.php on line 180
+[06-Mar-2025 21:35:57 UTC] PHP Warning:  include(include/header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:35:57 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:36:02 UTC] PHP Warning:  include(include/header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:36:02 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:36:03 UTC] PHP Warning:  include(include/header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:36:03 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:36:46 UTC] PHP Warning:  include(include/header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:36:46 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:02 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:02 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:05 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:05 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:05 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:05 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:05 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:05 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 1
+[06-Mar-2025 21:37:39 UTC] PHP Warning:  include(include/header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[06-Mar-2025 21:37:39 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[06-Mar-2025 21:39:07 UTC] PHP Warning:  include(../../include/header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[06-Mar-2025 21:39:07 UTC] PHP Warning:  include(): Failed opening '../../include/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[06-Mar-2025 21:39:12 UTC] PHP Warning:  include(../../include/header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[06-Mar-2025 21:39:12 UTC] PHP Warning:  include(): Failed opening '../../include/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[06-Mar-2025 21:39:44 UTC] PHP Warning:  include(../header.php): Failed to open stream: No such file or directory in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[06-Mar-2025 21:39:44 UTC] PHP Warning:  include(): Failed opening '../header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tradpnbg/ecomunified.com/secure-payment/payment-form.php on line 495
+[10-Mar-2025 16:58:09 UTC] Array
+(
+    [0] => Square\Models\Error Object
+        (
+            [category:Square\Models\Error:private] => INVALID_REQUEST_ERROR
+            [code:Square\Models\Error:private] => INVALID_CARD_DATA
+            [detail:Square\Models\Error:private] => Invalid card data.
+            [field:Square\Models\Error:private] => source_id
+        )
+
+)
+

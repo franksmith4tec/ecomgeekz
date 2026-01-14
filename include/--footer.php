@@ -1,0 +1,1721 @@
+
+<?php include("include/footer-form.php"); ?>
+
+
+
+
+
+
+    <!-- Button to trigger modal -->
+    <button class="btn btn-primary" 
+            data-bs-toggle="modal" 
+            data-bs-target="#infoModal">
+        Open Modal
+    </button>
+
+  
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="form-wrap popx">
+
+                <button class="btn popx-close btn-secondary" 
+                            data-bs-dismiss="modal">
+                            &#x2715;
+                    </button>
+<div class="container">
+    
+    <div class="row">
+
+
+
+<div class="col-lg-12">
+
+
+
+<div class="form-on-top">
+
+
+
+
+
+
+
+
+<form class="lead-formx" id="lead-formx" method="POST">
+ <h6>Get Started</h6>
+ <p>Are you ready to turn your vision into a thriving business? Take the first step towards success by sharing essential details about your venture with us. We're here to guide you through the journey.</p>
+                                         
+<div class="row">
+<div class="col-lg-6">
+<div class="form-inputs">
+<input type="hidden" name="form_type" value="form3">
+<input type="text" name="name"  placeholder="Name" onkeydown="return /^[A-Za-z\s]+$/.test(event.key)" required>
+</div>
+
+</div>
+
+<div class="col-lg-6">
+<div class="form-inputs">
+<input type="email" name="email" placeholder="Email" required>
+</div>
+</div>
+
+</div>
+
+                                            <div class="form-inputs" style="position:relative">
+                                                <!--<input type="tel" id="number" placeholder="Your Phone" required>-->
+                                                <!--<input class="hiddenphoneinput d-none" type id="cell" name="cell" required>-->
+                                                <input type="tel" id="cell" name="phone" placeholder="Phone" name="cell" class="form-control shown-phone-input specialInput" required>
+
+                                            </div>
+                                            <div class="form-inputs mb-0">
+                                                <textarea type="text" name="message"  placeholder="Message"></textarea>
+                                          
+                                            </div>
+
+                                            <input type="hidden" name="countryname" value="<?php echo $countryname; ?>">
+                                            <input type="hidden" name="cityname"  value="<?php echo $cityname; ?>">
+                                            <input type="hidden" name="time"  value="<?php echo $time; ?>">
+                                            <input type="hidden" name="ip"  value="<?php echo $ip; ?>">
+                                         
+<!--                                             
+                                            <div class="form-checkbox form-checkbox-contest">
+                                                <input type="checkbox" id="checkboxpp6" class="d-none" data-gtm-form-interact-field-id="1" checked="">
+                                                <label for="checkboxpp6" class="designedbox"></label>
+                                                <label for="checkboxpp6">I consent to receive SMS updates, offers, and notifications from   LetsEcom LLC.</label>    
+                                            </div>
+                                            
+                                            <div class="form-checkbox form-checkbox-contest">
+                                                <input type="checkbox" id="checkboxpp7" class="d-none" checked="">
+                                                <label for="checkboxpp7" class="designedbox"></label>
+                                                <label for="checkboxpp7">I agree to receive marketing emails, newsletters, and promotions from   LetsEcom LLC</label>
+                                            </div>
+                                            
+                                            <div class="form-checkbox form-checkbox-contest">
+                                                <input type="checkbox" id="checkboxpp8" class="d-none" checked="">
+                                                <label for="checkboxpp8" class="designedbox"></label>
+                                                <label for="checkboxpp8">I allow   LetsEcom LLC to contact me via phone or WhatsApp for updates, offers, and other communications.</label>
+                                            </div>
+                                            
+                                            <div class="form-checkbox form-checkbox-contest">
+                                                <input type="checkbox" id="checkboxpp5" class="d-none" data-gtm-form-interact-field-id="0" checked="">
+                                                <label for="checkboxpp5" class="designedbox"></label>
+                                                <label for="checkboxpp5">I have read and accept the <a href="privacy-policy.php">privacy policy.</a></label>
+                                            </div> -->
+
+                                            <div class="checkbox checkbox-success spa">
+                        <input name="RememberMe" type="hidden" value="false">
+                        <input class="styled" data-val="true" data-val-required="Требуется поле Remember me?." id="RememberMe" name="RememberMe" type="checkbox" value="true">
+                        <label for="RememberMe">
+                            
+By opting into SMS, you are agreeing to receive SMS messages from EcomGeekz. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy. Message HELP for help. Reply STOP to any message to opt out.
+                        </label>
+                    </div>
+                                            
+                                            <div class="form-input-btn">
+                                            <button class="btn-reg" type="submit"> submit x</button>
+                                            
+                                            </div>
+                                        </form>
+
+
+
+
+
+
+</div><!-- end form-on-top -->
+
+
+
+</div>
+
+
+</div>
+
+</div> 
+
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Include PHPMailer
+    require 'PHPMailer/Exception.php';
+    require 'PHPMailer/PHPMailer.php';
+    require 'PHPMailer/SMTP.php';
+
+    // Common email configuration
+    $mail = new PHPMailer(true);
+    try {
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'franksmith4tec@gmail.com';
+        $mail->Password   = 'cjvkuqzrvhebpwia'; // Use app-specific passwords for security
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port       = 465;
+
+        $mail->setFrom('franksmith4tec@gmail.com', 'Contact Form');
+
+        // Add CC and BCC for all emails
+       // $mail->addCC('cc@example.com', 'CC Recipient');
+      //  $mail->addBCC('bcc@example.com', 'BCC Recipient');
+
+        // Determine which form was submitted
+        if (isset($_POST['form_type'])) {
+            $formType = $_POST['form_type'];
+
+            // Form 1 submission
+            if ($formType === 'form1') {
+                $name = $_POST['name'];
+                $phone = $_POST['phone'];
+                $email = $_POST['email'];
+                $message = $_POST['message'];
+
+         
+                $clientMessage = "
+                <html>
+                <head>
+                <title>Thank You</title>
+                </head>
+                <body>
+                <p>Hello  <strong>$name</strong>,</p>
+                <p>Thank you for signing up with EcomGeekz—your trusted partner in e-commerce fulfillment and automation.</p>
+                <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
+                </p>
+                <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
+                <p>We look forward to helping you grow your business with EcomGeekz.</p>
+                <p>Best regards,</p>
+                </body>
+                </html>
+                ";
+
+                    
+                    
+                    
+                    
+                    
+            
+                    
+
+$adminMessage  = '
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Simple Transactional Email</title>
+  <style media="all" type="text/css">
+    /* -------------------------------------
+    GLOBAL RESETS
+------------------------------------- */
+    
+    body {
+      font-family: Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      font-size: 16px;
+      line-height: 1.3;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    
+    table {
+      border-collapse: separate;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      width: 100%;
+    }
+    
+    table td {
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      vertical-align: top;
+    }
+    /* -------------------------------------
+    BODY & CONTAINER
+------------------------------------- */
+    
+    body {
+      background-color: #f4f5f6;
+      margin: 0;
+      padding: 0;
+    }
+    
+   
+    
+    .xx{
+      margin: 0 auto !important;
+    max-width: 600px;
+      padding: 0;
+      padding-top: 24px;
+     width: 600px;
+    }
+    
+    .container {
+      margin: 0 auto !important;
+/*      max-width: 600px;*/
+      padding: 0;
+      padding-top: 24px;
+/*      width: 600px;*/
+    }
+    
+    .content {
+      box-sizing: border-box;
+      display: block;
+      margin: 0 auto;
+/*      max-width: 600px;*/
+      padding: 0;
+    }
+    /* -------------------------------------
+    HEADER, FOOTER, MAIN
+------------------------------------- */
+    
+    .main {
+      background: #ffffff;
+      border: 1px solid #eaebed;
+      border-radius: 16px;
+      width: 100%;
+    }
+    
+    .wrapper {
+      box-sizing: border-box;
+      padding: 24px;
+    }
+    
+    .footer {
+      clear: both;
+      padding-top: 24px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .footer td,
+    .footer p,
+    .footer span,
+    .footer a {
+      color: #9a9ea6;
+      font-size: 16px;
+      text-align: center;
+    }
+    /* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+    
+    p {
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    
+    a {
+      color: #0867ec;
+      text-decoration: underline;
+    }
+    /* -------------------------------------
+    BUTTONS
+------------------------------------- */
+    
+    .btn {
+      box-sizing: border-box;
+      min-width: 100% !important;
+      width: 100%;
+    }
+    
+    .btn > tbody > tr > td {
+      padding-bottom: 16px;
+    }
+    
+    .btn table {
+      width: auto;
+    }
+    
+    .btn table td {
+      background-color: #ffffff;
+      border-radius: 4px;
+      text-align: center;
+    }
+    
+    .btn a {
+      background-color: #ffffff;
+      border: solid 2px #0867ec;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #0867ec;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      padding: 12px 24px;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+    
+    .btn-primary table td {
+      background-color: #0867ec;
+    }
+    
+    .btn-primary a {
+      background-color: #0867ec;
+      border-color: #0867ec;
+      color: #ffffff;
+    }
+    
+    @media all {
+      .btn-primary table td:hover {
+        background-color: #ec0867 !important;
+      }
+      .btn-primary a:hover {
+        background-color: #ec0867 !important;
+        border-color: #ec0867 !important;
+      }
+    }
+    
+    /* -------------------------------------
+    OTHER STYLES THAT MIGHT BE USEFUL
+------------------------------------- */
+    
+    .last {
+      margin-bottom: 0;
+    }
+    
+    .first {
+      margin-top: 0;
+    }
+    
+    .align-center {
+      text-align: center;
+    }
+    
+    .align-right {
+      text-align: right;
+    }
+    
+    .align-left {
+      text-align: left;
+    }
+    
+    .text-link {
+      color: #0867ec !important;
+      text-decoration: underline !important;
+    }
+    
+    .clear {
+      clear: both;
+    }
+    
+    .mt0 {
+      margin-top: 0;
+    }
+    
+    .mb0 {
+      margin-bottom: 0;
+    }
+    
+    .preheader {
+      color: transparent;
+      display: none;
+      height: 0;
+      max-height: 0;
+      max-width: 0;
+      opacity: 0;
+      overflow: hidden;
+      mso-hide: all;
+      visibility: hidden;
+      width: 0;
+    }
+    
+    .powered-by a {
+      text-decoration: none;
+    }
+    
+    /* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+    
+    @media only screen and (max-width: 640px) {
+      .main p,
+      .main td,
+      .main span {
+        font-size: 16px !important;
+      }
+      .wrapper {
+        padding: 8px !important;
+      }
+      .content {
+        padding: 0 !important;
+      }
+      .container {
+        padding: 0 !important;
+        padding-top: 8px !important;
+        width: 100% !important;
+      }
+      .main {
+        border-left-width: 0 !important;
+        border-radius: 0 !important;
+        border-right-width: 0 !important;
+      }
+      .btn table {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      .btn a {
+        font-size: 16px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+    }
+    /* -------------------------------------
+    PRESERVE THESE STYLES IN THE HEAD
+------------------------------------- */
+    
+    @media all {
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      .apple-link a {
+        color: inherit !important;
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        text-decoration: none !important;
+      }
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body xx">
+
+      
+      
+      
+      
+      
+       <tr>
+                    <td align="center">
+                        <table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                            
+                                <td style="font-family: sans-serif; font-size:15px; font-weight: 300;" align="center" valign="top">
+                                    <table class="col-600" width="600" height="400" border="0" align="center" cellpadding="0" cellspacing="0">
+
+                                        <tbody>
+                                        <tr>
+                                            <td height="20"></td>
+                                        </tr>
+            
+                                        <tr>
+                                            <td align="center" style="">
+                                          <p>EcomGeekz</p>
+                                            </td>
+                                        </tr>
+      
+      
+            <tr>
+      
+
+        <td class="container">
+          <div class="content">
+
+          
+            <span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="main">
+
+         
+              <tr>
+                <td class="wrapper">
+                  <p>Name: '.$name.'</p>
+                   <p>Email: '.$email.'</p>
+                    <p>Phone: '.$phone.'</p>
+                      <p>Comments: '.$message.'</p>
+                      
+                        <p style="display:none;">Country Name: '.$countryname.'</p>
+                          <p style="display:none;">City Name: '.$cityname.'</p>
+                           <p style="display:none;">Time Zone: '.$time.'</p>
+                               <p style="display:none;">IP Address: '.$ip.'</p>
+                      
+
+     
+                
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                    <tbody>
+                      <tr>
+                        <td align="left">
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                 
+                </td>
+              </tr>
+
+              <!-- END MAIN CONTENT AREA -->
+              </table>
+
+            <!-- START FOOTER -->
+            <div class="footer">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="content-block">
+                    
+                    <br> Don not like these SMS & Emails ? Unsubscribe</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="content-block powered-by">
+                    Copyright © 2024 EcomGeekz. All Rights Reserved. 
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+
+            
+</div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
+';
+    
+                    
+                    
+
+              
+
+                // Send email to client
+                $mail->clearAddresses();
+                $mail->addAddress($email);
+                $mail->Subject = 'Thank You for Contacting Us';
+                $mail->Body    = $clientMessage;
+                $mail->isHTML(true);
+                $mail->send();
+
+                // Send email to admin
+                $mail->clearAddresses();
+                $mail->addAddress('franksmith4tec@gmail.com', 'Admin');
+                $mail->Subject = 'New Submission - Form 1';
+                $mail->Body    = $adminMessage;
+                $mail->send();
+
+                echo "<script language='javascript' type='text/javascript'>location.href='thank-you.php'</script>";
+
+header("Location: thank-you.php");
+        exit();
+
+            }
+
+            // Form 2 submission
+            elseif ($formType === 'news') {
+                $emailx = $_POST['emailx'];
+                
+                
+                 $clientMessage = "
+                <html>
+                <head>
+                <title>Thank You</title>
+                </head>
+                <body>
+                <p>Hello  <strong>$emailx</strong>,</p>
+                <p>Thank you for signing up with EcomGeekz—your trusted partner in e-commerce fulfillment and automation.</p>
+                <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
+                </p>
+                <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
+                <p>We look forward to helping you grow your business with EcomGeekz.</p>
+                <p>Best regards,</p>
+                </body>
+                </html>
+                ";
+               
+
+                $adminMessage = "<html><body>
+                    <h2>New Submission - Form 2</h2>
+                    <p><strong>Email:</strong> $emailx</p>
+                   
+                    </body></html>";
+                    
+                    
+                    
+                // Send email to client
+                $mail->clearAddresses();
+                $mail->addAddress($emailx);
+                $mail->Subject = 'Thank You for Contacting Us 2';
+                $mail->Body    = $clientMessage;
+                $mail->isHTML(true);
+                $mail->send();
+
+                // Send email to admin
+                $mail->clearAddresses();
+                $mail->addAddress('franksmith4tec@gmail.com', 'Admin');
+                $mail->Subject = 'New Submission - Form 2';
+                $mail->Body    = $adminMessage;
+                $mail->isHTML(true);
+                $mail->send();
+
+
+                echo "<script language='javascript' type='text/javascript'>location.href='thank-you.php'</script>";
+
+                header("Location: thank-you.php");
+                        exit();
+
+            }
+
+            // Form 3 submission
+            elseif ($formType === 'form3') {
+                $name = $_POST['name'];
+                $phone = $_POST['phone'];
+                $email = $_POST['email'];
+                $message = $_POST['message'];
+
+         
+                $clientMessage = "
+                <html>
+                <head>
+                <title>Thank You</title>
+                </head>
+                <body>
+                <p>Hello  <strong>$name</strong>,</p>
+                <p>Thank you for signing up with EcomGeekz—your trusted partner in e-commerce fulfillment and automation.</p>
+                <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
+                </p>
+                <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
+                <p>We look forward to helping you grow your business with EcomGeekz.</p>
+                <p>Best regards,</p>
+                </body>
+                </html>
+                ";
+
+                    
+                    
+                    
+                    
+                    
+            
+                    
+
+$adminMessage  = '
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Simple Transactional Email</title>
+  <style media="all" type="text/css">
+    /* -------------------------------------
+    GLOBAL RESETS
+------------------------------------- */
+    
+    body {
+      font-family: Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      font-size: 16px;
+      line-height: 1.3;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    
+    table {
+      border-collapse: separate;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      width: 100%;
+    }
+    
+    table td {
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      vertical-align: top;
+    }
+    /* -------------------------------------
+    BODY & CONTAINER
+------------------------------------- */
+    
+    body {
+      background-color: #f4f5f6;
+      margin: 0;
+      padding: 0;
+    }
+    
+   
+    
+    .xx{
+      margin: 0 auto !important;
+    max-width: 600px;
+      padding: 0;
+      padding-top: 24px;
+     width: 600px;
+    }
+    
+    .container {
+      margin: 0 auto !important;
+/*      max-width: 600px;*/
+      padding: 0;
+      padding-top: 24px;
+/*      width: 600px;*/
+    }
+    
+    .content {
+      box-sizing: border-box;
+      display: block;
+      margin: 0 auto;
+/*      max-width: 600px;*/
+      padding: 0;
+    }
+    /* -------------------------------------
+    HEADER, FOOTER, MAIN
+------------------------------------- */
+    
+    .main {
+      background: #ffffff;
+      border: 1px solid #eaebed;
+      border-radius: 16px;
+      width: 100%;
+    }
+    
+    .wrapper {
+      box-sizing: border-box;
+      padding: 24px;
+    }
+    
+    .footer {
+      clear: both;
+      padding-top: 24px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .footer td,
+    .footer p,
+    .footer span,
+    .footer a {
+      color: #9a9ea6;
+      font-size: 16px;
+      text-align: center;
+    }
+    /* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+    
+    p {
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    
+    a {
+      color: #0867ec;
+      text-decoration: underline;
+    }
+    /* -------------------------------------
+    BUTTONS
+------------------------------------- */
+    
+    .btn {
+      box-sizing: border-box;
+      min-width: 100% !important;
+      width: 100%;
+    }
+    
+    .btn > tbody > tr > td {
+      padding-bottom: 16px;
+    }
+    
+    .btn table {
+      width: auto;
+    }
+    
+    .btn table td {
+      background-color: #ffffff;
+      border-radius: 4px;
+      text-align: center;
+    }
+    
+    .btn a {
+      background-color: #ffffff;
+      border: solid 2px #0867ec;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #0867ec;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      padding: 12px 24px;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+    
+    .btn-primary table td {
+      background-color: #0867ec;
+    }
+    
+    .btn-primary a {
+      background-color: #0867ec;
+      border-color: #0867ec;
+      color: #ffffff;
+    }
+    
+    @media all {
+      .btn-primary table td:hover {
+        background-color: #ec0867 !important;
+      }
+      .btn-primary a:hover {
+        background-color: #ec0867 !important;
+        border-color: #ec0867 !important;
+      }
+    }
+    
+    /* -------------------------------------
+    OTHER STYLES THAT MIGHT BE USEFUL
+------------------------------------- */
+    
+    .last {
+      margin-bottom: 0;
+    }
+    
+    .first {
+      margin-top: 0;
+    }
+    
+    .align-center {
+      text-align: center;
+    }
+    
+    .align-right {
+      text-align: right;
+    }
+    
+    .align-left {
+      text-align: left;
+    }
+    
+    .text-link {
+      color: #0867ec !important;
+      text-decoration: underline !important;
+    }
+    
+    .clear {
+      clear: both;
+    }
+    
+    .mt0 {
+      margin-top: 0;
+    }
+    
+    .mb0 {
+      margin-bottom: 0;
+    }
+    
+    .preheader {
+      color: transparent;
+      display: none;
+      height: 0;
+      max-height: 0;
+      max-width: 0;
+      opacity: 0;
+      overflow: hidden;
+      mso-hide: all;
+      visibility: hidden;
+      width: 0;
+    }
+    
+    .powered-by a {
+      text-decoration: none;
+    }
+    
+    /* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+    
+    @media only screen and (max-width: 640px) {
+      .main p,
+      .main td,
+      .main span {
+        font-size: 16px !important;
+      }
+      .wrapper {
+        padding: 8px !important;
+      }
+      .content {
+        padding: 0 !important;
+      }
+      .container {
+        padding: 0 !important;
+        padding-top: 8px !important;
+        width: 100% !important;
+      }
+      .main {
+        border-left-width: 0 !important;
+        border-radius: 0 !important;
+        border-right-width: 0 !important;
+      }
+      .btn table {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      .btn a {
+        font-size: 16px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+    }
+    /* -------------------------------------
+    PRESERVE THESE STYLES IN THE HEAD
+------------------------------------- */
+    
+    @media all {
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      .apple-link a {
+        color: inherit !important;
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        text-decoration: none !important;
+      }
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body xx">
+
+      
+      
+      
+      
+      
+       <tr>
+                    <td align="center">
+                        <table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                            
+                                <td style="font-family: sans-serif; font-size:15px; font-weight: 300;" align="center" valign="top">
+                                    <table class="col-600" width="600" height="400" border="0" align="center" cellpadding="0" cellspacing="0">
+
+                                        <tbody>
+                                        <tr>
+                                            <td height="20"></td>
+                                        </tr>
+            
+                                        <tr>
+                                            <td align="center" style="">
+                                          <p>EcomGeekz</p>
+                                            </td>
+                                        </tr>
+      
+      
+            <tr>
+      
+
+        <td class="container">
+          <div class="content">
+
+          
+            <span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="main">
+
+         
+              <tr>
+                <td class="wrapper">
+                  <p>Name: '.$name.'</p>
+                   <p>Email: '.$email.'</p>
+                    <p>Phone: '.$phone.'</p>
+                      <p>Comments: '.$message.'</p>
+                      
+                        <p style="display:none;">Country Name: '.$countryname.'</p>
+                          <p style="display:none;">City Name: '.$cityname.'</p>
+                           <p style="display:none;">Time Zone: '.$time.'</p>
+                               <p style="display:none;">IP Address: '.$ip.'</p>
+                      
+
+     
+                
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                    <tbody>
+                      <tr>
+                        <td align="left">
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                 
+                </td>
+              </tr>
+
+              <!-- END MAIN CONTENT AREA -->
+              </table>
+
+            <!-- START FOOTER -->
+            <div class="footer">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="content-block">
+                    
+                    <br> Don not like these SMS & Emails ? Unsubscribe</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="content-block powered-by">
+                    Copyright © 2024 EcomGeekz. All Rights Reserved. 
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+
+            
+</div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
+';
+    
+                    
+                    
+
+              
+
+                // Send email to client
+                $mail->clearAddresses();
+                $mail->addAddress($email);
+                $mail->Subject = 'Thank You for Contacting Us 3 Lead';
+                $mail->Body    = $clientMessage;
+                $mail->isHTML(true);
+                $mail->send();
+
+                // Send email to admin
+                $mail->clearAddresses();
+                $mail->addAddress('franksmith4tec@gmail.com', 'Admin');
+                $mail->Subject = 'New Submission - Form 3';
+                $mail->Body    = $adminMessage;
+                $mail->send();
+
+                echo "<script language='javascript' type='text/javascript'>location.href='thank-you.php'</script>";
+
+                header("Location: thank-you.php");
+                        exit();
+
+            }
+
+
+        }
+    } catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    }
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="testiomal-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="footerlogo">
+                    <img src="assets/images/logo-white.svg" alt="img">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="footer-list">
+                    <div class="list-itemwrp">
+                        <ul>
+                            <h4>Services</h4>
+                            <li><a href="business-formation.php">Business Formation</a></li>
+                            <li><a href="amazon-fba-automation.php">Amazon FBA Automation  <span>New</span></a></li> 
+                            <li><a href="tiktok-shop-automation.php">Tiktok Shop Automation</a></li> 
+                            <li><a href="walmart-automation.php">Walmart Automation</a></li> 
+                            <li><a href="shopify-dropshipping-automation.php">Shopify Dropshipping Automation</a></li>
+                            <li><a href="javascript:;">Start Ecommerce Brand</a></li>
+                            <li><a href="personal-branding.php">Personal Branding <span>Hot</span></a></li>
+                            <li><a href="youtube-automation.php">Youtube Automation</a></li>
+                            <li><a href="javascript:;">Launch Mobile Application</a></li>
+                            <li><a href="start-marketing-agency.php">Start Marketing Agency <span>Hot</span></a></li>
+                            <li><a href="social-media-marketing.php">Social Media Marketing</a></li>
+                            <!--<li><a href="javascript:;">Create Revenue Streams</a></li>-->
+                            <li><a href="ultimate-business-model.php">Ultimate Business Model <span>Hot</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="list-itemwrp">
+                        <ul>
+                            <h4>Company</h4>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="application.php">Get A Consultation</a></li>
+                            <!--<li><a href="https://ecomgeekz.com/support-consultancy">Support Consultancy</a></li>-->
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="sitemap.php">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-itemwrp">
+                        <ul>
+                            <h4>Find Us</h4>
+                            <li><a href="javascript:;">5600 Berkeley Knoll Cir
+Richmond, TX, 77407</a></li>
+                            <li><a class="footer-number" href="tel:+1 (855) 783-2616">+1 (855) 783-2616</a></li>
+                            <li class="footer-email"><a href="mailto:hello@ecomgeekz.comm">hello@ecomgeekz.comm <img src="assets/images/arrow-top-white.svg"></a></li>
+                        </ul>
+                        <div class="social-wrap">
+                                <ul class="socail-icon">
+                              <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/dribbble.svg"></a></li>-->
+                              <li><a href="https://www.facebook.com/ecomgeekz.com" target="_blank"><img src="assets/images/EcomGeekz-Badges-08.svg"></a></li>
+                              <li><a href="https://www.linkedin.com/company/EcomGeekz/" target="_blank"><img src="assets/images/EcomGeekz-Badges.svg"></a></li>
+                              <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/twitter.svg"></a></li>-->
+                              <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/pinterest.svg"></a></li>-->
+                              <li><a href="https://www.instagram.com/ecomgeekz.com/" target="_blank"><img src="assets/images/EcomGeekz-Badges-10.svg"></a></li>
+                              <!-- <li><a href="https://www.instagram.com/ecomgeekz.com/" target="_blank"><img src="assets/images/EcomGeekz-Badges-09.svg"></a></li> -->
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row newz-top">
+            <div class="col-md-8">
+                <div class="txtwrp">
+                    <h2 class="main-heading">Business strategists with you,<br> every step of the way</h2>
+                    <p>Get help from EcomGeekz and discover how we can assist you on your entrepreneurial journey.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4>Digital acceleration editorial <span>Boost innovation with insights for change</span></h4>
+                <form class="news-letterz" method="POST"  action="#">
+                <input type="hidden" name="form_type" value="news">
+                   <div class="news-letter-b">
+                   <input type="email" name="emailx" placeholder="Enter email address" required>
+                   <button name="submit" type="submit">Submit</button>
+                 
+                   </div>
+                   <div class="d-flex">
+                      <input type="checkbox" name="check" required>
+                      <p>I agree to receive marketing communication from EcomGeekz.</p>
+                      <!-- <i class="fas fa-question-circle"><div class="boxdiv">
+                         <p>Quarterly packages require an upfront payment for 3 months of service</p>
+                      </div></i> -->
+                      
+                   </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5 notice">
+            <div class="col-lg-12">
+                <p class="noticehead"><b></b></p>
+                
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingzero">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+                       <u style="color:#b00bc5;    font-size: 14px;    font-weight: 600;">CLIENT'S PRIVACY NOTICE:</u> At EcomGeekz, we prioritize the confidentiality and privacy of our valued clients. As per our contractual agreements, we uphold a strict non-disclosure policy, which prevents us from openly promoting or advertising the business details, revenue, or statistics of our clientele on this site <span>Read More...</span><i class="fas fa-chevron-down"></i>
+                      </button>
+                    </h2>
+                    <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingzero" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>We want to emphasize that our clients' businesses and revenue are exclusively owned and operated by them. We do not enter into partnerships or arrangements that involve sharing their sensitive information or statistics without their explicit consent.</p>
+                <p>To ensure the protection of our clients' interests, we have implemented stringent legal safeguards, including the signing of non-disclosure agreements (NDAs). These NDAs serve as legal documents that outline the terms and conditions of our working relationship, emphasizing the confidentiality of all information provided to EcomGeekz, Inc.</p>
+                <p>We take your privacy seriously. Rest assured that any information you share with EcomGeekz, Inc. is held in the strictest confidence. We are committed to safeguarding your data and ensuring that it remains protected from unauthorized access or disclosure.</p>
+                <p>It's important to note that EcomGeekz, Inc. does not function as an "attorney referral service" or a law firm. We do not provide legal advice or legal representation. If you have specific legal concerns or questions related to the use of your information, we recommend consulting with an attorney in your area who specializes in privacy and confidentiality matters.</p>
+                <p>Your trust in EcomGeekz is greatly appreciated, and we are dedicated to upholding the highest standards of data security and client confidentiality. Thank you for choosing EcomGeekz as your partner in business success.</p> 
+                      </div> 
+                    </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 my-auto">
+                <div class="Copyrighttxt">
+                    <a href="#" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="assets/images/dmca.png"  alt="DMCA.com Protection Status" /></a> 
+                    <p>©2025 LetsEcom LLC, DBA EcomGeekz. All rights reserved.</p>
+                </div>
+                <div class="Copyrighttxt desclaimer">
+                    <p>EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="terms-of-service.php">Terms of Service</a>, <a style="text-decoration: underline;" href="privacy-policy.php">Privacy Policy</a>, and Data Processing Addendum.</p>
+                </div>
+                <div class="privacy-choices">
+                    <a href="javcript:(void)" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Your privacy choices <img src ="assets/images/0410-hd-privacy-choices-icon.png"  alt="EcomGeekz privacy choices" /></a>
+                </div>
+            </div>
+            <div class="col-md-5 my-auto">
+                <div class="footer-bedge-main">
+                <div class="bedge-first">
+                    <a class="bedge-one" href="https://www.bbb.org/us/il/o-fallon/profile/business-development/EcomGeekz-0734-1000045048/#sealclick" target="_blank" rel="nofollow"><img src="assets/images/BBB-inner.png" style="border: 0;width: 70px;" alt="EcomGeekz BBB Business Review" /></a>
+                    <!-- TrustBox widget - Micro Star -->
+                    <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b732fbfb950b10de65e5" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="24px" data-style-width="100%" data-theme="light">
+                      <a href="#" target="_blank" rel="noopener">Trustpilot</a>
+                    </div>
+                    <!-- End TrustBox widget -->
+                </div>
+                <!--<div class="bedge-first">-->
+                <!--    <a href="https://www.bbb.org/us/il/o-fallon/profile/business-development/EcomGeekz-0734-1000045048/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-stlouis.bbb.org/seals/darkgray-seal-120-61-bbb-1000045048.png" style="border: 0;" alt="EcomGeekz BBB Business Review" /></a>-->
+                <!--</div>-->
+                </div>
+                <!--<div class="social-wrap">-->
+                <!--    <ul class="socail-icon">-->
+                <!--      <li><a href="javascript:;" target="_blank"><img src="assets/images/dribbble.svg"></a></li>-->
+                <!--      <li><a href="https://www.facebook.com/ecomgeekz.com" target="_blank"><img src="assets/images/EcomGeekz-Badges-08.svg"></a></li>-->
+                <!--      <li><a href="https://www.linkedin.com/company/EcomGeekz/" target="_blank"><img src="assets/images/EcomGeekz-Badges.svg"></a></li>-->
+                <!--      <li><a href="javascript:;" target="_blank"><img src="assets/images/twitter.svg"></a></li>-->
+                <!--      <li><a href="javascript:;" target="_blank"><img src="assets/images/pinterest.svg"></a></li>-->
+                <!--      <li><a href="https://www.instagram.com/ecomgeekz.com/" target="_blank"><img src="assets/images/EcomGeekz-Badges-10.svg"></a></li>-->
+                <!--       <li><a href="https://www.instagram.com/ecomgeekz.com/" target="_blank"><img src="assets/images/EcomGeekz-Badges-09.svg"></a></li> -->
+                <!--    </ul>-->
+                <!--</div>-->
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade privacy-choice" id="exampleModaltwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="opacity:1;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body contact">
+        <div class="main-text-area">
+            <h1>Your Privacy Choices</h1>
+            <p>EcomGeekz does not sell your personal information to third parties. However, EcomGeekz may share some information with our advertising partners to help show ads that are more relevant to your interests.</p>
+            <p>If you would like to opt out of having your information shared for targeted advertising purposes, please provide us with some basic information through our opt-out form so we can update your preference in our records.</p>
+            <p>On our website, cookies are also used for targeted advertising purposes. If you would like to opt out of sharing your information through cookies for purposes of showing you more relevant ads, you can disable these cookies below.</p>
+            <p>If you wish to opt out of all sharing of your information for targeted advertising, you will need to both adjust your cookie preferences below and fill out the opt-out form.</p>
+            <p>Additional information about how EcomGeekz uses your information can be found in our Privacy Policy..</p>
+            <h4>Manage Ad Targeting Cookie Preferences</h4>
+            <div class="pricavy-toogle">
+                <h6>Targeting and Engagement Cookies</h6>
+                <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+                 <script>
+    // function setCookie(name, value, days) {
+    //     const d = new Date();
+    //     d.setTime(d.getTime() + (days*24*60*60*1000));
+    //     const expires = "expires=" + d.toUTCString();
+    //     document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    // }
+
+    // function getCookie(name) {
+    //     const nameEQ = name + "=";
+    //     const ca = document.cookie.split(';');
+    //     for(let i = 0; i < ca.length; i++) {
+    //         let c = ca[i];
+    //         while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+    //         if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    //     }
+    //     return null;
+    // }
+
+
+     // Retrieve the saved cookie state and set the toggle accordingly
+       // Listen for changes on the toggle button
+
+    // document.addEventListener('DOMContentLoaded', (event) => {
+    //     const toggle = document.getElementById('switch');
+
+       
+    //     const savedToggleState = getCookie('privacyToggleState');
+    //     if (savedToggleState === 'on') {
+    //         toggle.checked = true;
+    //     } else {
+    //         toggle.checked = false;
+    //     }
+
+      
+    //     toggle.addEventListener('change', function() {
+    //         if (this.checked) {
+    //             setCookie('privacyToggleState', 'on', 365);
+    //         } else {
+    //             setCookie('privacyToggleState', 'off', 365);
+    //         }
+    //     });
+    // });
+</script>
+            </div>
+            <p>Turning off these cookies will stop the personalization of ads based on your interactions with our site. If you change devices or clear your cache, you will need to re-select this option when you revisit our webpage.</p>
+             <a href="javascript:(void)" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Confirm My Choices</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- model -->
+
+
+
+<!-- Modal -->
+<div class="modal fade service-popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body contact">
+
+      </div>
+      <div><button type="button" class="close-pop" data-bs-dismiss="modal" aria-label="Close">Close</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- model -->
+
+<!-- <script>
+document.addEventListener("DOMContentLoaded", function() {
+    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {});
+
+    // Retrieve the closeCount from localStorage (or initialize to 0 if it doesn't exist)
+    var closeCount = parseInt(localStorage.getItem('closeCount')) || 0;
+
+    var showModalAfterDelay = function(delay) {
+        setTimeout(function() {
+            if (closeCount < 3) {  // Check if the modal has been shown less than 3 times
+                myModal.show();
+            }
+        }, delay);
+    };
+
+    // Only show the modal for the first time if the closeCount is less than 3
+    if (closeCount < 3) {
+        showModalAfterDelay(5000);  // Show modal after 5 seconds
+    }
+
+    // Set up an event listener for when the modal is hidden
+    document.getElementById('exampleModal').addEventListener('hide.bs.modal', function () {
+        closeCount++;
+        localStorage.setItem('closeCount', closeCount);  // Store the updated count in localStorage
+
+        var nextDelay;
+        if (closeCount === 1) {
+            nextDelay = 30000; // 30 seconds after first close
+        } else if (closeCount === 2) {
+            nextDelay = 60000; // 60 seconds after second close
+        } else {
+            return; // Stop showing the modal after 3 times
+        }
+        showModalAfterDelay(nextDelay);
+    });
+});
+
+</script> -->
+
+<style>
+
+ /* Loader styling */
+ .spinner {
+            width: 40px;
+            margin:0px auto;
+            height: 40px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    display: none;
+
+    background:rgb(0 0 0 / 58%);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+        #loader p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+</style>
+
+ <!-- Loader -->
+ <div id="loader">
+        <div class="spinner"></div>
+        <p>Submitting...</p>
+    </div>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/slick/slick.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/fancybox.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/custom.js"></script>
+    <script src="../unpkg.com/aos%402.3.1/dist/aos.js"></script>  
+<script>
+  AOS.init();
+
+
+</script>
+    
+   
+
+
+
+
+
+<script>
+    document.addEventListener("mousemove", parallax);
+function parallax(event) {
+  this.querySelectorAll(".parallax-wrap .stats-animate").forEach((shift) => {
+    const position = shift.getAttribute("value");
+    const x = (window.innerWidth - event.pageX * position) / 90;
+    const y = (window.innerHeight - event.pageY * position) / 90;
+
+    shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+  });
+}
+</script>
+
+
+<script>
+  jQuery(function () {
+    var markers = $(".marker");
+
+    markers.each(function () {
+      var marker = $(this),
+        width = marker.width(),
+        height = 2 * marker.height(),
+        ns = "http://www.w3.org/2000/svg";
+
+      var svg = document.createElementNS(ns, "svg");
+
+      $(svg)
+        .css({
+          width: width,
+          height: height,
+          transform: "scale(1, 1)" // Adjust scale if needed
+        })
+        .attr({
+          width: width,
+          height: height,
+          viewBox: "-1 -1 2 2"
+        });
+
+      marker[0].appendChild(svg);
+
+      var path = document.createElementNS(ns, "path");
+
+      $(path)
+        .attr({
+          pathLength: 100,
+          "vector-effect": "non-scaling-stroke"
+        });
+
+      svg.appendChild(path);
+
+      // Function to set and animate the circle path
+      function setCircle(path) {
+        var pathLength = path.getTotalLength();
+
+        $(path)
+          .attr({
+            d: circlePath(-0.15, 0.05, 150, 190, 0.05, 0.3)
+          })
+          .attr({
+            "stroke-dasharray": pathLength,
+            "stroke-dashoffset": pathLength // Start with dashoffset equal to pathLength
+          })
+          .css("visibility", "visible")
+          .animate({
+            "stroke-dashoffset": 0
+          }, 1500); // Adjust animation duration as needed
+      }
+
+      setCircle(path); // Trigger animation for each marker
+
+      function circlePath(dr_min, dr_max, θ0_min, θ0_max, dθ_min, dθ_max) {
+        var c = 0.551915024494,
+          β = Math.atan(c),
+          d = Math.sqrt(c * c + 1 * 1),
+          r = 0.9,
+          θ = ((θ0_min + Math.random() * (θ0_max - θ0_min)) * Math.PI) / 180,
+          path = "M";
+
+        path += [r * Math.sin(θ), r * Math.cos(θ)];
+        path += " C" + [d * r * Math.sin(θ + β), d * r * Math.cos(θ + β)];
+
+        for (var i = 0; i < 4; i++) {
+          θ += (Math.PI / 2) * (1 + dθ_min + Math.random() * (dθ_max - dθ_min));
+          r *= 1 + dr_min + Math.random() * (dr_max - dr_min);
+          path +=
+            " " +
+            (i ? "S" : "") +
+            [d * r * Math.sin(θ - β), d * r * Math.cos(θ - β)];
+          path += " " + [r * Math.sin(θ), r * Math.cos(θ)];
+        }
+        return path;
+      }
+    });
+  });
+</script>
+
+</body>
+
+</html>
