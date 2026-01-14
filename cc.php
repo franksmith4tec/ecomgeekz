@@ -56,7 +56,7 @@
                 <h2 class="white"  data-aos="fade-up"     data-aos-duration="1000">Our Experts, By Your Side at Every Step  </h2>
                 <p class="white"  data-aos="fade-up"     data-aos-duration="1300">Starting a business is the easy part; building it into something lasting and thriving is the true challenge. Many try, but only a few succeed. With EcomGeekz, you can become the entrepreneur you’ve always dreamed of being—confident, capable, and unstoppable.   </p>
                <ul>
-                   <li  data-aos="fade-up"     data-aos-duration="1500"><a href="faq.php">Get quick help</a></li>
+                   <li  data-aos="fade-up"     data-aos-duration="1500"><a href="faq">Get quick help</a></li>
                    <li data-aos="fade-up"     data-aos-duration="1800"><a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal">Schedule an appointment</a></li>
 
                </ul>
@@ -358,9 +358,9 @@
                 <h3>Elevate Your Business to New Heights   </h3>
                 <p>Unleash your potential with our strategic services crafted to drive growth and maximize revenue. Discover tailored solutions that set your business apart—explore now!</p> <a href="amazon-fba-automation.php" class="themes-btn">Amazon FBA Automation</a>
                 <ul>
-                    <li><a href="tiktok-shop-automation.php">TikTok Shop Automation</a></li>
-                    <li><a href="walmart-automation.php">Walmart Automation</a></li>
-                    <li><a href="shopify-dropshipping-automation.php">Dropshipping Shopify Automation</a></li>
+                    <li><a href="tiktok-shop-automation">TikTok Shop Automation</a></li>
+                    <li><a href="walmart-automation">Walmart Automation</a></li>
+                    <li><a href="shopify-dropshipping-automation">Dropshipping Shopify Automation</a></li>
                     
                 </ul>
             </div>
@@ -1093,7 +1093,7 @@
                 <p>Elevate your personal brand and take charge of your entrepreneurial path with our services designed specifically for ambitious individuals like you. Find the perfect solutions to fuel your unique business journey today!</p><!--<a href="youtube-automation.php" class="themes-btn">Start a Youtube Channel</a>-->
                 <ul>
                     <li><a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal">Start Ecommerce Agency</a></li>
-                    <!--<li><a href="personal-branding.php">Personal Branding</a></li>-->
+                    <!--<li><a href="personal-branding">Personal Branding</a></li>-->
                     
                 </ul>
             </div>
@@ -1147,7 +1147,7 @@
                 <a href="service.php" class="themes-btn">View all options</a>
                 <ul>
                     <li><a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal">Start Marketing Agency</a></li>
-                    <!--<li><a href="ultimate-business-model.php">Ultimate Business Model</a></li>-->
+                    <!--<li><a href="ultimate-business-model">Ultimate Business Model</a></li>-->
                 </ul>
             </div>
         </div>

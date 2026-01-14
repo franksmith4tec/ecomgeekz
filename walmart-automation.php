@@ -23,8 +23,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="service.php">Business Services</a></li>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="service">Business Services</a></li>
                     <li><a href="walmart-automation.php" class="active">Walmart Automation</a></li>
                 </ul>
                 <h1>EcomGeekz: Your Go-To Experts for Walmart Automation</h1>

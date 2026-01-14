@@ -22,7 +22,7 @@
         <div class="row al-flex-end">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="javascript:(void)" class="active">Appointment</a></li>
                 </ul>
                 <h2>Unlock Your Business Potential</h2>

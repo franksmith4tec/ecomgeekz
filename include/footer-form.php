@@ -59,14 +59,14 @@
                             <div class="form-checkbox form-checkbox-contest">
                                 <input type="checkbox" id="checkboxpp5" class="d-none" data-gtm-form-interact-field-id="0" checked="">
                                 <label for="checkboxpp5" class="designedbox"></label>
-                                <label for="checkboxpp5">I have read and accept the <a href="privacy-policy.php">privacy policy.</a></label>
+                                <label for="checkboxpp5">I have read and accept the <a href="privacy-policy">privacy policy.</a></label>
                             </div> -->
 
                         <div class="checkbox checkbox-success spa">
                             <input name="RememberMe" type="hidden" value="false">
                             <input class="styled" data-val="true" data-val-required="Требуется поле Remember me?." id="RememberMe" name="RememberMe" type="checkbox" value="true">
                             <label for="RememberMe">
-                                By checking this box, I agree to receive SMS messages about appointment scheduling, notice reminders, application updates, and billing notifications from EcomGeekz at the phone number provided above. The SMS frequency may vary. Data rates may apply. Text HELP for assistance. Reply STOP to opt out of receiving SMS messages. Please review our <a href="/privacy-policy" style="color:#b00bc5;">Privacy Policy</a> and <a href="/terms-of-service" style="color:#b00bc5;">Terms of Service</a>.
+                                By checking this box, I agree to receive SMS messages about appointment scheduling, notice reminders, application updates, and billing notifications from EcomGeekz at the phone number provided above. The SMS frequency may vary. Data rates may apply. Text HELP for assistance. Reply STOP to opt out of receiving SMS messages. Please review our <a href="/privacy-policy" style="color:#a801bd;">Privacy Policy</a> and <a href="/terms-of-service" style="color:#a801bd;">Terms of Service</a>.
                             </label>
                         </div>
                         <div class="form-input-btn">

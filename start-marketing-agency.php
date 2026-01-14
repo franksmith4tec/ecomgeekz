@@ -22,8 +22,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="service.php">Business Services</a></li>                    
+                    <li><a href="index">Home</a></li>
+                    <li><a href="service">Business Services</a></li>                    
                     <li><a href="start-marketing-agency.php" class="active">Start Marketing Agency</a></li>
                 </ul>
                 <h1>Your agency's launchpad: Ready for liftoff?</h1>
@@ -1228,7 +1228,7 @@
     </h2>
     <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>To book a consultation, simply <a href="at-appointment.php"> click here to book your free consultation</a>call through our website or reach out to us directly at hello@ecomgeekz.com or +1 (855) 666-5880. We’ll discuss how our automation service can help you achieve your business goals.</p>
+        <p>To book a consultation, simply <a href="at-appointment"> click here to book your free consultation</a>call through our website or reach out to us directly at hello@ecomgeekz.com or +1 (855) 666-5880. We’ll discuss how our automation service can help you achieve your business goals.</p>
       </div>
     </div>
   </div>

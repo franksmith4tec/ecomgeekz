@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="free-audit-2.php" class="active">Free Audit</a></li>
                 </ul>
                 <h1>Want to know the actual potential of your products on <div class="text">

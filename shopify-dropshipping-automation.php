@@ -22,8 +22,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="service.php">Business Services</a></li>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="service">Business Services</a></li>
                     <li><a href="shopify-dropshipping-automation.php" class="active">Shopify Dropshipping Automation</a></li>
                 </ul>
                 <h1>Launch Your Profitable Shopify Dropshipping Store Today</h1>

@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="javascript:(void)">Business Services</a></li>
                     <li><a href="kickstarter-campaign-2.php" class="active">Kickstarter Campaign</a></li>
                 </ul>

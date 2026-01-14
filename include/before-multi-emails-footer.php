@@ -131,7 +131,7 @@ s0.parentNode.insertBefore(s1,s0);
                                             <div class="form-checkbox form-checkbox-contest">
                                                 <input type="checkbox" id="checkboxpp5" class="d-none" data-gtm-form-interact-field-id="0" checked="">
                                                 <label for="checkboxpp5" class="designedbox"></label>
-                                                <label for="checkboxpp5">I have read and accept the <a href="privacy-policy.php">privacy policy.</a></label>
+                                                <label for="checkboxpp5">I have read and accept the <a href="privacy-policy">privacy policy.</a></label>
                                             </div> -->
 
                                             <div class="checkbox checkbox-success spa">
@@ -1403,7 +1403,7 @@ header("Location: thank-you");
                     <div class="accordion-item">
                     <h2 class="accordion-header" id="headingzero">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
-                       <u style="color:#b00bc5;    font-size: 14px;    font-weight: 600;">CLIENT'S PRIVACY NOTICE:</u> At EcomGeekz, we recognize and uphold the paramount importance of client confidentiality and privacy. In strict adherence to our contractual obligations, we maintain a comprehensive non-disclosure policy, ensuring that the business operations, financial details, and proprietary information of our clients remain undisclosed and are not used for promotional or advertising purposes on this website.<span>Read More...</span><i class="fas fa-chevron-down"></i>
+                       <u style="color:#a801bd;    font-size: 14px;    font-weight: 600;">CLIENT'S PRIVACY NOTICE:</u> At EcomGeekz, we recognize and uphold the paramount importance of client confidentiality and privacy. In strict adherence to our contractual obligations, we maintain a comprehensive non-disclosure policy, ensuring that the business operations, financial details, and proprietary information of our clients remain undisclosed and are not used for promotional or advertising purposes on this website.<span>Read More...</span><i class="fas fa-chevron-down"></i>
                       </button>
                     </h2>
                     <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingzero" data-bs-parent="#accordionExample">
@@ -1430,7 +1430,7 @@ header("Location: thank-you");
             <div class="col-md-7 my-auto">
                 <div class="Copyrighttxt">
                     <a href="#" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="assets/images/dmca.png"  alt="DMCA.com Protection Status" /></a> 
-                    <p>©2025 LetsEcom LLC, DBA EcomGeekz. All rights reserved.</p>
+                    <p>©<?=date("Y")?> LetsEcom LLC, DBA EcomGeekz. All rights reserved.</p>
                 </div>
                 <div class="Copyrighttxt desclaimer">
                     <p>EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>

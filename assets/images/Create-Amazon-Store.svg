@@ -19,7 +19,7 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="11.28" y1="7.13" x2="73" y2="65.56" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b00bc5"/>
+      <stop offset="0" stop-color="#a801bd"/>
       <stop offset="1" stop-color="#453e1b"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="-3.21" y1="22.44" x2="58.5" y2="80.88" xlink:href="#linear-gradient"/>

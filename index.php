@@ -1,4 +1,12 @@
-<?php include("include/header.php"); ?>
+<?php 
+$title = "Business Strategists with you, every step of the way";
+$keywords = "book writing,creative writing book ";
+$description = "";
+$og_title = $title;
+$og_description = $description;
+
+include("include/header.php"); 
+?>
 
 <body class="hompg head-twenty home-pg">
 
@@ -22,7 +30,7 @@
 
                         <a class="tw" target="_blank" href="https://www.trustpilot.com/review/ecomgeekz.com"> <img src="assets/images/tw.png" /> </a>
 
-                        <h1 class="" data-aos="fade-up" data-aos-duration="1000">Your <span class="markers" style="display:inline-block; color:#b00bc5;">Ultimate </span> Business Ally</h1>
+                        <h1 class="" data-aos="fade-up" data-aos-duration="1000">Your <span class="markers" style="display:inline-block; color:#a801bd;">Ultimate </span> Business Ally</h1>
                         <p class="" data-aos="fade-up" data-aos-duration="1300">Unlock your potential with EcomGeekz! Discover how our expert guidance and time-tested strategies can help you build thriving passive income streams and elevate your entrepreneurial journey to new heights.</p>
                         <a href="amazon-fba-automation" class="themes-btn" data-aos="fade-up" data-aos-duration="1500"><img class="main-ban-img" src="assets/images/amazon.svg" alt="img" /> Amazon FBA Automation</a>
                         <a href="walmart-automation" class="" data-aos="fade-up" data-aos-duration="1600"><img class="main-ban-img wal-bg" src="assets/images/walmart.svg" alt="img" /> Walmart Automation</a>
@@ -1102,7 +1110,7 @@
                     <p>Elevate your personal brand and take charge of your entrepreneurial path with our services designed specifically for ambitious individuals like you. Find the perfect solutions to fuel your unique business journey today!</p><!--<a href="youtube-automation.php" class="themes-btn">Start a Youtube Channel</a>-->
                     <ul>
                         <li><a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal">Start Ecommerce Agency</a></li>
-                        <!--<li><a href="personal-branding.php">Personal Branding</a></li>-->
+                        <!--<li><a href="personal-branding">Personal Branding</a></li>-->
 
                     </ul>
                 </div>
@@ -1156,7 +1164,7 @@
                     <a href="service" class="themes-btn">View all options</a>
                     <ul>
                         <li><a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal">Start Marketing Agency</a></li>
-                        <!--<li><a href="ultimate-business-model.php">Ultimate Business Model</a></li>-->
+                        <!--<li><a href="ultimate-business-model">Ultimate Business Model</a></li>-->
                     </ul>
                 </div>
             </div>

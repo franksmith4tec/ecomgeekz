@@ -126,7 +126,7 @@
                                             <div class="form-checkbox form-checkbox-contest">
                                                 <input type="checkbox" id="checkboxpp5" class="d-none" data-gtm-form-interact-field-id="0" checked="">
                                                 <label for="checkboxpp5" class="designedbox"></label>
-                                                <label for="checkboxpp5">I have read and accept the <a href="privacy-policy.php">privacy policy.</a></label>
+                                                <label for="checkboxpp5">I have read and accept the <a href="privacy-policy">privacy policy.</a></label>
                                             </div> -->
 
                                             <div class="checkbox checkbox-success spa">
@@ -1271,29 +1271,29 @@ $adminMessage  = '
                     <div class="list-itemwrp">
                         <ul>
                             <h4>Services</h4>
-                            <li><a href="business-formation.php">Business Formation</a></li>
-                            <li><a href="amazon-fba-automation.php">Amazon FBA Automation  <span>New</span></a></li> 
-                            <li><a href="tiktok-shop-automation.php">Tiktok Shop Automation</a></li> 
-                            <li><a href="walmart-automation.php">Walmart Automation</a></li> 
-                            <li><a href="shopify-dropshipping-automation.php">Shopify Dropshipping Automation</a></li>
+                            <li><a href="business-formation">Business Formation</a></li>
+                            <li><a href="amazon-fba-automation">Amazon FBA Automation  <span>New</span></a></li> 
+                            <li><a href="tiktok-shop-automation">Tiktok Shop Automation</a></li> 
+                            <li><a href="walmart-automation">Walmart Automation</a></li> 
+                            <li><a href="shopify-dropshipping-automation">Shopify Dropshipping Automation</a></li>
                             <li><a href="javascript:;">Start Ecommerce Brand</a></li>
-                            <li><a href="personal-branding.php">Personal Branding <span>Hot</span></a></li>
-                            <li><a href="youtube-automation.php">Youtube Automation</a></li>
+                            <li><a href="personal-branding">Personal Branding <span>Hot</span></a></li>
+                            <li><a href="youtube-automation">Youtube Automation</a></li>
                             <li><a href="javascript:;">Launch Mobile Application</a></li>
-                            <li><a href="start-marketing-agency.php">Start Marketing Agency <span>Hot</span></a></li>
-                            <li><a href="social-media-marketing.php">Social Media Marketing</a></li>
+                            <li><a href="start-marketing-agency">Start Marketing Agency <span>Hot</span></a></li>
+                            <li><a href="social-media-marketing">Social Media Marketing</a></li>
                             <!--<li><a href="javascript:;">Create Revenue Streams</a></li>-->
-                            <li><a href="ultimate-business-model.php">Ultimate Business Model <span>Hot</span></a></li>
+                            <li><a href="ultimate-business-model">Ultimate Business Model <span>Hot</span></a></li>
                         </ul>
                     </div>
                     <div class="list-itemwrp">
                         <ul>
                             <h4>Company</h4>
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="application.php">Get A Consultation</a></li>
+                            <li><a href="about">About</a></li>
+                            <li><a href="application">Get A Consultation</a></li>
                             <!--<li><a href="https://ecomgeekz.com/support-consultancy">Support Consultancy</a></li>-->
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="sitemap.php">Sitemap</a></li>
+                            <li><a href="contact">Contact</a></li>
+                            <li><a href="sitemap">Sitemap</a></li>
                         </ul>
                     </div>
                     <div class="list-itemwrp">
@@ -1354,7 +1354,7 @@ Richmond, TX, 77407</a></li>
                     <div class="accordion-item">
                     <h2 class="accordion-header" id="headingzero">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
-                       <u style="color:#b00bc5;    font-size: 14px;    font-weight: 600;">CLIENT'S PRIVACY NOTICE:</u> At EcomGeekz, we prioritize the confidentiality and privacy of our valued clients. As per our contractual agreements, we uphold a strict non-disclosure policy, which prevents us from openly promoting or advertising the business details, revenue, or statistics of our clientele on this site <span>Read More...</span><i class="fas fa-chevron-down"></i>
+                       <u style="color:#a801bd;    font-size: 14px;    font-weight: 600;">CLIENT'S PRIVACY NOTICE:</u> At EcomGeekz, we prioritize the confidentiality and privacy of our valued clients. As per our contractual agreements, we uphold a strict non-disclosure policy, which prevents us from openly promoting or advertising the business details, revenue, or statistics of our clientele on this site <span>Read More...</span><i class="fas fa-chevron-down"></i>
                       </button>
                     </h2>
                     <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingzero" data-bs-parent="#accordionExample">
@@ -1378,10 +1378,10 @@ Richmond, TX, 77407</a></li>
             <div class="col-md-7 my-auto">
                 <div class="Copyrighttxt">
                     <a href="#" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="assets/images/dmca.png"  alt="DMCA.com Protection Status" /></a> 
-                    <p>©2025 LetsEcom LLC, DBA EcomGeekz. All rights reserved.</p>
+                    <p>©<?=date("Y")?> LetsEcom LLC, DBA EcomGeekz. All rights reserved.</p>
                 </div>
                 <div class="Copyrighttxt desclaimer">
-                    <p>EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="terms-of-service.php">Terms of Service</a>, <a style="text-decoration: underline;" href="privacy-policy.php">Privacy Policy</a>, and Data Processing Addendum.</p>
+                    <p>EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
                 </div>
                 <div class="privacy-choices">
                     <a href="javcript:(void)" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Your privacy choices <img src ="assets/images/0410-hd-privacy-choices-icon.png"  alt="EcomGeekz privacy choices" /></a>

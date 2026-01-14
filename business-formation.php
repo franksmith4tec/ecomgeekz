@@ -20,7 +20,7 @@
         <div class="row al-flex-end">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="business-formation.php" class="active">Business Formation</a></li>
                 </ul>
                 <h1>Start your business <span>with confidence</span></h1>

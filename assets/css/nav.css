@@ -97,7 +97,7 @@
 
 .mobile-nav nav li a.active {
     color: #ffffff;
-    background: #b00bc5;
+    background: #a801bd;
 }
 
 .mobile-nav nav li a .xicon {
@@ -184,7 +184,7 @@
     display: none;
     height: 3px;
     width: 22px;
-    background-color: #b00bc5;
+    background-color: #a801bd;
     display: block;
     margin-bottom: 6px;
     -webkit-transition: all 0.2s ease-in-out;
@@ -197,7 +197,7 @@
 
 .mobile-nav-btn span:before, .mobile-nav-btn span:after {
     display: block;
-    background-color: #b00bc5;
+    background-color: #a801bd;
     height: 3px;
     width: 22px;
     position: absolute;
@@ -291,7 +291,7 @@ html {
      height: 44px;
      top: -6px;
      left: -14px;
-     stroke: #b00bc5;
+     stroke: #a801bd;
      stroke-width: 4px;
      stroke-linecap: round;
      stroke-linejoin: round;
@@ -365,7 +365,7 @@ html {
      bottom: 0;
      left: 0;
      right: 2px;
-     background: #b00bc5;
+     background: #a801bd;
      transform-origin: 0 0;
      transform: skew(-14deg) translateX(-120%);
      transition: all 0.275s 0.1s;
@@ -489,7 +489,7 @@ html {
     display: block;
 }
 .menu .links-container a:hover {
-  color: #b00bc5;
+  color: #a801bd;
   font-size: 2.3em;
 }
 .menu .links-container a:before {

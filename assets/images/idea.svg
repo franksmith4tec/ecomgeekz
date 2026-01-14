@@ -2,7 +2,7 @@
   <g style="fill:none">
     <g transform="translate(0 1)">
       <rect width="36" height="36"/>
-      <g transform="translate(2 2)" style="stroke-linecap:round;stroke-width:3;stroke:#b00bc5">
+      <g transform="translate(2 2)" style="stroke-linecap:round;stroke-width:3;stroke:#a801bd">
         <polyline points="4 12.3 16.8 0 28 11.2 16.8 22.6 11.1 17.1 16.8 11.7"/>
         <line x2="3" y1="32" y2="32"/>
         <line x1="29" x2="32" y1="32" y2="32"/>

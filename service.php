@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="service.php" class="active">Business Service</a></li>
                 </ul>
                 <h1>Empower your business dreams with EcomGeekz</h1>

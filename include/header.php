@@ -3,33 +3,86 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Business Strategists with you, every step of the way | EcomGeekz</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <?php
+    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')
+        $protocol = 'https://';
+    else {
+        $protocol = 'http://';
+    }
 
+    if ($_SERVER["HTTP_HOST"] == 'localhost') {
+        $base_url =  $protocol . $_SERVER["HTTP_HOST"] . '/ecomgeekz';
+    } else {
+        $base_url =  $protocol . $_SERVER["HTTP_HOST"];
+    }
+
+    $og_url = $_SERVER["HTTP_HOST"];
+
+    $brand_name = "EcomGeekz";
+    $brand_name_h = "ECOMGEEKZ ";
+    $brand_address = "10685B Hazelhurst Dr #39849 Houston, TX 77043";
+    $brand_address_us = "";
+    $brand_phone = "+1 (855) 783-2616";
+    $brand_call = "8557832616";
+    $whatsapp_call = "";
+    $brand_email = "hello@ecomgeekz.com";
+    $site_name = "Home | EcomGeekz";
+    $canonical = $base_url;
+    $og_image = $base_url . "/favicon.ico";
+    $favicon = $base_url . "/favicon.ico";
+    $faviconsvg = $base_url . "/favicon.svg";
+    $favicon32 = $base_url . "/favicon-32x32.png";
+    $favicon96 = $base_url . "/favicon-96x96.png";
+    $apple_touch_icon = $base_url . "/apple-touch-icon.png";
+
+    $facebook = "https://www.facebook.com/ecomgeekz";
+    $instagram = "https://www.instagram.com/ecomgeekz";
+    $linkedin = "https://www.linkedin.com/ecomgeekz";
+    $youtube = "https://www.youtube.com/@ecomgeekz";
+    $twitter = "https://www.twitter.com";
+    
+    $twitter = "https://www.twitter.com";
+    $google_site_verification = "";
+    $facebook_domain_verification = "";
+    ?>
+
+    <title><?= $title. " | " .$brand_name ?></title>
     <meta charset="utf-8">
+    <meta name="description" content="<?= $description ?? '' ?>" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="<?= $title ?? '' ?>">
+    <meta name="keywords" content="<?= $keywords ?? '' ?>">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <meta name="facebook-domain-verification" content="bqu8n5nrku2aw0f2sdvz2h7s6mpofg" />
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<?= $og_title ?? '' ?>">
+    <meta property="og:description" content="<?= $og_description ?? '' ?>">
+    <meta property="og:url" content="<?= $og_url ?? '' ?>">
+    <meta property="og:site_name" content="<?= $site_name ?? '' ?>">
+    <meta property="og:image" content="<?= $og_image ?? '' ?>" />
+    <meta http-equiv="Icon" content="<?=  $favicon ?? '' ?>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:label1" content="Estimated reading time">
+    <meta name="twitter:data1" content="1 minute">
+    <meta name="google-site-verification" content="<?= $google_site_verification ?? '' ?>" />
 
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= $favicon16 ?? '' ?>">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="<?= $favicon32 ?? '' ?>">
+    <link rel="shortcut icon" href="<?=  $favicon ?? '' ?>" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= $apple_touch_icon ?? '' ?>" />
+    <link rel="apple-touch-icon" sizes="120x120" href="<?= $apple_touch_icon ?? '' ?>">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?= $apple_touch_icon ?? '' ?>">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?= $apple_touch_icon ?? '' ?>">
 
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="<?= $favicon96 ?? '' ?>" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="<?= $faviconsvg ?? '' ?>" />
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-
-    <meta http-equiv="Icon" content="/favicon.ico">
-    <link rel="icon" href="/favicon.png" type="image/png">
+    <meta name="facebook-domain-verification" content="<?= $facebook_domain_verification ?? '' ?>" />
 
     <link rel="manifest" href="/site.webmanifest" />
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="assets/css/animate.css" rel="stylesheet">
     <link href="assets/fontawesome5/css/all.min.css" rel="stylesheet">
@@ -69,51 +122,5 @@
             document.getElementById("footerSubmitBtn").disabled = false;
         }
     </script>
-
-
-
-
-    <?php
-    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')
-        $protocol = 'https://';
-    else {
-        $protocol = 'http://';
-    }
-
-    if ($_SERVER["HTTP_HOST"] == 'localhost') {
-        $base_url =  $protocol . $_SERVER["HTTP_HOST"] . '/ecom-geeks3';
-    } else {
-        $base_url =  $protocol . $_SERVER["HTTP_HOST"];
-    }
-
-
-    $hide = 0;
-
-    $brand_name = "ecomgeekz.com";
-    $brand_name_h = "ecomgeekz.com";
-    $brand_address = "---";
-    $brand_address_us = "---";
-    $brand_phone = "---";
-    $brand_call = "---";
-    $whatsapp_call = "";
-    $brand_email = "info@ecomgeekz.com";
-    $site_name = "Home | ecomgeekz.com";
-    $canonical = "https://ecomgeekz.com/";
-    $og_image = "assets/images/favx.png";
-
-    $facebook = "https://www.facebook.com/ecomgeekz.com/";
-    $instagram = "https://www.instagram.com/ecomgeekz.com/";
-    $youtube = "https://www.youtube.com/";
-    $twitter = "https://www.twitter.com";
-
-    $usd_conversion = 0.81;
-    $gbp_conversion = 1.24;
-
-    $talk = '<a href="javascript:" class="chat"><span>Lets Talk</span></a>';
-
-    ?>
-
-
-
 
 </head>

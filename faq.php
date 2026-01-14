@@ -21,7 +21,7 @@
         <div class="row al-flex-end">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="faq.php" class="active">FAQ</a></li>
                 </ul>
             </div>

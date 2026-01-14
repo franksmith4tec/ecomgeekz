@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="ultimate-business-model-2.php" class="active">Ultimate Business Model</a></li>
                 </ul>
                 <h1>Fuel your business growth and navigate economic challenges</h1>
@@ -630,7 +630,7 @@
     </h2>
     <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <p>Absolutely! We offer a free consultation to help you understand how our Ultimate Business Model can benefit your business. During the consultation, we'll discuss your goals, challenges, and how our strategic approach can set you on the path to recurring, profitable revenue. Schedule your free appointment today to get started on your journey to success.<a href="at-appointment.php"> Click here to book your free consultation</a> now!</p>
+         <p>Absolutely! We offer a free consultation to help you understand how our Ultimate Business Model can benefit your business. During the consultation, we'll discuss your goals, challenges, and how our strategic approach can set you on the path to recurring, profitable revenue. Schedule your free appointment today to get started on your journey to success.<a href="at-appointment"> Click here to book your free consultation</a> now!</p>
       </div>
     </div>
   </div>
