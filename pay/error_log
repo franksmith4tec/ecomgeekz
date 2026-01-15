@@ -31,61 +31,61 @@ Stack trace:
 #1 /home/webbpezv/ecomunified.com/pay/payment-link-api.php(3): include('/home/webbpezv/...')
 #2 {main}
   thrown in /home/webbpezv/ecomunified.com/pay/config/database.php on line 21
-[09-Dec-2025 22:14:49 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[09-Dec-2025 22:14:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[09-Dec-2025 22:18:34 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[09-Dec-2025 22:18:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[09-Dec-2025 22:22:05 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[09-Dec-2025 22:22:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[09-Dec-2025 22:14:49 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[09-Dec-2025 22:14:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[09-Dec-2025 22:18:34 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[09-Dec-2025 22:18:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[09-Dec-2025 22:22:05 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[09-Dec-2025 22:22:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [09-Dec-2025 22:22:31 UTC] Card: 4111 1111 1111 1111, CVV: 123
 [09-Dec-2025 22:22:31 UTC] Authorize.net Raw Response: 1|1|1|(TESTMODE) This transaction has been approved.|000000|P|0||Booking Payment|12.00|CC|auth_capture||asas|asas||||||US|||qqq@gmail.com|||||||||||||||||||||||||||XXXX1111|Visa|||||||||||||||||5C389DCA49EBC869A63E6EE6C99FF53B9F6E66480D3CBF0B286954448E70C398ECD1CDA35415662CF43F016D7A0D1A59C992013670FD23B0A7AEB712CB8957EA
-[10-Dec-2025 16:46:00 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[10-Dec-2025 16:46:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Dec-2025 19:34:05 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Dec-2025 19:34:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[10-Dec-2025 16:46:00 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[10-Dec-2025 16:46:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:34:05 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:34:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [12-Dec-2025 19:35:45 UTC] Card: 4782 7800 1395 4402, CVV: 625
 [12-Dec-2025 19:35:48 UTC] Authorize.net Raw Response: 1|1|1|This transaction has been approved.|607037|P|81361629270||Booking Payment|1.00|CC|auth_capture||asas|asas||||||US|||qqq@gmail.com|||||||||||||||M||||||||||||XXXX4402|Visa|||||||345346705460502||||||||||
-[12-Dec-2025 19:37:28 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Dec-2025 19:37:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Dec-2025 19:50:10 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Dec-2025 19:50:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:37:28 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:37:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:50:10 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:50:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [12-Dec-2025 19:50:33 UTC] Card: 4111 1111 1111 1111, CVV: 123
 [12-Dec-2025 19:50:34 UTC] Authorize.net Raw Response: 1|1|1|(TESTMODE) This transaction has been approved.|000000|P|0||Booking Payment|5.00|CC|auth_capture||asas|asas||||||US|||qqq@gmail.com|||||||||||||||||||||||||||XXXX1111|Visa|||||||||||||||||5F46B875203FB03850036DE9A5FB4D1B421B75C3A321A65445A73C2E6CC91BCF1561E7895C90F2F75675CCE4086BF0C1E7432DD1653036753E637839065F294A
-[12-Dec-2025 19:51:59 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Dec-2025 19:51:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:51:59 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:51:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [12-Dec-2025 19:53:29 UTC] Card: 4782 7800 1395 4402, CVV: 625
 [12-Dec-2025 19:53:31 UTC] Authorize.net Raw Response: 1|1|1|This transaction has been approved.|689132|P|81361668874||Booking Payment|1.00|CC|auth_capture||mark1|mark2||||||US|||mark1@gmail.com|||||||||||||||M||||||||||||XXXX4402|Visa|||||||465346716099579||||||||||
-[12-Dec-2025 19:54:33 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Dec-2025 19:54:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[16-Dec-2025 19:02:36 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[16-Dec-2025 19:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:54:33 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Dec-2025 19:54:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[16-Dec-2025 19:02:36 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[16-Dec-2025 19:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [17-Dec-2025 00:13:59 UTC] Card: 4815 8800 3477 8466, CVV: 598
 [17-Dec-2025 00:14:01 UTC] Authorize.net Raw Response: 1|1|1|This transaction has been approved.|121941|P|81368238632||Booking Payment|2000.00|CC|auth_capture||Enrique|Alvarez||||||US|||ea368201@gmail.com|||||||||||||||M||||||||||||XXXX8466|Visa|||||||465351008409909||||||||||
-[17-Dec-2025 18:24:53 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[17-Dec-2025 18:24:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[17-Dec-2025 18:37:50 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[17-Dec-2025 18:37:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[17-Dec-2025 19:40:48 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[17-Dec-2025 19:40:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[17-Dec-2025 20:16:38 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[17-Dec-2025 20:16:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[29-Dec-2025 17:12:49 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[29-Dec-2025 17:12:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[08-Jan-2026 00:47:35 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[08-Jan-2026 00:47:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[08-Jan-2026 00:49:27 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[08-Jan-2026 00:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 18:24:53 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 18:24:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 18:37:50 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 18:37:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 19:40:48 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 19:40:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 20:16:38 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[17-Dec-2025 20:16:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[29-Dec-2025 17:12:49 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[29-Dec-2025 17:12:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[08-Jan-2026 00:47:35 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[08-Jan-2026 00:47:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[08-Jan-2026 00:49:27 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[08-Jan-2026 00:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [08-Jan-2026 00:50:36 UTC] Card: 4443 9000 0332 2326, CVV: 261
 [08-Jan-2026 00:50:37 UTC] Authorize.net Raw Response: 1|1|1|This transaction has been approved.|189730|P|81401693071||Booking Payment|1000.00|CC|auth_capture||Steven|Fertig||||||US|||stevenfertig@sdfdigitallegacy.com|||||||||||||||M||||||||||||XXXX2326|Visa|||||||356008030372302||||||||||
-[09-Jan-2026 21:01:14 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[09-Jan-2026 21:01:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[09-Jan-2026 21:01:14 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[09-Jan-2026 21:01:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [09-Jan-2026 21:05:41 UTC] Card: 5444 7201 3057 0274, CVV: 645
 [09-Jan-2026 21:05:44 UTC] Authorize.net Raw Response: 1|1|1|This transaction has been approved.|397610|P|81404934880||Booking Payment|1000.00|CC|auth_capture||Javier|Rojas monroy||||||US|||javiermonroy9189@icloud.com|||||||||||||||M||||||||||||XXXX0274|MasterCard|||||||0109MDBMB1XHA &nbsp;||||||||||
-[12-Jan-2026 20:01:55 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[12-Jan-2026 20:01:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[12-Jan-2026 20:01:55 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[12-Jan-2026 20:01:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [12-Jan-2026 20:14:30 UTC] Card: 4060 9555 2759 0784, CVV: 951
 [12-Jan-2026 20:14:31 UTC] Authorize.net Raw Response: 1|1|1|This transaction has been approved.|02929D|P|81408352350||Booking Payment|3000.00|CC|auth_capture||Juan|Checo||||||US|||Juanecheco@gmail.com|||||||||||||||M||||||||||||XXXX0784|Visa|||||||466012728703834||||||||||
-[13-Jan-2026 16:24:34 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
-[13-Jan-2026 16:24:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomgeekz.com/pay/payment-link-api.php on line 42
+[13-Jan-2026 16:24:34 UTC] PHP Warning:  Undefined variable $data in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
+[13-Jan-2026 16:24:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/webbpezv/ecomredefined.com/pay/payment-link-api.php on line 42
 [13-Jan-2026 16:33:29 UTC] Card: 4060 9555 2759 0784, CVV: 951
 [13-Jan-2026 16:33:30 UTC] Authorize.net Raw Response: 1|1|1|This transaction has been approved.|09916D|P|81409765381||Booking Payment|2250.00|CC|auth_capture||Juan|Checo||||||US|||Juanecheco@gmail.com|||||||||||||||M||||||||||||XXXX0784|Visa|||||||346013596109233||||||||||

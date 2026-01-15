@@ -110,9 +110,9 @@ $payment_config = include 'config/payment_config.php';
                     <div class="col-8 mb-8x d-flex justify-content-end align-items-center hdr_1">
                         <ul class="header-icon">
                             <li class="phone">
-                                <img id="img-top-header" src="https://trademarkrepublic.com/assets/images/phone.svg" alt=""><a href="tel:+1 (346) 347-6394">+1 (346) 347-6394</a>
+                                <img id="img-top-header" src="https://trademarkrepublic.com/assets/images/phone.svg" alt=""><a href="tel:+1 (855) 783-2616">+1 (855) 783-2616</a>
                             </li>
-                            <li class="mes"><img id="img-top-header" src="https://trademarkrepublic.com/assets/images/mes.svg" alt=""><a href="mailto:support@trademarkrepublic.com">support@ecomunified.com</a></li>
+                            <li class="mes"><img id="img-top-header" src="https://trademarkrepublic.com/assets/images/mes.svg" alt=""><a href="mailto:support@ecomgeekz.com">support@ecomgeekz.com</a></li>
                         </ul>
 
                     </div>
@@ -793,10 +793,10 @@ $payment_config = include 'config/payment_config.php';
                 <div class="row ftr_btm">
                     <div class="col-md-9">
                         <h6><a href="<?= $payment_config['base_url'] ?>/privacy-policy" class="link-style-topbar">Privacy Policy</a></h6>
-                        <p class="whitex">EcomUnified is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="<?= $payment_config['base_url'] ?>/terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="<?= $payment_config['base_url'] ?>/privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
+                        <p class="whitex">EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="<?= $payment_config['base_url'] ?>/terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="<?= $payment_config['base_url'] ?>/privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
                     </div>
                     <div class="col-md-3">
-                        <span>© Copyright 2025 EcomUnified</span>
+                        <span>© Copyright 2025 EcomGeekz</span>
                     </div>
                 </div>
             </div>

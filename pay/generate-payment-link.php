@@ -8,7 +8,7 @@
     <title>EcomGeekz | Payment Link</title>
     <meta name="description" content="{{ $description }}">
     <meta name="keywords" content="{{ $keywords }}">
-    <meta name="author" content="webbuildify">
+    <meta name="author" content="ecomgeekz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Css start -->
@@ -217,8 +217,8 @@
                                     <div class="col-md-4">
                                         <div class="checkout-form-list">
                                             <div class="form-group radio-green">
-                                                <input id="radio0" name="brand_name" value="ecomunified" type="radio" checked>
-                                                <label for="radio0">ecomgeekz.com</label>
+                                                <input id="radio0" name="brand_name" value="EcomGeekz" type="radio" checked>
+                                                <label for="radio0">EcomGeekz</label>
                                             </div>
                                         </div>
                                     </div>
@@ -444,7 +444,6 @@
                                             <label>Sales person</label>
                                             <select name="sales_person" id="" class="form-control" required>
                                                 <option value="">Select email address</option>
-                                                <!--<option value="info@webbuildify.com">info@webbuildify.com</option>-->
                                                 <option value="support@ecomgeekz.com" selected>support@ecomgeekz.com</option>
                                             </select>
                                         </div>

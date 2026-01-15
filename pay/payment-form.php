@@ -217,10 +217,10 @@ $square_script = ($square_environment === 'sandbox')
             }
             
             .credit-card-box {
-    padding: 25px 15px;
-    border: 2px solid #000;
-    border-radius: 2px;
-}
+                padding: 25px 15px;
+                border: 2px solid #000;
+                border-radius: 2px;
+            }
 
             .centerit {
                 text-align: center;
@@ -587,7 +587,7 @@ $square_script = ($square_environment === 'sandbox')
 
         .main-header {
             padding: 10px 0;
-            background: #fff;
+            background: #000000;
         }
 
         #forms-logo {
@@ -600,76 +600,76 @@ $square_script = ($square_environment === 'sandbox')
         }
         
         .img-secure-checkout {
-    width: 14%;
-}
+            width: 14%;
+        }
 
 
-.secure-pay-checkout {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: #ffffff;
-    border-radius: 7px 7px 0 0;
-    padding: 1rem 0rem;
-}
+        .secure-pay-checkout {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background: #ffffff;
+            border-radius: 7px 7px 0 0;
+            padding: 1rem 0rem;
+        }
 
-.secure-pay-checkout h2 {
-    text-align: center;
-    position: relative;
-    color: #1a1a1a;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    padding-top: 8px;
-}
+        .secure-pay-checkout h2 {
+            text-align: center;
+            position: relative;
+            color: #1a1a1a;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            padding-top: 8px;
+        }
 
-.payable-mns {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #ffffff;
-    border-radius: 7px;
-    padding: 15px 1rem 7px 1rem;
-    border-top: 0.1px solid #e0e0e0;
-    border-bottom: 0.1px solid #e0e0e0;
-}
-
-
-.pay-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 6rem;
-    background: #ffffff;
-    border-radius: 7px 7px 0 0;
-    padding: 0rem 1rem 1.5rem 1rem;
-    margin-top: 1.5rem;
-}
-
-.img-cc-checkout {
-    width: 33%;
-}
-
-.section-title.text-start.mb-3 {
-    margin: 25px 0px 5px 0px !important;
-}
+        .payable-mns {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #ffffff;
+            border-radius: 7px;
+            padding: 15px 1rem 7px 1rem;
+            border-top: 0.1px solid #e0e0e0;
+            border-bottom: 0.1px solid #e0e0e0;
+        }
 
 
-.payable-mns #titlez, .payable-mns #item_descriptionz {display:none !important;}
+        .pay-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 6rem;
+            background: #ffffff;
+            border-radius: 7px 7px 0 0;
+            padding: 0rem 1rem 1.5rem 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .img-cc-checkout {
+            width: 33%;
+        }
+
+        .section-title.text-start.mb-3 {
+            margin: 25px 0px 5px 0px !important;
+        }
 
 
-.x-img {
-    display: inline-block;
-    max-width: 130px;
-    text-align: right;
-}
+        .payable-mns #titlez, .payable-mns #item_descriptionz {display:none !important;}
 
-#ff1 p.g-titlex {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
+
+        .x-img {
+            display: inline-block;
+            max-width: 130px;
+            text-align: right;
+        }
+
+        #ff1 p.g-titlex {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
 
 
     </style>
@@ -687,7 +687,7 @@ $square_script = ($square_environment === 'sandbox')
                     <div class="col-8 mb-8x d-flex justify-content-end align-items-center hdr_1">
                         <ul class="header-icon">
                             <li class="phone">
-                                <img id="img-top-header" src="https://trademarkrepublic.com/assets/images/phone.svg" alt=""><a href="tel:+1 (346) 347-6394">+1 (346) 347-6394</a>
+                                <img id="img-top-header" src="https://trademarkrepublic.com/assets/images/phone.svg" alt=""><a href="tel:+1 (855) 783-2616">+1 (855) 783-2616</a>
                             </li>
                             <li class="mes"><img id="img-top-header" src="https://trademarkrepublic.com/assets/images/mes.svg" alt=""><a href="mailto:support@ecomgeekz.com">support@ecomgeekz.com</a></li>
                         </ul>
@@ -701,7 +701,7 @@ $square_script = ($square_environment === 'sandbox')
                 <div class="row align-items-center">
                     <div class="col-6 col-md-3">
                         <a href="#" class="logo">
-                            <img src="https://ecomgeekz.com/assets/images/logo.svg" alt="" class="img-fluid" id="forms-logo">
+                            <img src="../assets/images/logo.png" alt="" class="img-fluid" id="forms-logo">
                         </a>
                     </div>
                 </div>
@@ -712,7 +712,7 @@ $square_script = ($square_environment === 'sandbox')
         <div class="container">
             <div class="navbar__container">
                 <!-- <a class="logoxx" href="javascript:;" aria-current="page"><img
-                        src="https://webbuildify.com/assets/images/logo.png" loading="lazy" alt="Web Buildify"></a> -->
+                        src="https://ecomgeekz.com/assets/images/logo.png" loading="lazy" alt="Web Buildify"></a> -->
             </div>
             <div class="pg-top">
                 <!-- <p class="title">CHECKOUT TERMINAL</p>
@@ -920,7 +920,7 @@ setInterval(() => {
                             <div id="payment-card-container">
                                 <div id="card-container"></div>
                             </div>
-                            <div id="card-container-easypay" class="card-container-easypay">
+                            <!-- <div id="card-container-easypay" class="card-container-easypay">
                                 <input type="text" class="number " placeholder="Card Number" name="ccn"
                                     id="ccn"
                                     onkeyup="checkNumHighlight(this.value);checkFieldBack(this);noAlpha(this);"
@@ -935,7 +935,7 @@ setInterval(() => {
                                         <input type="text" name="cvv" class="number" id="cvv" placeholder="CVV" maxlength="5">
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div id="card-container-authorize" class="card-container-authorize">
                                 <input
                                     type="text"
@@ -1731,7 +1731,7 @@ setInterval(() => {
                         <p class="whitex">EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="https://ecomgeekz.com/terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="https://ecomgeekz.com/privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
                     </div>
                     <div class="col-md-3">
-                        <span>© Copyright 2025 EcomGeekz</span>
+                        <span>© Copyright <?= date('Y') ?> EcomGeekz</span>
                     </div>
                 </div>
             </div>

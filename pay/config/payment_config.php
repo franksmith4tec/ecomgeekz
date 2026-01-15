@@ -7,7 +7,7 @@ else {
 }
 
 if ($_SERVER["HTTP_HOST"] == 'localhost') {
-    $base_url =  $protocol . $_SERVER["HTTP_HOST"].'/pay';
+    $base_url =  $protocol . $_SERVER["HTTP_HOST"].'/ecomgeekz/pay';
 } else {
     $base_url =  $protocol . $_SERVER["HTTP_HOST"].'/pay';
 }

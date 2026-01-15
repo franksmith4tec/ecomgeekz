@@ -39,7 +39,7 @@ $updated_at      = date('Y-m-d H:i:s');
 // Generate payment code
 $payment_code = generatePaymentCode();
 
-$payment_link = $config['base_url'].'/payment-form.php?payment_code='.$data['payment_code'];
+$payment_link = $config['base_url'].'/payment-form.php?payment_code='.$payment_code;
 
 // SQL Query
 $sql = "INSERT INTO payment_links 

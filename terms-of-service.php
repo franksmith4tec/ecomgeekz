@@ -162,17 +162,17 @@ include("include/header.php");
                     <li><strong>SMS Consent Communication:</strong> The information (Phone Numbers) obtained as part of the 
                     SMS consent process will not be shared with third parties for marketing purposes.</li>
 
-                      <li><strong>Types of SMS Communications:</strong> If you have consented to receive text messages from Trademark Republic, you may receive messages related to the following (provide specific examples): Appointment reminders, Follow-up messages, Billing inquiries, and Promotions or offers (if applicable) Example: "Hello, this is a friendly reminder of your upcoming appointment with Dr. [Name] at [Location] on [Date] at [Time]. Reply STOP to opt out of SMS messaging at any time."</li>
+                      <li><strong>Types of SMS Communications:</strong> If you have consented to receive text messages from <?= $brand_name ?? '' ?>, you may receive messages related to the following (provide specific examples): Appointment reminders, Follow-up messages, Billing inquiries, and Promotions or offers (if applicable) Example: "Hello, this is a friendly reminder of your upcoming appointment with Dr. [Name] at [Location] on [Date] at [Time]. Reply STOP to opt out of SMS messaging at any time."</li>
                     
                       <li><strong>Message Frequency:</strong> Message frequency may vary depending on the type of communication. For example, you may receive up to 100 SMS messages per week related to your [appointments/billing, etc.]. Example: "Message frequency may vary. You may receive up to 100 SMS messages per week regarding your appointments or account status."</li>
                     
                       <li><strong>Potential Fees for SMS Messaging:</strong> Please note that standard message and data rates may apply, depending on your carrier’s pricing plan. These fees may vary if the message is sent domestically or internationally.</li>
                      
-                     <li><strong>Opt-In Method:</strong> You may opt-in to receive SMS messages from Trademark Republic in the following ways: 1) Verbally, during a conversation, 2) By submitting an online form, and 3) By filling out a paper form.</li>
+                     <li><strong>Opt-In Method:</strong> You may opt-in to receive SMS messages from <?= $brand_name ?? '' ?> in the following ways: 1) Verbally, during a conversation, 2) By submitting an online form, and 3) By filling out a paper form.</li>
                     
                     <li><strong>Opt-Out Method:</strong> You can opt out of receiving SMS messages at any time. To do so, simply reply "STOP" to any SMS message you receive. Alternatively, you can contact us directly to request removal from our messaging list.</li>
                     
-                    <li><strong>Help:</strong> If you are experiencing any issues, you can reply with the keyword HELP. Or, you can get help directly from us at (www.trademarkrepublic.com) Additional Options: If you do not wish to receive SMS messages, you can choose not to check the SMS consent box on our forms.</li>
+                    <li><strong>Help:</strong> If you are experiencing any issues, you can reply with the keyword HELP. Or, you can get help directly from us at (<?= $base_url ?? '' ?>) Additional Options: If you do not wish to receive SMS messages, you can choose not to check the SMS consent box on our forms.</li>
                     
                     <li><strong>Standard Messaging Disclosures:</strong> Message and data rates may apply. You can opt-out at any time by texting "STOP." For assistance, text "HELP" or visit our Terms of Service and Privacy Policy pages. Message frequency may vary.</li>
                      

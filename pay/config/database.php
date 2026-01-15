@@ -8,15 +8,15 @@ if (!function_exists('str_contains')) {
 }
 
 
-$servername = "localhost";
-$dbname = "webbpezv_xxx";
-$username = "webbpezv_xxx";
-$password = "q123Q!@#xxxxxx";
-
 // $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $dbname = "payment_terminal";
+// $dbname = "webbpezv_xxx";
+// $username = "webbpezv_xxx";
+// $password = "q123Q!@#xxxxxx";
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "payment_terminal";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
