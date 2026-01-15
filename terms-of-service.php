@@ -26,7 +26,7 @@
       <div class="row">
          <div class="txtwrp">
              <p><strong>1. Introduction</strong></p>
-               <p><span>Welcome to EcomGeekz ("Company," "we," "our," "us"). These Terms and Conditions ("Terms") govern your use of our website located at https://ecomgeekz.com (the "Site") and any related services provided by the Company (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Services.</span></p>
+               <p><span>Welcome to <?= $brand_name ?? '' ?> ("Company," "we," "our," "us"). These Terms and Conditions ("Terms") govern your use of our website located at https://ecomgeekz.com (the "Site") and any related services provided by the Company (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Services.</span></p>
                
 
                <p><strong>2. Changes to Terms</strong></p>
@@ -71,7 +71,7 @@
             
                 
             <p><strong>8. Refund Policy / Money Back Guarantee</strong></p>
-            <p>Our refund and cancellation policies are designed to provide maximum security to both the Client and the Company. The following terms will apply in the event of an order cancellation unless EcomGeekz cancels or terminates your contract for a reason other than breach or non-performance.</p>  
+            <p>Our refund and cancellation policies are designed to provide maximum security to both the Client and the Company. The following terms will apply in the event of an order cancellation unless <?= $brand_name ?? '' ?> cancels or terminates your contract for a reason other than breach or non-performance.</p>  
             
             <p><span><b>8.1. Refund Requests:</b> All refund requests will be fulfilled as per the following arrangement:</span></p>
             
@@ -83,7 +83,7 @@
                     
                       <li>No refund requests due to a change of mind will be entertained after 24 hours from the order placement.</li>
                     
-                      <li>All refund requests should be communicated to our support department. EcomGeekz reserves the right to approve/disapprove your request on an individual case-by-case basis.</li>
+                      <li>All refund requests should be communicated to our support department. <?= $brand_name ?? '' ?> reserves the right to approve/disapprove your request on an individual case-by-case basis.</li>
                      
                       </ul>
             
@@ -126,7 +126,7 @@
             <p>All services are delivered to your "Account Area" as per the date specified in the Order Confirmation Email. An email notification is sent to inform you of your service delivery. All policies pertaining to revisions and refunds are subject to the date and time of service delivery to your account area. We provide a reference number for tracking the status of your order and posting revisions.</p>
             
             <p><strong>17. Communication Policy</strong></p>
-            <p>EcomGeekz is not liable for any correspondence from email addresses other than those followed by our own domain, such as "info@ecomgeekz.com," or any toll-free numbers not mentioned on our website. We only take responsibility for communication through email addresses under our domain name and via toll-free numbers mentioned on our website.</p>
+            <p><?= $brand_name ?? '' ?> is not liable for any correspondence from email addresses other than those followed by our own domain, such as "info@ecomgeekz.com," or any toll-free numbers not mentioned on our website. We only take responsibility for communication through email addresses under our domain name and via toll-free numbers mentioned on our website.</p>
             
             <p><strong>18. Governing Law and Dispute Resolution</strong></p>
             <p>These Terms shall be governed by and construed in accordance with the laws of the State of Illinois, without regard to its conflict of law principles. Any dispute arising out of or relating to these Terms or our Services shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association. The arbitrator's decision shall be final and binding, and judgment on the award may be entered in any court having jurisdiction.</p> 
@@ -143,13 +143,13 @@
             
             
                
-               <p><span>EcomGeekz<br>
+               <p><span><?= $brand_name ?? '' ?><br>
                
-               Email: hello@ecomgeekz.com<br>
+               Email: <a class="text-white" href="mailto:<?= $brand_email ?? ' ' ?>"><?= $brand_email ?? ' ' ?></a><br>
                Phone: +1 (855) 666-5880</span></p>
                
              <p><strong>20. SMS Compliance</strong></p>
-            <p><span>By opting into SMS, you are agreeing to receive SMS messages from EcomGeekz. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. Message HELP for help. Reply STOP to any message to opt out. SMS consent is not shared with third parties for marketing purposes.</span></p> 
+            <p><span>By opting into SMS, you are agreeing to receive SMS messages from  <?= $brand_name ?? '' ?>. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. Message HELP for help. Reply STOP to any message to opt out. SMS consent is not shared with third parties for marketing purposes.</span></p> 
             
             <ul>
                     <li><strong>SMS Consent Communication:</strong> The information (Phone Numbers) obtained as part of the 

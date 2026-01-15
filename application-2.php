@@ -22,8 +22,8 @@
         <div class="row al-flex-end">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index">Home</a></li>
-                    <li><a href="application.php" class="active">Get Started</a></li>
+                    <li><a href="<?= $base_url ?? '' ?>">Home</a></li>
+                    <li><a href="application" class="active">Get Started</a></li>
                 </ul>
                 <h2>Unlock your business potential</h2>
               <p>Are you ready to turn your vision into a thriving business? Take the first step towards success by sharing essential details about your venture with us. We're here to guide you through the journey.</p>
@@ -51,7 +51,7 @@
             <!--        <div class="imgwrp">-->
             <!--          <img src="assets/images/EcomGeekz-Badges-Logo.svg">-->
             <!--          <div class="inner-text">-->
-            <!--          <h4>EcomGeekz</h4>-->
+            <!--          <h4><?= $brand_name ?? '' ?></h4>-->
             <!--          <p>We believe in being open</p>-->
             <!--          </div>-->
             <!--        </div>-->
@@ -170,24 +170,24 @@
                          
                  <!--        <div class="col-lg-3">-->
                  <!--            <h5>Confirmation</h5>-->
-                 <!--        <p>Confirm your submission is accurate and adheres to EcomGeekz terms & and conditions.</p>-->
+                 <!--        <p>Confirm your submission is accurate and adheres to <?= $brand_name ?? '' ?> terms & and conditions.</p>-->
                  <!--        </div>-->
                  <!--        <div class="col-lg-9">-->
                  <!--            <hr>-->
                  <!--        <div class="d-flex">-->
                  <!--            <input type="checkbox" id="agree" name="agree" required>-->
-                 <!--            <p>I agree with the terms and conditions. I also agree that EcomGeekz can contact me with offers and also agree to receive promotional materials.</p>-->
+                 <!--            <p>I agree with the terms and conditions. I also agree that <?= $brand_name ?? '' ?> can contact me with offers and also agree to receive promotional materials.</p>-->
                  <!--        </div>-->
                  <!--        <div class="d-flex">-->
                  <!--            <input type="checkbox" id="agree" name="agree" required>-->
-                 <!--            <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from EcomGeekz.</p>-->
+                 <!--            <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from  <?= $brand_name ?? '' ?>.</p>-->
                  <!--        </div>-->
                  <!--            <button type="submit">Submit</button>-->
                  <!--            <input class="" type="hidden" name="ctry" value="">-->
                  <!--     <input type="hidden" name="pc" value="">-->
                  <!--     <input type="hidden" name="cip" value="">-->
                  <!--     <input type="hidden" name="hiddencapcha" value="">-->
-                 <!--     <input type="hidden" id="location" name="locationURL" value="http://ecomgeekz.com/application.php" />-->
+                 <!--     <input type="hidden" id="location" name="locationURL" value="http://ecomgeekz.com/application" />-->
                  <!--        </div>-->
                  <!--    </div>-->
                  <!--</form>-->

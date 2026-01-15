@@ -21,7 +21,7 @@
     <section class="sitemap-pg">
         <div class="container">
             <div class="row">
-                <h2 class="themes-h2 colb wow fadeInDown">LetsEcom LLC, DBA EcomGeekz - Sitemap</h2>
+                <h2 class="themes-h2 colb wow fadeInDown">LetsEcom LLC, DBA <?= $brand_name ?? '' ?> - Sitemap</h2>
                 <div class="col-12 mb-5">
                     <div class="row">
                         <h4 class="heading-22"><a href="service">Business Service</a></h4>
@@ -72,7 +72,7 @@
                 
                 <div class="col-12 mb-5">
                     <div class="row">
-                        <h4 class="heading-22"><a href="javascript:;">EcomGeekz Support</a></h4>
+                        <h4 class="heading-22"><a href="javascript:;"><?= $brand_name ?? '' ?> Support</a></h4>
                         <div class="col-lg">
                             <div class="txt-box">
                                 <div>

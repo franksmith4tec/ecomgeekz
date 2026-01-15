@@ -22,16 +22,16 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index">Home</a></li>
-                    <li><a href="service.php" class="active">Business Service</a></li>
+                    <li><a href="<?= $base_url ?? '' ?>">Home</a></li>
+                    <li><a href="service" class="active">Business Service</a></li>
                 </ul>
-                <h1>Empower your business dreams with EcomGeekz</h1>
-                <p>Are you ready to turn your business dreams into reality? At EcomGeekz, we offer a range of services designed to fuel your entrepreneurial journey. </p>
+                <h1>Empower your business dreams with <?= $brand_name ?? '' ?></h1>
+                <p>Are you ready to turn your business dreams into reality? At  <?= $brand_name ?? '' ?>, we offer a range of services designed to fuel your entrepreneurial journey. </p>
               <p>From launching your own marketing agency to crafting a powerful personal brand, we've got you covered. Our mission is to provide the tools and guidance you need to succeed in today's competitive landscape.</p>
 
-            <h6>Discover how EcomGeekz can help you <b>generate passive income streams</b> with proven strategies and expert guidance.</h6>
+            <h6>Discover how <?= $brand_name ?? '' ?> can help you <b>generate passive income streams</b> with proven strategies and expert guidance.</h6>
                 <!--<p>Starting from $1375, our services are designed to be accessible to aspiring entrepreneurs like you. We believe in making quality guidance affordable, ensuring that you can kickstart your business ambitions without breaking the bank.</p>-->
-                <a href="application.php" class="themes-btn">Schedule a free call</a>
+                <a href="application" class="themes-btn">Schedule a free call</a>
                 <!--<img src="assets/images/Trustpilot-Stars.svg" alt="img"  class="mt-3" />-->
                 <div class="txt-left">
                     <!-- TrustBox widget - Micro TrustScore -->
@@ -52,8 +52,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
-                <h2>Why choose EcomGeekz?</h2>
-                <p>EcomGeekz isn't just another consultancy; it's your launchpad to success. We offer expertise, guidance, and a community of like-minded visionaries, all dedicated to realizing your entrepreneurial dreams.</p>
+                <h2>Why choose <?= $brand_name ?? '' ?></h2>
+                <p><?= $brand_name ?? '' ?> isn't just another consultancy; it's your launchpad to success. We offer expertise, guidance, and a community of like-minded visionaries, all dedicated to realizing your entrepreneurial dreams.</p>
             </div>
             </div>
             <div class="row">
@@ -134,7 +134,7 @@
                 </div>
                 </div>
                 <div class="col-lg-12 mt-3 centerCol text-center">
-                    <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="themes-btn">Schedule a call & start your revenue stream with EcomGeekz</a>
+                    <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="themes-btn">Schedule a call & start your revenue stream with <?= $brand_name ?? '' ?></a>
                 </div>
         </div>
     </div>
@@ -146,8 +146,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <h2>EcomGeekz consultancy support</h2>
-                <p>At EcomGeekz, we're committed to your success. Our expert consultancy services provide the guidance you need to overcome challenges, optimize strategies, and achieve your entrepreneurial goals.</p>
+                <h2><?= $brand_name ?? '' ?> consultancy support</h2>
+                <p>At  <?= $brand_name ?? '' ?>, we're committed to your success. Our expert consultancy services provide the guidance you need to overcome challenges, optimize strategies, and achieve your entrepreneurial goals.</p>
             </div>
         </div>
         <div class="row">
@@ -155,7 +155,7 @@
                 <div class="trade-box">
                     <div class="d-flex">
                     <div>
-                       <h3>During your consultation call with EcomGeekz, you’ll receive</h3>
+                       <h3>During your consultation call with  <?= $brand_name ?? '' ?>, you’ll receive</h3>
                        <h5>Free</h5>
                        <h6>Striving for longterm success: Discover strategies to not only achieve success but also sustain it in the ever-changing business landscape.</h6>
                        <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="themes-btn">Schedule a call</a>
@@ -172,7 +172,7 @@
                         <li><b>Strategic Insights:</b>  Gain valuable insights into market trends, competition, and growth opportunities.</li>
                         <li><b>Actionable Plans:</b> Develop concrete action plans to implement immediately for business improvement.</li>
                         <li><b>Resource Recommendations:</b> Access to recommended tools, resources, and industry best practices.</li>
-                        <li><b>Accountability Partner:</b> Partner with a EcomGeekz to keep you on track and motivated to achieve your goals.</li>
+                        <li><b>Accountability Partner:</b> Partner with a <?= $brand_name ?? '' ?> to keep you on track and motivated to achieve your goals.</li>
                     </ul>
                 </div>
             </div>
@@ -202,8 +202,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 my-auto">
-                <h2>Launch your venture with <span>EcomGeekz in three simple steps.</span></h2>
-                <p>Experience the journey of entrepreneurship made simple with EcomGeekz. Follow three clear steps—consult, strategize, execute—to turn your ideas into profitable businesses and diversified revenue streams with expert 1-on-1 digital consultancy.</p>
+                <h2>Launch your venture with <span><?= $brand_name ?? '' ?> in three simple steps.</span></h2>
+                <p>Experience the journey of entrepreneurship made simple with  <?= $brand_name ?? '' ?>. Follow three clear steps—consult, strategize, execute—to turn your ideas into profitable businesses and diversified revenue streams with expert 1-on-1 digital consultancy.</p>
             </div>
             <div class="col-lg-6 offset-lg-1">
                 <img src="assets/images/service-first-fold.jpg" alt="img" />
@@ -247,17 +247,17 @@
                 <img src="assets/images/service-second-fold.jpg" alt="img" />
                 <div class="upper first image-lable cta-box">
                     <div class="txtwrp">
-                      <p>Ready to launch a business with EcomGeekz?</p>
+                      <p>Ready to launch a business with <?= $brand_name ?? '' ?></p>
                       <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="">Schedule a call </a>
                     </div>
                   </div>
             </div>
             <div class="col-lg-6 offset-lg-1">
-                <h2>What is EcomGeekz?</h2>
-                <p>EcomGeekz is your gateway to entrepreneurial success. We're more than just a consultancy; we're your partners in achieving your business dreams. Our mission is to empower individuals to create thriving businesses and diversified income streams.</p>
-                <p class="f-14">Through personalized 1-on-1 digital consultancy, strategic guidance, and a supportive community, we help you transform ideas into reality. Whether you're launching a marketing agency, e-commerce brand, or any venture, EcomGeekz equips you with the expertise, resources, and confidence needed to excel in today's competitive landscape. Join us on this exciting entrepreneurial journey, and let's build success together.</p>
-                <h2 class="">EcomGeekz proven approach</h2>
-                <p>EcomGeekz is your partner in revenue growth,, we assist investors, business owners, and individuals in creating additional revenue streams. Our streamlined three-step process is designed for your success.</p>
+                <h2>What is <?= $brand_name ?? '' ?></h2>
+                <p><?= $brand_name ?? '' ?> is your gateway to entrepreneurial success. We're more than just a consultancy; we're your partners in achieving your business dreams. Our mission is to empower individuals to create thriving businesses and diversified income streams.</p>
+                <p class="f-14">Through personalized 1-on-1 digital consultancy, strategic guidance, and a supportive community, we help you transform ideas into reality. Whether you're launching a marketing agency, e-commerce brand, or any venture, <?= $brand_name ?? '' ?> equips you with the expertise, resources, and confidence needed to excel in today's competitive landscape. Join us on this exciting entrepreneurial journey, and let's build success together.</p>
+                <h2 class=""><?= $brand_name ?? '' ?> proven approach</h2>
+                <p><?= $brand_name ?? '' ?> is your partner in revenue growth,, we assist investors, business owners, and individuals in creating additional revenue streams. Our streamlined three-step process is designed for your success.</p>
                 <p>We don't charge separately for services; instead, we offer a tailored strategy, proven to boost your revenue, with one-time consultancy charges. Your success is our commitment, and we're here to help you thrive.</p>
             </div>
         </div>
@@ -271,12 +271,12 @@
     <div class="container">
         <div class="row mg-120">
             <div class="col-lg-6 my-auto">
-                <h2>How to kickstart your entrepreneurial journey with EcomGeekz</h2>
-                <p>Embarking on your entrepreneurial journey with EcomGeekz is a rewarding experience. Starting with EcomGeekz is straightforward. Begin by defining your business concept and objectives. Gather any relevant industry knowledge.</p>
-                <p>Then, reach out for a consultation, and our expert will guide you through the process. With EcomGeekz, you're not alone; we're your partners in shaping your business vision into reality. Get ready to step into the world of entrepreneurship confidently.</p>
+                <h2>How to kickstart your entrepreneurial journey with <?= $brand_name ?? '' ?></h2>
+                <p>Embarking on your entrepreneurial journey with <?= $brand_name ?? '' ?> is a rewarding experience. Starting with <?= $brand_name ?? '' ?> is straightforward. Begin by defining your business concept and objectives. Gather any relevant industry knowledge.</p>
+                <p>Then, reach out for a consultation, and our expert will guide you through the process. With  <?= $brand_name ?? '' ?>, you're not alone; we're your partners in shaping your business vision into reality. Get ready to step into the world of entrepreneurship confidently.</p>
                 <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="themes-btn mt-3">Schedule a call</a>
-                <!--<h2>How to plan to consult with EcomGeekz?  (Preparing for Your EcomGeekz Consultation)</h2>-->
-                <!--<p>Before consulting with EcomGeekz, ensure a smooth start by documenting key details. Your application should include:</p>-->
+                <!--<h2>How to plan to consult with <?= $brand_name ?? '' ?>  (Preparing for Your <?= $brand_name ?? '' ?> Consultation)</h2>-->
+                <!--<p>Before consulting with  <?= $brand_name ?? '' ?>, ensure a smooth start by documenting key details. Your application should include:</p>-->
                 <!--<ul class="list-numb">-->
                 <!--    <li><span>1</span> <p>The name and address of the business owner</p></li>-->
                 <!--    <li><span>2</span> <p>The name you want to use for your business</p></li>-->
@@ -284,7 +284,7 @@
                 <!--    <li><span>4</span> <p>Whether your name is already being used in business ("in commerce") or you haven't started using it yet ("intent to use")</p></li>-->
                 <!--    <li><span>5</span> <p> And clear goal and objective you have set for your business/revenue stream.</p></li>-->
                 <!--</ul>-->
-                <!--<p> These details will help us tailor our expert advice to your specific needs. At EcomGeekz, we're committed to your success, and preparation is the first step towards achieving your entrepreneurial goals.</p>-->
+                <!--<p> These details will help us tailor our expert advice to your specific needs. At  <?= $brand_name ?? '' ?>, we're committed to your success, and preparation is the first step towards achieving your entrepreneurial goals.</p>-->
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <img src="assets/images/service-third-fold.jpg" alt="img" />
@@ -300,14 +300,14 @@
                 <img src="assets/images/service-forth-fold.jpg" alt="img" />
                 <div class="upper first image-lable cta-box">
                     <div class="txtwrp">
-                      <p>Ready to launch a business with EcomGeekz?</p>
+                      <p>Ready to launch a business with <?= $brand_name ?? '' ?></p>
                       <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="">Schedule a call </a>
                     </div>
                   </div>
             </div>
             <div class="col-lg-6 offset-lg-1">
-                <h2>How to plan to consult with EcomGeekz? (Preparing for your EcomGeekz consultation)</h2>
-                <p>Before consulting with EcomGeekz, ensure a smooth start by documenting key details. Your application should include:</p>
+                <h2>How to plan to consult with <?= $brand_name ?? '' ?> (Preparing for your <?= $brand_name ?? '' ?> consultation)</h2>
+                <p>Before consulting with  <?= $brand_name ?? '' ?>, ensure a smooth start by documenting key details. Your application should include:</p>
                <ul class="bottol-list list-numb">
                    <li>The name and address of the business owner</li>
                    <li>The name you want to use for your business</li>
@@ -315,7 +315,7 @@
                    <li>Whether your name is already being used in business ("in commerce") or you haven't started using it yet ("intent to use")</li>
                    <li>And clear goal and objective you have set for your business/revenue stream.</li>
                </ul>
-               <p>These details will help us tailor our expert advice to your specific needs. At EcomGeekz, we're committed to your success, and preparation is the first step towards achieving your entrepreneurial goals.</p>
+               <p>These details will help us tailor our expert advice to your specific needs. At  <?= $brand_name ?? '' ?>, we're committed to your success, and preparation is the first step towards achieving your entrepreneurial goals.</p>
             </div>
         </div>
     </div>
@@ -328,7 +328,7 @@
             <div class="col-lg-9">
                 <h2>Why launching another revenue stream is important in 2024?</h2>
                 <p>In the dynamic landscape of 2024, diversifying revenue streams is crucial for financial security and growth. Explore six compelling reasons to 
-consider multiple income sources with EcomGeekz.</p>
+consider multiple income sources with  <?= $brand_name ?? '' ?>.</p>
             </div>
         </div>
         <div class="row">
@@ -377,7 +377,7 @@ consider multiple income sources with EcomGeekz.</p>
         </div>
         <div class="row">
             <div class="col-lg-12 centerCol text-center">
-                <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="themes-btn">Schedule a call launch a business with EcomGeekz</a>
+                <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="themes-btn">Schedule a call launch a business with <?= $brand_name ?? '' ?></a>
             </div>
         </div>
     </div>
@@ -389,13 +389,13 @@ consider multiple income sources with EcomGeekz.</p>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>What you can and can’t do with EcomGeekz</h2>
+                <h2>What you can and can’t do with <?= $brand_name ?? '' ?></h2>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
                 <div class="add-box">
-                    <h2>Can do with EcomGeekz</h2>
+                    <h2>Can do with <?= $brand_name ?? '' ?></h2>
                     <ul class="bottol-list">
                         <li>Receive expert guidance for launching and growing your business.</li>
                         <li>Access tailored strategies to boost your revenue.</li>
@@ -408,15 +408,15 @@ consider multiple income sources with EcomGeekz.</p>
             </div>
             <div class="col-lg-6">
                 <div class="add-box">
-                    <h2>Can’t do with EcomGeekz</h2>
+                    <h2>Can’t do with <?= $brand_name ?? '' ?></h2>
                     <ul class="bottol-list">
                         <li>Learn to develop effective business strategies.</li>
-                        <li>EcomGeekz does not provide formal education or courses.</li>
+                        <li><?= $brand_name ?? '' ?> does not provide formal education or courses.</li>
                         <li>We don't guarantee specific financial outcomes.</li>
                         <li>We don't provide legal or financial advisory beyond our expertise.</li>
-                        <li>EcomGeekz is not a financial investment platform.</li>
+                        <li><?= $brand_name ?? '' ?> is not a financial investment platform.</li>
                         <li>We can't participate in or endorse illegal activities.</li>
-                        <li>EcomGeekz doesn't handle personal data without consent.</li>
+                        <li><?= $brand_name ?? '' ?> doesn't handle personal data without consent.</li>
                     </ul>
                 </div>
             </div>
@@ -430,20 +430,20 @@ consider multiple income sources with EcomGeekz.</p>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 my-auto">
-                <h2>How much does it cost to launch a business with EcomGeekz?</h2>
-                <p>The cost of launching a business with EcomGeekz is highly 
+                <h2>How much does it cost to launch a business with <?= $brand_name ?? '' ?></h2>
+                <p>The cost of launching a business with <?= $brand_name ?? '' ?> is highly 
 individualized. We understand that every venture is unique, so pricing depends on various factors such as your specific business idea, revenue planning, and 
 the estimated hours required for execution.</p>
                 <ul class="bottol-list">
-                  <li>Our pricing structure is completely tailored to your needs. We work closely with you to assess the complexity and scope of your project. This way, you get a personalized solution that offers the best value for your investment in expert guidance from EcomGeekz.</li>
-                  <li>Rest assured, EcomGeekz is dedicated to delivering cost-effective solutions. We are committed to helping you succeed on your entrepreneurial journey without incurring unnecessary expenses. Our pricing reflects our mission to provide you with the support you need at a fair and competitive cost.</li>
+                  <li>Our pricing structure is completely tailored to your needs. We work closely with you to assess the complexity and scope of your project. This way, you get a personalized solution that offers the best value for your investment in expert guidance from  <?= $brand_name ?? '' ?>.</li>
+                  <li>Rest assured, <?= $brand_name ?? '' ?> is dedicated to delivering cost-effective solutions. We are committed to helping you succeed on your entrepreneurial journey without incurring unnecessary expenses. Our pricing reflects our mission to provide you with the support you need at a fair and competitive cost.</li>
                 </ul>
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <img src="assets/images/service-Fifth-fold.jpg" alt="img" />
                 <div class="upper first image-lable cta-box">
                     <div class="txtwrp">
-                      <p>Ready to launch a business with EcomGeekz?</p>
+                      <p>Ready to launch a business with <?= $brand_name ?? '' ?></p>
                       <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="">Schedule a call </a>
                     </div>
                   </div>
@@ -458,21 +458,21 @@ the estimated hours required for execution.</p>
                 <img src="assets/images/service-sixth-fold.jpg" alt="img" />
                 <div class="upper first image-lable cta-box">
                     <div class="txtwrp">
-                      <p>Ready to launch a business with EcomGeekz?</p>
+                      <p>Ready to launch a business with <?= $brand_name ?? '' ?></p>
                       <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="">Schedule a call</a>
                     </div>
                   </div>
             </div>
             <div class="col-lg-6 offset-lg-1">
                 <h2>Understanding the common reasons for application rejections?</h2>
-                <p>At EcomGeekz, we aim to assist all applicants, but there are common reasons for application rejections. Understanding these reasons can help you reapply successfully.</p>
+                <p>At  <?= $brand_name ?? '' ?>, we aim to assist all applicants, but there are common reasons for application rejections. Understanding these reasons can help you reapply successfully.</p>
                <ul class="bottol-list">
                    <li>Insufficient business concept clarity.</li>
                    <li>Lack of clear revenue planning.</li>
                    <li>Incomplete or inaccurate application details.</li>
-                   <li>Misalignment with EcomGeekz's expertise.</li>
+                   <li>Misalignment with <?= $brand_name ?? '' ?>'s expertise.</li>
                </ul>
-               <p>Rejection often occurs due to vague business concepts or unclear revenue planning. Ensure your application is complete, accurate, and aligns with EcomGeekz's expertise. We want to help you succeed, so review your application thoroughly, and if needed, reach out for guidance in addressing any concerns before reapplying.</p>
+               <p>Rejection often occurs due to vague business concepts or unclear revenue planning. Ensure your application is complete, accurate, and aligns with <?= $brand_name ?? '' ?>'s expertise. We want to help you succeed, so review your application thoroughly, and if needed, reach out for guidance in addressing any concerns before reapplying.</p>
             </div>
         </div>
     </div>
@@ -484,7 +484,7 @@ the estimated hours required for execution.</p>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Ready to launch a business with EcomGeekz?</h2>
+                <h2>Ready to launch a business with <?= $brand_name ?? '' ?></h2>
                 <div class="col-lg-12 centerCol">
                     <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="themes-btn mt-3">Schedule a call</a>
                 </div>
@@ -508,36 +508,36 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        What is EcomGeekz, and what does it do?
+        What is  <?= $brand_name ?? '' ?>, and what does it do?
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz is a digital consultancy firm that specializes in guiding individuals and businesses through the process of starting, growing, and optimizing their ventures for success.</p>
+        <p><?= $brand_name ?? '' ?> is a digital consultancy firm that specializes in guiding individuals and businesses through the process of starting, growing, and optimizing their ventures for success.</p>
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        How can EcomGeekz help my business?
+        How can <?= $brand_name ?? '' ?> help my business?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz offers tailored strategies, expert guidance, and solutions to help businesses increase revenue, optimize operations, and achieve their goals.</p>
+        <p><?= $brand_name ?? '' ?> offers tailored strategies, expert guidance, and solutions to help businesses increase revenue, optimize operations, and achieve their goals.</p>
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        What services does EcomGeekz provide?
+        What services does <?= $brand_name ?? '' ?> provide?
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz offers a range of services, including business planning, digital marketing, brand development, and more. Explore our services page for details.</p>
+        <p><?= $brand_name ?? '' ?> offers a range of services, including business planning, digital marketing, brand development, and more. Explore our services page for details.</p>
       </div>
     </div>
   </div>
@@ -545,12 +545,12 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingfour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-       Is EcomGeekz only for startups?
+       Is <?= $brand_name ?? '' ?> only for startups?
       </button>
     </h2>
     <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       <p>No, EcomGeekz caters to both startups and established businesses looking to enhance their revenue streams and expand their market presence.</p>
+       <p>No, <?= $brand_name ?? '' ?> caters to both startups and established businesses looking to enhance their revenue streams and expand their market presence.</p>
       </div>
     </div>
   </div>
@@ -558,12 +558,12 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingfive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-        Can I get a personalized business plan from EcomGeekz?
+        Can I get a personalized business plan from <?= $brand_name ?? '' ?>
       </button>
     </h2>
     <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       <p>Yes, EcomGeekz provides personalized business plans tailored to your specific goals and needs.</p>
+       <p>Yes, <?= $brand_name ?? '' ?> provides personalized business plans tailored to your specific goals and needs.</p>
       </div>
     </div>
   </div>
@@ -571,7 +571,7 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingsix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-       How do I schedule a consultation with EcomGeekz?
+       How do I schedule a consultation with <?= $brand_name ?? '' ?>
       </button>
     </h2>
     <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
@@ -584,12 +584,12 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingseven">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-       Is EcomGeekz's guidance confidential?
+       Is <?= $brand_name ?? '' ?>'s guidance confidential?
       </button>
     </h2>
     <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       <p>Yes, EcomGeekz values your privacy and follows strict confidentiality practices. We do not share your information without your consent.</p>
+       <p>Yes, <?= $brand_name ?? '' ?> values your privacy and follows strict confidentiality practices. We do not share your information without your consent.</p>
       </div>
     </div>
   </div>
@@ -597,12 +597,12 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingeight">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseight" aria-expanded="false" aria-controls="collapseight">
-       What industries does EcomGeekz specialize in?
+       What industries does <?= $brand_name ?? '' ?> specialize in?
       </button>
     </h2>
     <div id="collapseight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       <p>EcomGeekz has experience across various industries, including e-commerce, digital marketing, technology, and more. We adapt our strategies to fit your industry.</p>
+       <p><?= $brand_name ?? '' ?> has experience across various industries, including e-commerce, digital marketing, technology, and more. We adapt our strategies to fit your industry.</p>
       </div>
     </div>
   </div>
@@ -610,7 +610,7 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingnine">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsnine" aria-expanded="false" aria-controls="collapsnine">
-       How long does it take to see results with EcomGeekz?
+       How long does it take to see results with <?= $brand_name ?? '' ?>
       </button>
     </h2>
     <div id="collapsnine" class="accordion-collapse collapse" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
@@ -622,7 +622,7 @@ the estimated hours required for execution.</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingten">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#headingten" aria-expanded="false" aria-controls="headingten">
-       Does EcomGeekz offer ongoing support?
+       Does <?= $brand_name ?? '' ?> offer ongoing support?
       </button>
     </h2>
     <div id="headingten" class="accordion-collapse collapse" aria-labelledby="headingten" data-bs-parent="#accordionExample">
@@ -666,7 +666,7 @@ the estimated hours required for execution.</p>
             <div class="col-lg-4 col-md-6">
                 <div class="customer-box box-col-2">
                     <i class="fas fa-quote-left"></i>
-                    <p>I'm amazed <b>how easy and how quick everything was put together.</b> I'll get all my marking done with EcomGeekz.</p>
+                    <p>I'm amazed <b>how easy and how quick everything was put together.</b> I'll get all my marking done with  <?= $brand_name ?? '' ?>.</p>
                     <p class="mt-3">—Ricardo C.</p>
                     <div class="d-flex">
                         <i class="fas fa-star"></i>

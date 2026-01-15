@@ -36,7 +36,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="conta-inner-b">
                     <h2>Sales</h2>
-                    <a href="tel:+1 (855) 783-2616">+1 (855) 783-2616</a>
+                    <a class="text-white" href="tel:<?= $brand_phone ?? ' ' ?>"><?= $brand_phone ?? ' ' ?></a>
                      <a href="javcript:(void)" class="themes-btn cntct-btn" data-bs-toggle="modal" data-bs-target="#infoModal">Submit A Question</a>
                    
           
@@ -86,36 +86,36 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      What is EcomGeekz, and how does it operate?
+      What is  <?= $brand_name ?? '' ?>, and how does it operate?
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-    <p>EcomGeekz is a cutting-edge digital consultancy that specializes in empowering businesses by optimizing their operations, refining their strategies, and utilizing advanced technology to streamline processes. We guide entrepreneurs and established companies alike through the entire business lifecycle, from inception to growth and sustainability.</p>  
+    <p><?= $brand_name ?? '' ?> is a cutting-edge digital consultancy that specializes in empowering businesses by optimizing their operations, refining their strategies, and utilizing advanced technology to streamline processes. We guide entrepreneurs and established companies alike through the entire business lifecycle, from inception to growth and sustainability.</p>  
     </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      How can EcomGeekz enhance my business performance?
+      How can <?= $brand_name ?? '' ?> enhance my business performance?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-    <p>EcomGeekz offers highly customized strategic frameworks, expert advisory, and actionable insights to enhance your business operations. Our services are designed to optimize revenue generation, operational efficiency, and market positioning, ensuring you achieve and surpass your business objectives.</p>  
+    <p><?= $brand_name ?? '' ?> offers highly customized strategic frameworks, expert advisory, and actionable insights to enhance your business operations. Our services are designed to optimize revenue generation, operational efficiency, and market positioning, ensuring you achieve and surpass your business objectives.</p>  
     </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      What services does EcomGeekz provide?
+      What services does <?= $brand_name ?? '' ?> provide?
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-    <p>EcomGeekz delivers a comprehensive suite of services, including business strategy formulation, digital marketing optimization, brand development, automation integration, and advanced data analytics. Our solutions are designed to empower your business with the tools and expertise to thrive in a competitive digital ecosystem.</p>  
+    <p><?= $brand_name ?? '' ?> delivers a comprehensive suite of services, including business strategy formulation, digital marketing optimization, brand development, automation integration, and advanced data analytics. Our solutions are designed to empower your business with the tools and expertise to thrive in a competitive digital ecosystem.</p>  
     </div>
     </div>
   </div>
@@ -123,12 +123,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingfour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-      Is EcomGeekz suitable for both startups and established enterprises?
+      Is <?= $brand_name ?? '' ?> suitable for both startups and established enterprises?
       </button>
     </h2>
     <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-    <p>Absolutely. EcomGeekz serves both emerging startups looking to make their mark and established enterprises seeking to scale, optimize their operations, or diversify their market presence.</p>  
+    <p>Absolutely. <?= $brand_name ?? '' ?> serves both emerging startups looking to make their mark and established enterprises seeking to scale, optimize their operations, or diversify their market presence.</p>  
     </div>
     </div>
   </div>
@@ -136,7 +136,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingfive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-      Can EcomGeekz provide a custom business plan tailored to my needs?
+      Can <?= $brand_name ?? '' ?> provide a custom business plan tailored to my needs?
       </button>
     </h2>
     <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
@@ -149,7 +149,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingsix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-      How do I book a consultation with EcomGeekz?
+      How do I book a consultation with <?= $brand_name ?? '' ?>
       </button>
     </h2>
     <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
@@ -162,12 +162,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingseven">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-      Is the advice and guidance from EcomGeekz confidential?
+      Is the advice and guidance from <?= $brand_name ?? '' ?> confidential?
       </button>
     </h2>
     <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      <p>Yes, we prioritize client confidentiality at EcomGeekz. Our practices are governed by strict non-disclosure agreements (NDAs), ensuring that all sensitive information shared with us is protected and never disclosed without your explicit consent.</p>
+      <p>Yes, we prioritize client confidentiality at  <?= $brand_name ?? '' ?>. Our practices are governed by strict non-disclosure agreements (NDAs), ensuring that all sensitive information shared with us is protected and never disclosed without your explicit consent.</p>
       </div>
     </div>
   </div>
@@ -175,12 +175,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingeight">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseight" aria-expanded="false" aria-controls="collapseight">
-      What industries does EcomGeekz specialize in?
+      What industries does <?= $brand_name ?? '' ?> specialize in?
       </button>
     </h2>
     <div id="collapseight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-     <p>EcomGeekz operates across a wide range of industries, including e-commerce, digital marketing, tech innovation, retail, and more. We tailor our strategies and solutions to the unique needs of each industry, ensuring optimal outcomes.</p>
+     <p><?= $brand_name ?? '' ?> operates across a wide range of industries, including e-commerce, digital marketing, tech innovation, retail, and more. We tailor our strategies and solutions to the unique needs of each industry, ensuring optimal outcomes.</p>
       </div>
     </div>
   </div>
@@ -188,7 +188,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingnine">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsnine" aria-expanded="false" aria-controls="collapsnine">
-       How long does it take to see results with EcomGeekz?
+       How long does it take to see results with <?= $brand_name ?? '' ?>
       </button>
     </h2>
     <div id="collapsnine" class="accordion-collapse collapse" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
@@ -200,7 +200,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingten">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#headingten" aria-expanded="false" aria-controls="headingten">
-      How long will it take to see results with EcomGeekz's services?
+      How long will it take to see results with <?= $brand_name ?? '' ?>'s services?
       </button>
     </h2>
     <div id="headingten" class="accordion-collapse collapse" aria-labelledby="headingten" data-bs-parent="#accordionExample">

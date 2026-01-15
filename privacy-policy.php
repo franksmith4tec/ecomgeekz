@@ -57,7 +57,7 @@
                    
                    
                    <p><strong>1. Introduction</strong></p>
-                   <p class="themes-p" style="padding: 0 0 0 !important;">At EcomGeekz, accessible from https://ecomgeekz.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains information about the types of information LetsEcom LLC, DBA EcomGeekz collects and records and how we use it. </p>
+                   <p class="themes-p" style="padding: 0 0 0 !important;">At  <?= $brand_name ?? '' ?>, accessible from https://ecomgeekz.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains information about the types of information LetsEcom LLC, DBA <?= $brand_name ?? '' ?> collects and records and how we use it. </p>
                    <p class="themes-p" style="padding: 0 0 0 !important;">By accessing or using our services, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 </p>
                    
@@ -85,9 +85,9 @@
                  
                   <li>Cookies and Similar Technologies: Information collected through cookies, web beacons, and other tracking technologies.</li>
                 </ul>  
-                  <p><span><b>2.3. Log Files:</b> LetsEcom LLC, DBA EcomGeekz follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this, and it is part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any personally identifiable information. The purpose of the information is to analyze trends, administer the site, track users' movement on the website, and gather demographic information.</span></p>
+                  <p><span><b>2.3. Log Files:</b> LetsEcom LLC, DBA <?= $brand_name ?? '' ?> follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this, and it is part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any personally identifiable information. The purpose of the information is to analyze trends, administer the site, track users' movement on the website, and gather demographic information.</span></p>
                   
-                  <p><span><b>2.4. Cookies and Web Beacons:</b> Like any other website, LetsEcom LLC, DBA EcomGeekz uses "cookies". These cookies store information, including visitors' preferences and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</span></p>
+                  <p><span><b>2.4. Cookies and Web Beacons:</b> Like any other website, LetsEcom LLC, DBA <?= $brand_name ?? '' ?> uses "cookies". These cookies store information, including visitors' preferences and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</span></p>
 
                <p><strong>3. How We Use Your Information</strong></p>
                <p><span>We use the information we collect for various purposes, including:</span></p>
@@ -128,17 +128,17 @@
                       <li>Google: https://policies.google.com/technologies/ads</li> </ul>
                       
                       <p><strong>7. Privacy Policies of Advertising Partners</strong></p>
-               <p><span>You may consult this list to find the Privacy Policy for each of the advertising partners of LetsEcom LLC, DBA EcomGeekz Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons in their respective advertisements and links that appear on LetsEcom LLC, DBA EcomGeekz, which are sent directly to users' browsers. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit. Note that LetsEcom LLC, DBA EcomGeekz has no access to or control over these cookies that third-party advertisers use.</span></p>
+               <p><span>You may consult this list to find the Privacy Policy for each of the advertising partners of LetsEcom LLC, DBA <?= $brand_name ?? '' ?> Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons in their respective advertisements and links that appear on LetsEcom LLC, DBA  <?= $brand_name ?? '' ?>, which are sent directly to users' browsers. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit. Note that LetsEcom LLC, DBA <?= $brand_name ?? '' ?> has no access to or control over these cookies that third-party advertisers use.</span></p>
                       
                       
                     <p><strong>8. Third-Party Privacy Policies</strong></p>
-               <p><span>LetsEcom LLC, DBA EcomGeekz's Privacy Policy does not apply to other advertisers or websites. Thus, we advise you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. These policies may include their practices and instructions about how to opt out of certain options. You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies?</span></p>
+               <p><span>LetsEcom LLC, DBA <?= $brand_name ?? '' ?>'s Privacy Policy does not apply to other advertisers or websites. Thus, we advise you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. These policies may include their practices and instructions about how to opt out of certain options. You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies?</span></p>
                
                <p><strong>9. Children's Information</strong></p>
-               <p><span>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. LetsEcom LLC, DBA EcomGeekz does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately. We will do our best efforts to promptly remove such information from our records.</span></p>
+               <p><span>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. LetsEcom LLC, DBA <?= $brand_name ?? '' ?> does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately. We will do our best efforts to promptly remove such information from our records.</span></p>
                       
                    <p><strong>10. Online Privacy Policy Only</strong></p>
-               <p><span>This Privacy Policy applies only to our online activities and is valid for visitors to our website and social media platforms regarding the information that they share and/or collect in LetsEcom LLC, DBA EcomGeekz This policy is not applicable to any information collected offline or via channels other than this website and all social media channels.</span></p>   
+               <p><span>This Privacy Policy applies only to our online activities and is valid for visitors to our website and social media platforms regarding the information that they share and/or collect in LetsEcom LLC, DBA <?= $brand_name ?? '' ?> This policy is not applicable to any information collected offline or via channels other than this website and all social media channels.</span></p>   
                       
                       
                   <p><strong>11. Your Privacy Rights</strong></p>
@@ -162,7 +162,7 @@
                <p><span>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</span></p> 
                
                <p><strong>13. Privacy Policy Changes</strong></p>
-               <p><span>LetsEcom LLC, DBA EcomGeekz is always improving our Services. As our Services evolve, we may update or amend this Privacy Policy. If we modify this Privacy Policy, we will post the revised Privacy Policy online. The revised Privacy Policy will be effective immediately at the time of posting, unless a later effective date is expressly stated therein. We will also revise the “Last updated” date stated below.</span></p> 
+               <p><span>LetsEcom LLC, DBA <?= $brand_name ?? '' ?> is always improving our Services. As our Services evolve, we may update or amend this Privacy Policy. If we modify this Privacy Policy, we will post the revised Privacy Policy online. The revised Privacy Policy will be effective immediately at the time of posting, unless a later effective date is expressly stated therein. We will also revise the “Last updated” date stated below.</span></p> 
                <p><span>Should any modification materially change how we use your Personal Information, we will provide notice online prior to the effective date of the change.</span></p> 
                
                 <p><span>It is your responsibility to periodically review this Privacy Policy. Users are bound by any changes to this Privacy Policy by using our Services after such changes have been first posted. If you do not agree to the new posted Privacy Policy, your only remedy is to discontinue use of the website.</span></p> 
@@ -170,13 +170,13 @@
             <p><strong>14. Contact Information</strong></p>
                <p><span>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</span></p> 
                
-               <p><span>EcomGeekz<br>
+               <p><span><?= $brand_name ?? '' ?><br>
                
-               Email: hello@ecomgeekz.com<br>
-               Phone: +1 (855) 666-5880</span></p>
+               Email: <a class="text-white" href="mailto:<?= $brand_email ?? ' ' ?>"><?= $brand_email ?? ' ' ?></a><br>
+               Phone: <a class="text-white" href="tel:<?= $brand_phone ?? ' ' ?>"><?= $brand_phone ?? ' ' ?></a></span></p>
                
                 <p><strong>15. SMS Compliance</strong></p>
-               <p><span>By opting into SMS, you are agreeing to receive SMS messages from EcomGeekz. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy. Message HELP for help. Reply STOP to any message to opt out. SMS consent is not shared with third parties for marketing purposes.</span></p> 
+               <p><span>By opting into SMS, you are agreeing to receive SMS messages from  <?= $brand_name ?? '' ?>. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy. Message HELP for help. Reply STOP to any message to opt out. SMS consent is not shared with third parties for marketing purposes.</span></p> 
                
                <p><span>By using our services, you acknowledge that you have read and understood this Privacy Policy and agree to our collection, use, and disclosure of your personal information as described herein.</span></p> 
                

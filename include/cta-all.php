@@ -13,12 +13,12 @@
                         <p>Get the right guidance with an strategist by your side.</p>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
-                        <h3><a href="tel:+1 (855) 783-2616">+1 (855) 783-2616</a></h3>
+                        <h3><a class="text-white" href="tel:<?= $brand_phone ?? ' ' ?>"><?= $brand_phone ?? ' ' ?></a></h3>
                         <p>Mon–Fri: 9 a.m. – 5 p.m. </p>
                         <p>Weekends: 9 a.m. – 2 p.m. </p>
                     </div>
                     <div class="col-lg-12">
-                        <a href="appointment.php" class="legal">Schedule a call</a>
+                        <a href="appointment" class="themes-btn">Schedule a call</a>
                     </div>
                 </div>
             </div>

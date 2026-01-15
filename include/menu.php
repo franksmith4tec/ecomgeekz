@@ -16,7 +16,7 @@
         </button>
         <nav class="navMenu" id="navMenu">
             <ul>
-                <li><a href="https://ecomgeekz.com/">Home</a></li>
+                <li><a href="<?= $base_url ?? '' ?>">Home</a></li>
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Services<i class="fas fa-chevron-down"></i></button>
                     <div id="myDropdown" class="dropdown-content">
@@ -53,7 +53,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-2 col-sm-6 col-6 my-auto">
-                    <a href="https://ecomgeekz.com/" class="logo"><img src="assets/images/logo.png" alt="img"></a>
+                    <a href="<?= $base_url ?? '' ?>" class="logo"><img src="<?= $logo_url ?? '' ?>" alt="img"></a>
                 </div>
                 <div class="col-md-4 col-sm-9 col-xs-2 col-12  d-none d-md-block d-lg-block ">
                     <ul id="menu">
@@ -138,7 +138,7 @@
                     <div class="d-flex">
                         <a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal" class="header-btn2 audit-button">BOOK A CALL <img src="assets/images/arrow-top-white.svg" alt="icon"></a>
                         <!--<a href="https://ecomgeekz.com/free-audit" class="header-btn2 audit-btn">FREE AUDIT</a>-->
-                        <a href="tel:+1 (855) 783-2616" class="header-btn2 head-phone">+1 (855) 783-2616 <i class="fas fa-phone-alt"></i></a>
+                        <a href="tel:<?= $brand_phone ?? ' ' ?>" class="header-btn2 head-phone"><?= $brand_phone ?? ' ' ?> <i class="fas fa-phone-alt"></i></a>
                         <a href="#_" class="header-btn" data-bs-toggle="modal" data-bs-target="#infoModal">Get Started <img src="assets/images/arrow-top-white.svg" alt="icon"></a>
                         <a href="javascript:(void)" class="bars-btn">
                             <div class="menu-btns">
@@ -156,7 +156,7 @@
             <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="https://ecomgeekz.com/application" class="logos">EcomGeekz</a>
+                    <a href="https://ecomgeekz.com/application" class="logos"><?= $brand_name ?? '' ?></a>
                     <button class="coseing">
                         <div class="menu-btns">
                             <span></span>
@@ -168,7 +168,7 @@
                     <a href="https://ecomgeekz.com/faq">FAQs</a>
                     <a href="https://ecomgeekz.com/">Check my order status</a>
 
-                    <h2 class="mt-5">Talk to sales:  +1 (855) 783-2616</h2>
+                    <h2 class="mt-5">Talk to sales:  <?= $brand_phone ?? ' ' ?></h2>
                     <h5>Sales hours</h5>
                     <p>Mon-Fri 5 a.m.-7 p.m. (GMT-5)</p>
                     <p>Weekends 7 a.m.-4 p.m. (GMT-5)</p>
@@ -262,7 +262,7 @@
         </div>
         <div class="final-botm">
             <h6>Don’t like the forms? Drop us a line via email.</h6>
-            <a href="mailto:hello@ecomgeekz.com" class="mail">hello@ecomgeekz.com <img
+            <a href="mailto:<?= $brand_email ?? ' ' ?>" class="mail"><?= $brand_email ?? ' ' ?> <img
                     src="assets/images/arrow-top-white.svg" width="12" height="13" loading="lazy" /></a>
         </div>
     </div>
@@ -273,7 +273,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-1 col-sm-6 col-6 my-auto">
-                    <a href="https://ecomgeekz.com/" class="logo"><img src="assets/images/logo.svg" alt="img"></a>
+                    <a href="<?= $base_url ?? '' ?>" class="logo"><img src="assets/images/logo.svg" alt="img"></a>
                 </div>
                 <div class="col-md-5 col-sm-9 col-xs-2 col-12  d-none d-md-block d-lg-block ">
                     <ul id="menu">
@@ -352,7 +352,7 @@
                 <div class="col-md-6 col-6 text-end">
                     <div class="d-flex">
                         <a href="free-audit" class="header-btn2 audit-button">FREE AUDIT <img src="assets/images/arrow-top-white.svg" alt="icon"></a>
-                        <a href="tel:+1 (855) 783-2616" class="header-btn2 head-phone">+1 (855) 783-2616 <i class="fas fa-phone-alt"></i></a>
+                        <a href="tel:<?= $brand_phone ?? ' ' ?>" class="header-btn2 head-phone"><?= $brand_phone ?? ' ' ?> <i class="fas fa-phone-alt"></i></a>
                         <a href="application" class="header-btn">Get Started <img src="assets/images/arrow-top-white.svg" alt="icon"></a>
                         <a href="javascript:(void)" class="bars-btn">
                             <div class="menu-btns">
@@ -370,7 +370,7 @@
             <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="https://ecomgeekz.com/application" class="logos">EcomGeekz</a>
+                    <a href="https://ecomgeekz.com/application" class="logos"><?= $brand_name ?? '' ?></a>
                     <button class="coseing">
                         <div class="menu-btns">
                             <span></span>
@@ -382,7 +382,7 @@
                     <a href="https://ecomgeekz.com/faq">FAQs</a>
                     <a href="https://ecomgeekz.com/">Check my order status</a>
 
-                    <h2 class="mt-5">Talk to sales:  +1 (855) 783-2616</h2>
+                    <h2 class="mt-5">Talk to sales:  <?= $brand_phone ?? ' ' ?></h2>
                     <h5>Sales hours</h5>
                     <p>Mon-Fri 5 a.m.-7 p.m. (GMT-5)</p>
                     <p>Weekends 7 a.m.-4 p.m. (GMT-5)</p>
@@ -421,7 +421,7 @@
         </div>
         <div class="final-botm">
             <h6>Don’t like the forms? Drop us a line via email.</h6>
-            <a href="mailto:hello@ecomgeekz.com" class="mail">hello@ecomgeekz.com <img
+            <a href="mailto:<?= $brand_email ?? ' ' ?>" class="mail"><?= $brand_email ?? ' ' ?> <img
                     src="assets/images/arrow-top-white.svg" width="12" height="13" loading="lazy" /></a>
         </div>
     </div>
@@ -457,7 +457,7 @@
         </div>
         <div class="final-botm">
             <h6>Don’t like the forms? Drop us a line via email.</h6>
-            <a href="mailto:hello@ecomgeekz.com" class="mail">hello@ecomgeekz.com <img
+            <a href="mailto:<?= $brand_email ?? ' ' ?>" class="mail"><?= $brand_email ?? ' ' ?> <img
                     src="assets/images/arrow-top-white.svg" width="12" height="13" loading="lazy" /></a>
         </div>
     </div>
@@ -468,13 +468,13 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-2 col-sm-6 col-6 my-auto">
-                    <a href="https://ecomgeekz.com/" class="logo"><img src="assets/images/logo.svg" alt="img"></a>
+                    <a href="<?= $base_url ?? '' ?>" class="logo"><img src="assets/images/logo.svg" alt="img"></a>
                 </div>
                 <div class="col-md-10 col-6 text-end">
                     <div class="d-flex">
                         <a href="free-audit" class="header-btn2 audit-btn audit-button">FREE AUDIT</a>
                         <a href="application" class="header-btn">Get Started <img src="assets/images/arrow-top-white.svg" alt="icon"></a>
-                        <a href="tel:+1 (855) 783-2616" class="header-btn2 head-phone">+1 (855) 783-2616 <i class="fas fa-phone-alt"></i></a>
+                        <a href="tel:<?= $brand_phone ?? ' ' ?>" class="header-btn2 head-phone"><?= $brand_phone ?? ' ' ?> <i class="fas fa-phone-alt"></i></a>
                         <a href="javascript:(void)" class="bars-btn">
                             <div class="menu-btns">
                                 <span></span>
@@ -491,7 +491,7 @@
             <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="https://ecomgeekz.com/application" class="logos">EcomGeekz</a>
+                    <a href="https://ecomgeekz.com/application" class="logos"><?= $brand_name ?? '' ?></a>
                     <button class="coseing">
                         <div class="menu-btns">
                             <span></span>
@@ -503,7 +503,7 @@
                     <a href="https://ecomgeekz.com/faq">FAQs</a>
                     <a href="https://ecomgeekz.com/">Check my order status</a>
 
-                    <h2 class="mt-5">Talk to sales:  +1 (855) 783-2616</h2>
+                    <h2 class="mt-5">Talk to sales:  <?= $brand_phone ?? ' ' ?></h2>
                     <h5>Sales hours</h5>
                     <p>Mon-Fri 5 a.m.-7 p.m. (GMT-5)</p>
                     <p>Weekends 7 a.m.-4 p.m. (GMT-5)</p>
@@ -542,7 +542,7 @@
         </div>
         <div class="final-botm">
             <h6>Don’t like the forms? Drop us a line via email.</h6>
-            <a href="mailto:hello@ecomgeekz.com" class="mail">hello@ecomgeekz.com <img
+            <a href="mailto:<?= $brand_email ?? ' ' ?>" class="mail"><?= $brand_email ?? ' ' ?> <img
                     src="assets/images/arrow-top-white.svg" width="12" height="13" loading="lazy" /></a>
         </div>
     </div>
@@ -578,7 +578,7 @@
         </div>
         <div class="final-botm">
             <h6>Don’t like the forms? Drop us a line via email.</h6>
-            <a href="mailto:hello@ecomgeekz.com" class="mail">hello@ecomgeekz.com <img
+            <a href="mailto:<?= $brand_email ?? ' ' ?>" class="mail"><?= $brand_email ?? ' ' ?> <img
                     src="assets/images/arrow-top-white.svg" width="12" height="13" loading="lazy" /></a>
         </div>
     </div>
@@ -621,7 +621,7 @@
         </div>
         <div class="final-botm">
             <h6>Don’t like the forms? Drop us a line via email.</h6>
-            <a href="mailto:hello@ecomgeekz.com" class="mail">hello@ecomgeekz.com <img
+            <a href="mailto:<?= $brand_email ?? ' ' ?>" class="mail"><?= $brand_email ?? ' ' ?> <img
                     src="assets/images/arrow-top-white.svg" width="12" height="13" loading="lazy" /></a>
         </div>
     </div>

@@ -19,14 +19,14 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index">Home</a></li>
+                    <li><a href="<?= $base_url ?? '' ?>">Home</a></li>
                     <li><a href="service">Business Services</a></li>
-                    <li><a href="youtube-automation.php" class="active">Youtube Automation</a></li>
+                    <li><a href="youtube-automation" class="active">Youtube Automation</a></li>
                 </ul>
                 <h1>We help YouTube creators build and automate profitable channels</h1>
                 <p>Looking to launch a successful YouTube channel without the hassle of content creation and management?</p>
-                <h6><b>Without showing your face or creating any videos, youtube has paid out $30 billion to creators. Partner with EcomGeekz to streamline your content production, and watch your channel thrive.</b></h6>
-                <a href="at-appointment.php" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
+                <h6><b>Without showing your face or creating any videos, youtube has paid out $30 billion to creators. Partner with <?= $brand_name ?? '' ?> to streamline your content production, and watch your channel thrive.</b></h6>
+                <a href="at-appointment" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
                 <!--<img src="assets/images/Trustpilot-Stars.svg" alt="img"  class="mt-3" />-->
                 <div class="txt-left">
                     <!-- TrustBox widget - Micro TrustScore -->
@@ -56,7 +56,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
-                <h2>EcomGeekz YouTube automation service, From niche selection to monetization, we handle it all</h2>
+                <h2><?= $brand_name ?? '' ?> YouTube automation service, From niche selection to monetization, we handle it all</h2>
                 <p>YouTube automation channels offer a range of benefits that make them an appealing option for many entrepreneurs. These channels allow for passive income potential, meaning you can earn money without being directly involved in daily operations.</p>
             </div>
             <div class="col-lg-5">
@@ -117,7 +117,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center mb-5">
-                <h2>See what people say about EcomGeekz</h2>
+                <h2>See what people say about <?= $brand_name ?? '' ?></h2>
             </div>
         </div>
     </div>
@@ -131,7 +131,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>The Amazon FBA Automation service from EcomGeekz is a game-changer. They took care of al the details, allowing me to focus on growing my business. Their expertise and efficiency are unmatched.</p>
+                    <p>The Amazon FBA Automation service from <?= $brand_name ?? '' ?> is a game-changer. They took care of al the details, allowing me to focus on growing my business. Their expertise and efficiency are unmatched.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -157,7 +157,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz has transformed my Amazon business. Their Amazon FBA Automation service is exceptional. They handled everything from product sourcing to fulfillment with utmost professionalism. Highly recommend!</p>
+                    <p><?= $brand_name ?? '' ?> has transformed my Amazon business. Their Amazon FBA Automation service is exceptional. They handled everything from product sourcing to fulfillment with utmost professionalism. Highly recommend!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -182,7 +182,7 @@
                     <img class="bedge" src="assets/images/crown.png">
                 </div>
                 <div class="content-box">
-                    <p>The Dropshipping Shopify Automation service from EcomGeekz is a game-changer. They streamlined my store operations and enhanced efficiency. My business has seen significant growth thanks to their support.</p>
+                    <p>The Dropshipping Shopify Automation service from <?= $brand_name ?? '' ?> is a game-changer. They streamlined my store operations and enhanced efficiency. My business has seen significant growth thanks to their support.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -207,7 +207,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz' Dropshipping Shopify Automation service is phenomenal. They automated my Shopify store seamlessly. from product sourcing to order fulfillment. My sales have skyrocketed thanks to their expertise!</p>
+                    <p><?= $brand_name ?? '' ?>' Dropshipping Shopify Automation service is phenomenal. They automated my Shopify store seamlessly. from product sourcing to order fulfillment. My sales have skyrocketed thanks to their expertise!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -232,7 +232,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>I couldn't be happier with the service provided by EcomGeekz. They handled every detail of forming my business, Leaving me free to focus on my passion. Their professionalism and efficiency are unmatched.</p>
+                    <p>I couldn't be happier with the service provided by  <?= $brand_name ?? '' ?>. They handled every detail of forming my business, Leaving me free to focus on my passion. Their professionalism and efficiency are unmatched.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -257,7 +257,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>Launching Kickstarter campaign with EcomGeekz was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured and successful and well-executed campaign. The team's commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>
+                    <p>Launching Kickstarter campaign with <?= $brand_name ?? '' ?> was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured and successful and well-executed campaign. The team's commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -282,7 +282,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz has been a game-changer for my drop shipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in drop shipping and automation saved me countless hours and significantly boosted my revenue. I couldn't be happier with the results and highly recommend EcomGeekz for drop shopping entrepreneurs.</p>
+                    <p><?= $brand_name ?? '' ?> has been a game-changer for my drop shipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in drop shipping and automation saved me countless hours and significantly boosted my revenue. I couldn't be happier with the results and highly recommend <?= $brand_name ?? '' ?> for drop shopping entrepreneurs.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -307,7 +307,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team's professionalism and attention to detailed were impressive, and I'm thrilled with the revenue my app is generating. I highly recommend EcomGeekz fpr mobile app development.</p>
+                    <p><?= $brand_name ?? '' ?> made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team's professionalism and attention to detailed were impressive, and I'm thrilled with the revenue my app is generating. I highly recommend <?= $brand_name ?? '' ?> fpr mobile app development.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -332,7 +332,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz helped me elevate my personal brand to new heights. Thier tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience. The professionalism and commitment of the EcomGeekz team exceeded my expectations, making them the perfect choice for anyone looking to enhance their personal brand.</p>
+                    <p><?= $brand_name ?? '' ?> helped me elevate my personal brand to new heights. Thier tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience. The professionalism and commitment of the <?= $brand_name ?? '' ?> team exceeded my expectations, making them the perfect choice for anyone looking to enhance their personal brand.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -362,7 +362,7 @@
                     <img class="bedge" src="assets/images/crown.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz transformed my Shopify store with their Dropshipping Automation service. They handled everything from inventory management to customer support efficiently. Their service is top-notch!</p>
+                    <p><?= $brand_name ?? '' ?> transformed my Shopify store with their Dropshipping Automation service. They handled everything from inventory management to customer support efficiently. Their service is top-notch!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -387,7 +387,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>I am incredibly impressed with EcomGeekz' Drop shipping Shopify Automation service. They optimized my store and automated processes, allowing me to focus on scaling my business. Highly recommend!</p>
+                    <p>I am incredibly impressed with <?= $brand_name ?? '' ?>' Drop shipping Shopify Automation service. They optimized my store and automated processes, allowing me to focus on scaling my business. Highly recommend!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -412,7 +412,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>From start to finish, EcomGeekz provided exceptional service. They took care of all the legalities and paperwork, allowing me to concentrate on building my business. I highly recommend their business formation services.</p>
+                    <p>From start to finish, <?= $brand_name ?? '' ?> provided exceptional service. They took care of all the legalities and paperwork, allowing me to concentrate on building my business. I highly recommend their business formation services.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -437,7 +437,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz made the business formation process incredibly smooth and straightforward. Their expertise and support were invaluable. I highly recommend them to anyone looking looking to start a new business!</p>
+                    <p><?= $brand_name ?? '' ?> made the business formation process incredibly smooth and straightforward. Their expertise and support were invaluable. I highly recommend them to anyone looking looking to start a new business!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -462,7 +462,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>I am thrilled with the results from EcomGeekz's Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up managing my Amazon store incredibly straightforward. The comprehensive support and expert advice were invaluable. leading to a successful and profitable venture. I highly recommend EcomGeekz for anyone looking to thrive on Amazon FBA.</p>
+                    <p>I am thrilled with the results from <?= $brand_name ?? '' ?>'s Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up managing my Amazon store incredibly straightforward. The comprehensive support and expert advice were invaluable. leading to a successful and profitable venture. I highly recommend <?= $brand_name ?? '' ?> for anyone looking to thrive on Amazon FBA.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -487,7 +487,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>Thanks to EcomGeekz, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>
+                    <p>Thanks to  <?= $brand_name ?? '' ?>, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -512,7 +512,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business's success. The team's commitment to my growth and their exceptional service make EcomGeekz the ideal partner for any entrepreneur.</p>
+                    <p><?= $brand_name ?? '' ?> provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business's success. The team's commitment to my growth and their exceptional service make <?= $brand_name ?? '' ?> the ideal partner for any entrepreneur.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -537,7 +537,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team's professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>
+                    <p><?= $brand_name ?? '' ?> made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team's professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -562,7 +562,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz helped me diversify my income through multiple revenue streams. Their innovate strategies and practical advice were key to my financial growth. The team's dedication to my success was evident throughout our collaboration. I highly recommend EcomGeekz for anyone looking to create sustain revenue streams.</p>
+                    <p><?= $brand_name ?? '' ?> helped me diversify my income through multiple revenue streams. Their innovate strategies and practical advice were key to my financial growth. The team's dedication to my success was evident throughout our collaboration. I highly recommend <?= $brand_name ?? '' ?> for anyone looking to create sustain revenue streams.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -587,7 +587,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>Working with EcomGeekz on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>
+                    <p>Working with <?= $brand_name ?? '' ?> on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -615,7 +615,7 @@
 <!--    <div class="container">-->
 <!--        <div class="row">-->
 <!--            <div class="col-md-12 text-center mb-5">-->
-<!--                <h2>See what people say about EcomGeekz</h2>-->
+<!--                <h2>See what people say about <?= $brand_name ?? '' ?></h2>-->
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
@@ -629,7 +629,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>I am thrilled with the results from EcomGeekz's Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up and managing my Amazon store incredibly straightforward.I highly recommend EcomGeekz for anyone looking to thrive on Amazon FBA.</p>-->
+<!--                    <p>I am thrilled with the results from <?= $brand_name ?? '' ?>'s Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up and managing my Amazon store incredibly straightforward.I highly recommend <?= $brand_name ?? '' ?> for anyone looking to thrive on Amazon FBA.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -647,7 +647,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz has been a game-changer for my dropshipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in dropshipping and automation saved me countless hours and significantly boosted my revenue.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> has been a game-changer for my dropshipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in dropshipping and automation saved me countless hours and significantly boosted my revenue.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -665,7 +665,7 @@
                     <!--<img class="bedge" src="assets/images/crown.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>Thanks to EcomGeekz, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>-->
+<!--                    <p>Thanks to  <?= $brand_name ?? '' ?>, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -683,7 +683,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz helped me elevate my personal brand to new heights. Their tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> helped me elevate my personal brand to new heights. Their tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -701,7 +701,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>Working with EcomGeekz on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>-->
+<!--                    <p>Working with <?= $brand_name ?? '' ?> on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -721,7 +721,7 @@
 <!--                    <img class="bedge" src="assets/images/crown.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team’s professionalism and attention to detail were impressive, and I’m thrilled with the revenue my app is generating. I highly recommend EcomGeekz for mobile app development.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team’s professionalism and attention to detail were impressive, and I’m thrilled with the revenue my app is generating. I highly recommend <?= $brand_name ?? '' ?> for mobile app development.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -739,7 +739,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz was instrumental in helping me start my marketing agency. Their comprehensive approach covered everything from business formation to client acquisition strategies. The team's knowledge and support gave me the confidence to launch and grow my agency successfully. I couldn't have done it without EcomGeekz's expert guidance.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> was instrumental in helping me start my marketing agency. Their comprehensive approach covered everything from business formation to client acquisition strategies. The team's knowledge and support gave me the confidence to launch and grow my agency successfully. I couldn't have done it without <?= $brand_name ?? '' ?>'s expert guidance.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -757,7 +757,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz helped me diversify my income through multiple revenue streams. Their innovative strategies and practical advice were key to my financial growth. The team’s dedication to my success was evident throughout our collaboration. I highly recommend EcomGeekz for anyone looking to create sustainable revenue streams.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> helped me diversify my income through multiple revenue streams. Their innovative strategies and practical advice were key to my financial growth. The team’s dedication to my success was evident throughout our collaboration. I highly recommend <?= $brand_name ?? '' ?> for anyone looking to create sustainable revenue streams.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -775,7 +775,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>Launching a Kickstarter campaign with EcomGeekz was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured a successful and well-executed campaign. The team’s commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>-->
+<!--                    <p>Launching a Kickstarter campaign with <?= $brand_name ?? '' ?> was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured a successful and well-executed campaign. The team’s commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -793,7 +793,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team’s professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team’s professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -811,7 +811,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business’s success. The team’s commitment to my growth and their exceptional service make EcomGeekz the ideal partner for any entrepreneur.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business’s success. The team’s commitment to my growth and their exceptional service make <?= $brand_name ?? '' ?> the ideal partner for any entrepreneur.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -831,7 +831,7 @@
     <div class="container">
         <div class="row testament">
            <div class="col-lg-6 my-auto">
-               <h2 class="">EcomGeekz YouTube automation is changing the game for YouTube creators<img src="assets/images/rocket.png" alt="img" class="rocketimg"></h2>
+               <h2 class=""><?= $brand_name ?? '' ?> YouTube automation is changing the game for YouTube creators<img src="assets/images/rocket.png" alt="img" class="rocketimg"></h2>
 
                 <h3><img src="assets/images/Create-a-cash-flow-channel.svg" alt="img" class="img-size">Create a cash flow channel</h3>
                 <p>Our expertise in setting up automation channels helps you establish a consistent cash flow, allowing you to earn from YouTube with minimal ongoing effort.</p>
@@ -846,16 +846,16 @@
                 <p>Experience exponential growth with our methods designed to generate thousands of views and subscribers, translating into significant revenue gains for your channel.</p>
                 
                 
-                <h2 class="noweight">Why choose YouTube automation with EcomGeekz</h2>
+                <h2 class="noweight">Why choose YouTube automation with <?= $brand_name ?? '' ?></h2>
                 
                 <h3><img src="assets/images/Expertly-managed-content-creation.svg" alt="img" class="img-size">Expertly managed content creation</h3>
-                <p>With EcomGeekz, you benefit from a dedicated team of experts who handle every facet of content creation. From research and scriptwriting to video editing and publishing, our team ensures your channel produces high-quality, engaging videos consistently.</p>
+                <p>With  <?= $brand_name ?? '' ?>, you benefit from a dedicated team of experts who handle every facet of content creation. From research and scriptwriting to video editing and publishing, our team ensures your channel produces high-quality, engaging videos consistently.</p>
                 
                 <h3><img src="assets/images/Tailored-strategies-for-optimal-growth.svg" alt="img" class="img-size">Tailored strategies for optimal growth</h3>
                 <p>We utilize customized strategies based on your niche and goals to maximize your channel’s performance. Our data-driven approach helps in optimizing your content for better visibility and audience engagement, leading to accelerated growth and higher revenue.</p>
                 
                 <h3><img src="assets/images/Efficient-and-cost-effective-solutions.svg" alt="img" class="img-size">Efficient and cost-effective solutions</h3>
-                <p>EcomGeekz provides a cost-effective approach to YouTube automation, allowing you to achieve significant results without the need for a large budget. Our efficient processes and strategic planning ensure you get the most value from your investment, driving long-term success for your channel.</p>
+                <p><?= $brand_name ?? '' ?> provides a cost-effective approach to YouTube automation, allowing you to achieve significant results without the need for a large budget. Our efficient processes and strategic planning ensure you get the most value from your investment, driving long-term success for your channel.</p>
 
            </div>
            <div class="col-lg-5 offset-lg-1">
@@ -865,7 +865,7 @@
                        <h3>What you'll discover in the YouTube automation channel strategy call</h3>
                        <h5>Youtube Automation Blueprint</h5>
                        <h6>In our strategy call, we'll reveal how to build a resilient YouTube channel that adapts to market changes and continues to thrive in the competitive digital environment.</h6>
-                       <a href="at-appointment.php" class="themes-btn">Schedule a free call</a>
+                       <a href="at-appointment" class="themes-btn">Schedule a free call</a>
                     </div>
                     <div>
                         <img src="assets/images/ATK.png" alt="img" />
@@ -893,7 +893,7 @@
     <div class="container">
         <div class="row testament">
            <div class="col-lg-6">
-               <h2>EcomGeekz process to start a YouTube automation business</h2>
+               <h2><?= $brand_name ?? '' ?> process to start a YouTube automation business</h2>
                <h3><img src="assets/images/Select-a-YouTube-niche.svg" alt="img" class="img-size">Select a YouTube niche</h3>
                <p>Identify a profitable niche that aligns with your interests and market demand. We conduct thorough research to find the most suitable niche for your channel.</p>
                
@@ -909,7 +909,7 @@
                <h3><img src="assets/images/Monetize-your-channel.svg" alt="img" class="img-size">Monetize your channel</h3>
                <p>Our team implements advanced automation tools to streamline workflows, manage projects, and optimize your channel’s performance.</p>
                
-               <a href="at-appointment.php" class="themes-btn mt-3">SCHEDULE A FREE CONSULTATION</a>
+               <a href="at-appointment" class="themes-btn mt-3">SCHEDULE A FREE CONSULTATION</a>
            </div>
            <div class="col-lg-5 offset-lg-1 my-auto">
                <div class="imgwrp">
@@ -983,7 +983,7 @@
                         </ul>
                         
                   <h6>Get onboarded Today and let our account representatives set up your channel.</h6>      
-                  <a href="at-appointment.php" class="themes-btn">Schedule a free call</a>
+                  <a href="at-appointment" class="themes-btn">Schedule a free call</a>
                   
                 </div>
                 <div class="col-lg-6">
@@ -1021,7 +1021,7 @@
             </div>
             <div class="col-lg-6 offset-lg-1">
                 <h2>Transforming your YouTube strategy for maximum impact</h2>
-                <p>EcomGeekz revolutionizes YouTube automation with a comprehensive approach tailored to your success. </p>
+                <p><?= $brand_name ?? '' ?> revolutionizes YouTube automation with a comprehensive approach tailored to your success. </p>
                 
                 <p>Our all-inclusive service handles every aspect of channel management, from strategy development to execution, ensuring your content stands out and reaches its full potential.</p>
                 
@@ -1030,7 +1030,7 @@
                 
                 <p><b>Elevate Your YouTube Presence with Expert Guidance</b></p>
                 
-                <p>Our dedicated team manages everything from video creation to optimization, leveraging cutting-edge strategies and tools to drive engagement and revenue. With EcomGeekz, your YouTube automation journey is streamlined and effective, setting you up for long-term success.</p>
+                <p>Our dedicated team manages everything from video creation to optimization, leveraging cutting-edge strategies and tools to drive engagement and revenue. With  <?= $brand_name ?? '' ?>, your YouTube automation journey is streamlined and effective, setting you up for long-term success.</p>
             </div>
         </div>
     </div>
@@ -1045,7 +1045,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Benefits of Launching Amazon Automation with EcomGeekz</h2>
+                <h2>Benefits of Launching Amazon Automation with <?= $brand_name ?? '' ?></h2>
             </div>
         </div>
         <div class="row">
@@ -1067,13 +1067,13 @@
                 <div class="important-box">
                     <img src="assets/images/EcomGeekz-Badges-Maximum-Efficiency.svg" alt="img" />
                     <h3>Strategic Revenue Generation</h3>
-                    <p>EcomGeekz leverages multiple income streams, including ad revenue, sponsorships, and merchandise sales, to maximize your channel’s profitability and ensure sustainable growth.</p>
+                    <p><?= $brand_name ?? '' ?> leverages multiple income streams, including ad revenue, sponsorships, and merchandise sales, to maximize your channel’s profitability and ensure sustainable growth.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <a href="at-appointment.php" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
+                <a href="at-appointment" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
             </div>
         </div>
     </div>
@@ -1118,7 +1118,7 @@
                 <!--        <div class="col-lg-12">-->
                 <!--            <div class="d-flex">-->
                 <!--                <input type="checkbox" name="agree" required>-->
-                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from EcomGeekz.</p>-->
+                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from  <?= $brand_name ?? '' ?>.</p>-->
                 <!--            </div>-->
                 <!--        </div>-->
                 <!--        <div class="col-lg-12">-->
@@ -1207,7 +1207,7 @@
                 <div class="reserve-box">
                     <img src="assets/images/Audience-Engagement.svg" alt="img" />
                     <h3>Audience Engagement</h3>
-                    <p>EcomGeekz prioritizes building a loyal subscriber base. We implement strategies to foster viewer interaction and community building, enhancing your channel's reach and influence.</p>
+                    <p><?= $brand_name ?? '' ?> prioritizes building a loyal subscriber base. We implement strategies to foster viewer interaction and community building, enhancing your channel's reach and influence.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -1255,14 +1255,14 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <p>YouTube automation involves using specialized tools and a dedicated team to manage and optimize your YouTube channel. At EcomGeekz, we handle everything from content creation to audience engagement, ensuring your channel's consistent growth and success.</p>
+         <p>YouTube automation involves using specialized tools and a dedicated team to manage and optimize your YouTube channel. At  <?= $brand_name ?? '' ?>, we handle everything from content creation to audience engagement, ensuring your channel's consistent growth and success.</p>
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        How does EcomGeekz help in selecting the right niche for my channel?
+        How does <?= $brand_name ?? '' ?> help in selecting the right niche for my channel?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -1279,7 +1279,7 @@
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <p>EcomGeekz produces a variety of engaging content, including tutorials, reviews, vlogs, and more, tailored to your chosen niche. Our creative team ensures each video is high-quality and optimized for maximum viewer engagement.</p>
+         <p><?= $brand_name ?? '' ?> produces a variety of engaging content, including tutorials, reviews, vlogs, and more, tailored to your chosen niche. Our creative team ensures each video is high-quality and optimized for maximum viewer engagement.</p>
       </div>
     </div>
   </div>
@@ -1287,7 +1287,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingfour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-        How does EcomGeekz ensure my channel's videos rank well on YouTube?
+        How does <?= $brand_name ?? '' ?> ensure my channel's videos rank well on YouTube?
       </button>
     </h2>
     <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
@@ -1313,7 +1313,7 @@
     <div class="accordion-item">
     <h2 class="accordion-header" id="headingfive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-       How does EcomGeekz handle monetization for my channel?
+       How does <?= $brand_name ?? '' ?> handle monetization for my channel?
       </button>
     </h2>
     <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
@@ -1326,12 +1326,12 @@
     <div class="accordion-item">
     <h2 class="accordion-header" id="headingfive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-       What kind of support can I expect from EcomGeekz?
+       What kind of support can I expect from <?= $brand_name ?? '' ?>
       </button>
     </h2>
     <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz offers continuous support and regular updates to keep your channel aligned with the latest trends and YouTube algorithm changes. Our team is always available to assist with any questions or concerns you may have, ensuring your channel's ongoing success.</p>
+        <p><?= $brand_name ?? '' ?> offers continuous support and regular updates to keep your channel aligned with the latest trends and YouTube algorithm changes. Our team is always available to assist with any questions or concerns you may have, ensuring your channel's ongoing success.</p>
       </div>
     </div>
   </div>

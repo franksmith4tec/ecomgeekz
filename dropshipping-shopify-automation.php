@@ -23,9 +23,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index">Home</a></li>
+                    <li><a href="<?= $base_url ?? '' ?>">Home</a></li>
                     <li><a href="javascript:(void)">Business Services</a></li>
-                    <li><a href="start-your-marketing-agency-2.php" class="active">Dropshipping Shopify Automation</a></li>
+                    <li><a href="start-your-marketing-agency-2" class="active">Dropshipping Shopify Automation</a></li>
                 </ul>
                 <h1>Your Agency's Launchpad: Ready for Liftoff?</h1>
                 <p>Begin your journey to success as you effortlessly launch and scale your marketing agency. Our expert guidance ensures you target monthly revenues of up to $10,000 with clarity and ease.</p>
@@ -44,7 +44,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>EcomGeekz's Unbeatable Approach to Aim for Your Success</h2>
+                <h2><?= $brand_name ?? '' ?>'s Unbeatable Approach to Aim for Your Success</h2>
                 <p>Begin your journey to success as you effortlessly launch and scale your marketing agency. Our expert guidance ensures you target monthly revenues of up to $10,000 with clarity and ease</p>
             </div>
             <div class="col-lg-4">
@@ -101,7 +101,7 @@
                             <li>Fuel your business idea with a step-by-step guide for liftoff.</li>
                             <li>We're your mission control, offering unlimited revisions within 30 days.</li>
                         </ul>
-                        <a href="application-2.php" class="themes-btn">Get started</a>
+                        <a href="application-2" class="themes-btn">Get started</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                             <li>Our experts ensure a smooth takeoff by setting up everything from scratch.</b></li>
                             <li>16 hours of live call guidance to navigate your business launch like a rocket.</li>
                         </ul>
-                        <a href="application-2.php" class="themes-btn">Get started</a>
+                        <a href="application-2" class="themes-btn">Get started</a>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                             <li>Enjoy weekly 1-1 calls for a mission-critical approach.</li>
                             <li>Benefit from 250 hours of comprehensive guidance, like a rocket on its mission to the stars.</li>
                         </ul>
-                        <a href="application-2.php" class="themes-btn">Get started</a>
+                        <a href="application-2" class="themes-btn">Get started</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
     <div class="container">
         <div class="row testament">
            <div class="col-lg-7">
-               <h2>Launch your Marketing Agency with with EcomGeekz</h2>
+               <h2>Launch your Marketing Agency with with <?= $brand_name ?? '' ?></h2>
                <h3><span>1</span>Build the Right Mindset</h3>
                <p>We kick off the process by aligning your mindset with the journey to business success. A strong, focused mindset is the foundation of your agency's liftoff. </p>
                <h3><span>2</span> Trust in the Journey</h3>
@@ -177,7 +177,7 @@
                
                <!-- <h5>See examples of <a href="javascript:(void)"> last wills.</a></h5> -->
                
-               <h2>Why do you need to EcomGeekz a Marketing Agency?</h2>
+               <h2>Why do you need to <?= $brand_name ?? '' ?> a Marketing Agency?</h2>
                 <h3><i class="far fa-user"></i> Laying The Foundation</h3>
                 <p>Let's return to the essentials and uncover the building blocks of a thriving agency. Learn the latest strategies and gain access to essential tools and software.</p>
 
@@ -187,7 +187,7 @@
                 <h3><i class="fas fa-balance-scale"></i> Finding Leads & Setting Meetings</h3>
                 <p> Learn the art of lead generation and efficient communication. We'll help you schedule meetings with potential clients, and provide tips on various outreach strategies. Launch your agency journey with confidence.</p>
 
-                    <a href="javascript:(void)" class="themes-btn mt-5">Ready to launch a agency with EcomGeekz?</a>
+                    <a href="javascript:(void)" class="themes-btn mt-5">Ready to launch a agency with <?= $brand_name ?? '' ?></a>
            </div>
            <div class="col-lg-5">
                <img src="assets/images/start-your-last-will-1024.webp" alt="img" />
@@ -212,7 +212,7 @@
 <!--        <div class="row">-->
 <!--          <div class="col-md-7 my-auto">-->
 <!--            <div class="txtdiv">-->
-<!--              <p class="main-pera">“We have been highly satisfied with the EcomGeekz web service. They hit the nail. We are a startup company and we were looking for something customized, affordable and reliable and EcomGeekz ticked all the checkboxes” </p>-->
+<!--              <p class="main-pera">“We have been highly satisfied with the <?= $brand_name ?? '' ?> web service. They hit the nail. We are a startup company and we were looking for something customized, affordable and reliable and <?= $brand_name ?? '' ?> ticked all the checkboxes” </p>-->
 <!--              <span>-->
 <!--                <i class="fa fa-star" aria-hidden="true"></i>-->
 <!--                <i class="fa fa-star" aria-hidden="true"></i>-->
@@ -235,7 +235,7 @@
 <!--        <div class="row">-->
 <!--          <div class="col-md-7 my-auto">-->
 <!--            <div class="txtdiv">-->
-<!--              <p class="main-pera">“We have been highly satisfied with the EcomGeekz web service. They hit the nail. We are a startup company and we were looking for something customized, affordable and reliable and EcomGeekz ticked all the checkboxes” </p>-->
+<!--              <p class="main-pera">“We have been highly satisfied with the <?= $brand_name ?? '' ?> web service. They hit the nail. We are a startup company and we were looking for something customized, affordable and reliable and <?= $brand_name ?? '' ?> ticked all the checkboxes” </p>-->
 <!--              <span>-->
 <!--                <i class="fa fa-star" aria-hidden="true"></i>-->
 <!--                <i class="fa fa-star" aria-hidden="true"></i>-->
@@ -258,7 +258,7 @@
 <!--        <div class="row">-->
 <!--          <div class="col-md-7 my-auto">-->
 <!--            <div class="txtdiv">-->
-<!--              <p class="main-pera">“We have been highly satisfied with the EcomGeekz web service. They hit the nail. We are a startup company and we were looking for something customized, affordable and reliable and EcomGeekz ticked all the checkboxes” </p>-->
+<!--              <p class="main-pera">“We have been highly satisfied with the <?= $brand_name ?? '' ?> web service. They hit the nail. We are a startup company and we were looking for something customized, affordable and reliable and <?= $brand_name ?? '' ?> ticked all the checkboxes” </p>-->
 <!--              <span>-->
 <!--                <i class="fa fa-star" aria-hidden="true"></i>-->
 <!--                <i class="fa fa-star" aria-hidden="true"></i>-->
@@ -332,8 +332,8 @@
                 <img src="assets/images/what-is-a-last-will-1024.webp" alt="img" />
             </div>
             <div class="col-lg-6 offset-lg-1">
-                <h2>How EcomGeekz Makes It Happen.</h2>
-                <p>EcomGeekz is dedicated to delivering a revolutionary online business program, setting new industry standards. Our goal is to nurture and empower the next generation of agencies. We challenge outdated business strategies and aim to boost your income by at least threefold. You don't need prior industry experience; EcomGeekz's proven formula helps beginners start and grow their agencies profitably. We also empower 6-figure agencies to scale into 7-figures.</p>
+                <h2>How <?= $brand_name ?? '' ?> Makes It Happen.</h2>
+                <p><?= $brand_name ?? '' ?> is dedicated to delivering a revolutionary online business program, setting new industry standards. Our goal is to nurture and empower the next generation of agencies. We challenge outdated business strategies and aim to boost your income by at least threefold. You don't need prior industry experience; <?= $brand_name ?? '' ?>'s proven formula helps beginners start and grow their agencies profitably. We also empower 6-figure agencies to scale into 7-figures.</p>
                 <h2>Who helps make sure that what's in my will actually happens?</h2>
                 <p>A last will and testament gives you the power to choose an executor. An executor is responsible for carrying out your written plans. Their job is to make sure that your assets pass smoothly to your beneficiaries</p>
             </div>
@@ -372,13 +372,13 @@
                 <div class="important-box">
                     <img src="assets/images/testament-img-3.png" alt="img" />
                     <h3>Transformational Scaling</h3>
-                    <p>Experienced agencies can leverage our methods to propel themselves to new levels of success. Discover how EcomGeekz can elevate your agency today.</p>
+                    <p>Experienced agencies can leverage our methods to propel themselves to new levels of success. Discover how <?= $brand_name ?? '' ?> can elevate your agency today.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <a href="javascript:(void)" class="themes-btn">Ready to launch a agency with EcomGeekz?</a>
+                <a href="javascript:(void)" class="themes-btn">Ready to launch a agency with <?= $brand_name ?? '' ?></a>
             </div>
         </div>
     </div>
@@ -457,7 +457,7 @@
                 <!--        <div class="col-lg-12">-->
                 <!--            <div class="d-flex">-->
                 <!--                <input type="checkbox" name="agree" required>-->
-                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from EcomGeekz.</p>-->
+                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from  <?= $brand_name ?? '' ?>.</p>-->
                 <!--            </div>-->
                 <!--        </div>-->
                 <!--        <div class="col-lg-12">-->

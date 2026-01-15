@@ -134,7 +134,7 @@
                         <input class="styled" data-val="true" data-val-required="Требуется поле Remember me?." id="RememberMe" name="RememberMe" type="checkbox" value="true">
                         <label for="RememberMe">
                             
-By opting into SMS, you are agreeing to receive SMS messages from EcomGeekz. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy. Message HELP for help. Reply STOP to any message to opt out.
+By opting into SMS, you are agreeing to receive SMS messages from  <?= $brand_name ?? '' ?>. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy. Message HELP for help. Reply STOP to any message to opt out.
                         </label>
                     </div>
                                             
@@ -263,11 +263,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </head>
                 <body>
                 <p>Hello  <strong>$name</strong>,</p>
-                <p>Thank you for signing up with EcomGeekz—your trusted partner in e-commerce fulfillment and automation.</p>
+                <p>Thank you for signing up with <?= $brand_name ?? '' ?>—your trusted partner in e-commerce fulfillment and automation.</p>
                 <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
                 </p>
                 <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
-                <p>We look forward to helping you grow your business with EcomGeekz.</p>
+                <p>We look forward to helping you grow your business with  <?= $brand_name ?? '' ?>.</p>
                 <p>Best regards,</p>
                 </body>
                 </html>
@@ -608,7 +608,7 @@ $adminMessage  = '
             
                                         <tr>
                                             <td align="center" style="">
-                                          <p>EcomGeekz</p>
+                                          <p><?= $brand_name ?? '' ?></p>
                                             </td>
                                         </tr>
       
@@ -670,7 +670,7 @@ $adminMessage  = '
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Copyright © 2024 EcomGeekz. All Rights Reserved. 
+                    Copyright © 2024  <?= $brand_name ?? '' ?>. All Rights Reserved. 
                   </td>
                 </tr>
               </table>
@@ -726,11 +726,11 @@ header("Location: thank-you.php");
                 </head>
                 <body>
                 <p>Hello  <strong>$emailx</strong>,</p>
-                <p>Thank you for signing up with EcomGeekz—your trusted partner in e-commerce fulfillment and automation.</p>
+                <p>Thank you for signing up with <?= $brand_name ?? '' ?>—your trusted partner in e-commerce fulfillment and automation.</p>
                 <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
                 </p>
                 <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
-                <p>We look forward to helping you grow your business with EcomGeekz.</p>
+                <p>We look forward to helping you grow your business with  <?= $brand_name ?? '' ?>.</p>
                 <p>Best regards,</p>
                 </body>
                 </html>
@@ -800,11 +800,11 @@ header("Location: thank-you.php");
                   </head>
                   <body>
                   <p>Hello  <strong>$name</strong>,</p>
-                  <p>Thank you for signing up with EcomGeekz—your trusted partner in e-commerce fulfillment and automation.</p>
+                  <p>Thank you for signing up with <?= $brand_name ?? '' ?>—your trusted partner in e-commerce fulfillment and automation.</p>
                   <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
                   </p>
                   <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
-                  <p>We look forward to helping you grow your business with EcomGeekz.</p>
+                  <p>We look forward to helping you grow your business with  <?= $brand_name ?? '' ?>.</p>
                   <p>Best regards,</p>
                   </body>
                   </html>
@@ -1145,7 +1145,7 @@ header("Location: thank-you.php");
               
                                           <tr>
                                               <td align="center" style="">
-                                            <p>EcomGeekz</p>
+                                            <p><?= $brand_name ?? '' ?></p>
                                               </td>
                                           </tr>
         
@@ -1207,7 +1207,7 @@ header("Location: thank-you.php");
                   </tr>
                   <tr>
                     <td class="content-block powered-by">
-                      Copyright © 2024 EcomGeekz. All Rights Reserved. 
+                      Copyright © 2024  <?= $brand_name ?? '' ?>. All Rights Reserved. 
                     </td>
                   </tr>
                 </table>
@@ -1338,10 +1338,9 @@ header("Location: thank-you.php");
                     <div class="list-itemwrp">
                         <ul>
                             <h4>Find Us</h4>
-                            <li><a href="javascript:;">10685B Hazelhurst Dr #39849<br> Houston, TX 77043
-</a></li>
-                            <li><a class="footer-number" href="tel:+1 (855) 783-2616">+1 (855) 783-2616</a></li>
-                            <li class="footer-email"><a href="mailto:hello@ecomgeekz.comm">hello@ecomgeekz.comm <img src="assets/images/arrow-top-white.svg"></a></li>
+                            <li><a href="javascript:;"><?= $brand_address ?? '' ?></a></li>
+                            <li><a class="footer-number" href="tel:<?= $brand_phone ?? ' ' ?>"><?= $brand_phone ?? ' ' ?></a></li>
+                            <li class="footer-email"><a href="mailto:<?= $brand_email ?? ' ' ?>"><?= $brand_email ?? ' ' ?> <img src="assets/images/arrow-top-white.svg"></a></li>
                         </ul>
                         <div class="social-wrap">
                                 <ul class="socail-icon">
@@ -1351,7 +1350,7 @@ header("Location: thank-you.php");
                               <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/twitter.svg"></a></li>-->
                               <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/pinterest.svg"></a></li>-->
                               <li><a href="<?= $instagram ?? '' ?>" target="_blank"><img src="assets/images/EcomGeekz-Badges-10.svg"></a></li>
-                              <!-- <li><a href="https://www.instagram.com/ecomgeekz.com/" target="_blank"><img src="assets/images/EcomGeekz-Badges-09.svg"></a></li> -->
+                              <!-- <li><a href="<?= $instagram ?? ' ' ?>" target="_blank"><img src="assets/images/EcomGeekz-Badges-09.svg"></a></li> -->
                            </ul>
                         </div>
                     </div>
@@ -1362,7 +1361,7 @@ header("Location: thank-you.php");
             <div class="col-md-8">
                 <div class="txtwrp">
                     <h2 class="main-heading">Business strategists with you,<br> every step of the way</h2>
-                    <p>Get help from EcomGeekz and discover how we can assist you on your entrepreneurial journey.</p>
+                    <p>Get help from <?= $brand_name ?? '' ?> and discover how we can assist you on your entrepreneurial journey.</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -1376,7 +1375,7 @@ header("Location: thank-you.php");
                    </div>
                    <div class="d-flex">
                       <input type="checkbox" name="check" required>
-                      <p>I agree to receive marketing communication from EcomGeekz.</p>
+                      <p>I agree to receive marketing communication from  <?= $brand_name ?? '' ?>.</p>
                       <!-- <i class="fas fa-question-circle"><div class="boxdiv">
                          <p>Quarterly packages require an upfront payment for 3 months of service</p>
                       </div></i> -->
@@ -1393,16 +1392,16 @@ header("Location: thank-you.php");
                     <div class="accordion-item">
                     <h2 class="accordion-header" id="headingzero">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
-                       <u style="color:#a801bd;    font-size: 14px;    font-weight: 600;">CLIENT'S PRIVACY NOTICE:</u> At EcomGeekz, we prioritize the confidentiality and privacy of our valued clients. As per our contractual agreements, we uphold a strict non-disclosure policy, which prevents us from openly promoting or advertising the business details, revenue, or statistics of our clientele on this site <span>Read More...</span><i class="fas fa-chevron-down"></i>
+                       <u style="color:#a801bd;    font-size: 14px;    font-weight: 600;">CLIENT'S PRIVACY NOTICE:</u> At  <?= $brand_name ?? '' ?>, we prioritize the confidentiality and privacy of our valued clients. As per our contractual agreements, we uphold a strict non-disclosure policy, which prevents us from openly promoting or advertising the business details, revenue, or statistics of our clientele on this site <span>Read More...</span><i class="fas fa-chevron-down"></i>
                       </button>
                     </h2>
                     <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingzero" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <p>We want to emphasize that our clients' businesses and revenue are exclusively owned and operated by them. We do not enter into partnerships or arrangements that involve sharing their sensitive information or statistics without their explicit consent.</p>
-                <p>To ensure the protection of our clients' interests, we have implemented stringent legal safeguards, including the signing of non-disclosure agreements (NDAs). These NDAs serve as legal documents that outline the terms and conditions of our working relationship, emphasizing the confidentiality of all information provided to EcomGeekz, Inc.</p>
-                <p>We take your privacy seriously. Rest assured that any information you share with EcomGeekz, Inc. is held in the strictest confidence. We are committed to safeguarding your data and ensuring that it remains protected from unauthorized access or disclosure.</p>
-                <p>It's important to note that EcomGeekz, Inc. does not function as an "attorney referral service" or a law firm. We do not provide legal advice or legal representation. If you have specific legal concerns or questions related to the use of your information, we recommend consulting with an attorney in your area who specializes in privacy and confidentiality matters.</p>
-                <p>Your trust in EcomGeekz is greatly appreciated, and we are dedicated to upholding the highest standards of data security and client confidentiality. Thank you for choosing EcomGeekz as your partner in business success.</p> 
+                <p>To ensure the protection of our clients' interests, we have implemented stringent legal safeguards, including the signing of non-disclosure agreements (NDAs). These NDAs serve as legal documents that outline the terms and conditions of our working relationship, emphasizing the confidentiality of all information provided to  <?= $brand_name ?? '' ?>, Inc.</p>
+                <p>We take your privacy seriously. Rest assured that any information you share with  <?= $brand_name ?? '' ?>, Inc. is held in the strictest confidence. We are committed to safeguarding your data and ensuring that it remains protected from unauthorized access or disclosure.</p>
+                <p>It's important to note that  <?= $brand_name ?? '' ?>, Inc. does not function as an "attorney referral service" or a law firm. We do not provide legal advice or legal representation. If you have specific legal concerns or questions related to the use of your information, we recommend consulting with an attorney in your area who specializes in privacy and confidentiality matters.</p>
+                <p>Your trust in <?= $brand_name ?? '' ?> is greatly appreciated, and we are dedicated to upholding the highest standards of data security and client confidentiality. Thank you for choosing <?= $brand_name ?? '' ?> as your partner in business success.</p> 
                       </div> 
                     </div>
                     </div>
@@ -1417,19 +1416,19 @@ header("Location: thank-you.php");
             <div class="col-md-7 my-auto">
                 <div class="Copyrighttxt">
                     <a href="#" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="assets/images/dmca.png"  alt="DMCA.com Protection Status" /></a> 
-                    <p>©<?=date("Y")?> LetsEcom LLC, DBA EcomGeekz. All rights reserved.</p>
+                    <p>©<?=date("Y")?> LetsEcom LLC, DBA  <?= $brand_name ?? '' ?>. All rights reserved.</p>
                 </div>
                 <div class="Copyrighttxt desclaimer">
-                    <p>EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
+                    <p><?= $brand_name ?? '' ?> is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
                 </div>
                 <div class="privacy-choices">
-                    <a href="javcript:(void)" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Your privacy choices <img src ="assets/images/0410-hd-privacy-choices-icon.png"  alt="EcomGeekz privacy choices" /></a>
+                    <a href="javcript:(void)" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Your privacy choices <img src ="assets/images/0410-hd-privacy-choices-icon.png"  alt="<?= $brand_name ?? '' ?> privacy choices" /></a>
                 </div>
             </div>
             <div class="col-md-5 my-auto">
                 <div class="footer-bedge-main">
                 <div class="bedge-first">
-                    <a class="bedge-one" href="https://www.bbb.org/us/il/o-fallon/profile/business-development/EcomGeekz-0734-1000045048/#sealclick" target="_blank" rel="nofollow"><img src="assets/images/BBB-inner.png" style="border: 0;width: 70px;" alt="EcomGeekz BBB Business Review" /></a>
+                    <a class="bedge-one" href="https://www.bbb.org/us/il/o-fallon/profile/business-development/EcomGeekz-0734-1000045048/#sealclick" target="_blank" rel="nofollow"><img src="assets/images/BBB-inner.png" style="border: 0;width: 70px;" alt="<?= $brand_name ?? '' ?> BBB Business Review" /></a>
                     <!-- TrustBox widget - Micro Star -->
                     <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b732fbfb950b10de65e5" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="24px" data-style-width="100%" data-theme="light">
                       <a href="#" target="_blank" rel="noopener">Trustpilot</a>
@@ -1437,18 +1436,18 @@ header("Location: thank-you.php");
                     <!-- End TrustBox widget -->
                 </div>
                 <!--<div class="bedge-first">-->
-                <!--    <a href="https://www.bbb.org/us/il/o-fallon/profile/business-development/EcomGeekz-0734-1000045048/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-stlouis.bbb.org/seals/darkgray-seal-120-61-bbb-1000045048.png" style="border: 0;" alt="EcomGeekz BBB Business Review" /></a>-->
+                <!--    <a href="https://www.bbb.org/us/il/o-fallon/profile/business-development/EcomGeekz-0734-1000045048/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-stlouis.bbb.org/seals/darkgray-seal-120-61-bbb-1000045048.png" style="border: 0;" alt="<?= $brand_name ?? '' ?> BBB Business Review" /></a>-->
                 <!--</div>-->
                 </div>
                 <!--<div class="social-wrap">-->
                 <!--    <ul class="socail-icon">-->
                 <!--      <li><a href="javascript:;" target="_blank"><img src="assets/images/dribbble.svg"></a></li>-->
-                <!--      <li><a href="https://www.facebook.com/ecomgeekz.com" target="_blank"><img src="assets/images/EcomGeekz-Badges-08.svg"></a></li>-->
-                <!--      <li><a href="https://www.linkedin.com/company/EcomGeekz/" target="_blank"><img src="assets/images/EcomGeekz-Badges.svg"></a></li>-->
+                <!--      <li><a href="<?= $facebook ?? '' ?>" target="_blank"><img src="assets/images/EcomGeekz-Badges-08.svg"></a></li>-->
+                <!--      <li><a href="<?= $linkedin ?? ' ' ?>" target="_blank"><img src="assets/images/EcomGeekz-Badges.svg"></a></li>-->
                 <!--      <li><a href="javascript:;" target="_blank"><img src="assets/images/twitter.svg"></a></li>-->
                 <!--      <li><a href="javascript:;" target="_blank"><img src="assets/images/pinterest.svg"></a></li>-->
-                <!--      <li><a href="https://www.instagram.com/ecomgeekz.com/" target="_blank"><img src="assets/images/EcomGeekz-Badges-10.svg"></a></li>-->
-                <!--       <li><a href="https://www.instagram.com/ecomgeekz.com/" target="_blank"><img src="assets/images/EcomGeekz-Badges-09.svg"></a></li> -->
+                <!--      <li><a href="<?= $instagram ?? ' ' ?>" target="_blank"><img src="assets/images/EcomGeekz-Badges-10.svg"></a></li>-->
+                <!--       <li><a href="<?= $instagram ?? ' ' ?>" target="_blank"><img src="assets/images/EcomGeekz-Badges-09.svg"></a></li> -->
                 <!--    </ul>-->
                 <!--</div>-->
             </div>
@@ -1467,11 +1466,11 @@ header("Location: thank-you.php");
       <div class="modal-body contact">
         <div class="main-text-area">
             <h1>Your Privacy Choices</h1>
-            <p>EcomGeekz does not sell your personal information to third parties. However, EcomGeekz may share some information with our advertising partners to help show ads that are more relevant to your interests.</p>
+            <p><?= $brand_name ?? '' ?> does not sell your personal information to third parties. However, <?= $brand_name ?? '' ?> may share some information with our advertising partners to help show ads that are more relevant to your interests.</p>
             <p>If you would like to opt out of having your information shared for targeted advertising purposes, please provide us with some basic information through our opt-out form so we can update your preference in our records.</p>
             <p>On our website, cookies are also used for targeted advertising purposes. If you would like to opt out of sharing your information through cookies for purposes of showing you more relevant ads, you can disable these cookies below.</p>
             <p>If you wish to opt out of all sharing of your information for targeted advertising, you will need to both adjust your cookie preferences below and fill out the opt-out form.</p>
-            <p>Additional information about how EcomGeekz uses your information can be found in our Privacy Policy..</p>
+            <p>Additional information about how <?= $brand_name ?? '' ?> uses your information can be found in our Privacy Policy..</p>
             <h4>Manage Ad Targeting Cookie Preferences</h4>
             <div class="pricavy-toogle">
                 <h6>Targeting and Engagement Cookies</h6>

@@ -20,14 +20,14 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index">Home</a></li>
+                    <li><a href="<?= $base_url ?? '' ?>">Home</a></li>
                     <li><a href="service">Business Services</a></li>
-                    <li><a href="personal-branding.php" class="active">Personal Branding</a></li> 
+                    <li><a href="personal-branding" class="active">Personal Branding</a></li> 
                 </ul>
                 <h1>Are you ready to build your personal brand? Because your reputation is everything.</h1>
                 <p>Every company has a social media account. But how many of those accounts actually feel human?</p>
-                <h6><b>EcomGeekz is bringing back human-centred marketing to deliver the outcomes you need to grow your business and scale your reputation.</b></h6>
-                <a href="at-appointment.php" class="themes-btn">Ready to build your personal brand?</a>
+                <h6><b><?= $brand_name ?? '' ?> is bringing back human-centred marketing to deliver the outcomes you need to grow your business and scale your reputation.</b></h6>
+                <a href="at-appointment" class="themes-btn">Ready to build your personal brand?</a>
                 <!--<img src="assets/images/Trustpilot-Stars.svg" alt="img"  class="mt-3" />-->
                 <div class="txt-left">
                     <!-- TrustBox widget - Micro TrustScore -->
@@ -48,7 +48,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
-                <h2>43% of your company’s market value, is dependent on your CEO’s reputation. EcomGeekz, put people at the centre of everything we do!</h2>
+                <h2>43% of your company’s market value, is dependent on your CEO’s reputation.  <?= $brand_name ?? '' ?>, put people at the centre of everything we do!</h2>
                 <p>People buy from people. That is why personal brands get 561% more reach and 8x more engagement than company brands online. Personal branding is not a dirty word. Building something that wins great clients, attracts employees and accelerates your business’ growth is awesome.</p>
             </div>
             <div class="col-lg-3">
@@ -109,7 +109,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center mb-5">
-                <h2>See what people say about EcomGeekz</h2>
+                <h2>See what people say about <?= $brand_name ?? '' ?></h2>
             </div>
         </div>
     </div>
@@ -123,7 +123,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>The Amazon FBA Automation service from EcomGeekz is a game-changer. They took care of al the details, allowing me to focus on growing my business. Their expertise and efficiency are unmatched.</p>
+                    <p>The Amazon FBA Automation service from <?= $brand_name ?? '' ?> is a game-changer. They took care of al the details, allowing me to focus on growing my business. Their expertise and efficiency are unmatched.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -149,7 +149,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz has transformed my Amazon business. Their Amazon FBA Automation service is exceptional. They handled everything from product sourcing to fulfillment with utmost professionalism. Highly recommend!</p>
+                    <p><?= $brand_name ?? '' ?> has transformed my Amazon business. Their Amazon FBA Automation service is exceptional. They handled everything from product sourcing to fulfillment with utmost professionalism. Highly recommend!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -174,7 +174,7 @@
                     <img class="bedge" src="assets/images/crown.png">
                 </div>
                 <div class="content-box">
-                    <p>The Dropshipping Shopify Automation service from EcomGeekz is a game-changer. They streamlined my store operations and enhanced efficiency. My business has seen significant growth thanks to their support.</p>
+                    <p>The Dropshipping Shopify Automation service from <?= $brand_name ?? '' ?> is a game-changer. They streamlined my store operations and enhanced efficiency. My business has seen significant growth thanks to their support.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -199,7 +199,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz' Dropshipping Shopify Automation service is phenomenal. They automated my Shopify store seamlessly. from product sourcing to order fulfillment. My sales have skyrocketed thanks to their expertise!</p>
+                    <p><?= $brand_name ?? '' ?>' Dropshipping Shopify Automation service is phenomenal. They automated my Shopify store seamlessly. from product sourcing to order fulfillment. My sales have skyrocketed thanks to their expertise!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -224,7 +224,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>I couldn't be happier with the service provided by EcomGeekz. They handled every detail of forming my business, Leaving me free to focus on my passion. Their professionalism and efficiency are unmatched.</p>
+                    <p>I couldn't be happier with the service provided by  <?= $brand_name ?? '' ?>. They handled every detail of forming my business, Leaving me free to focus on my passion. Their professionalism and efficiency are unmatched.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -249,7 +249,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>Launching Kickstarter campaign with EcomGeekz was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured and successful and well-executed campaign. The team's commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>
+                    <p>Launching Kickstarter campaign with <?= $brand_name ?? '' ?> was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured and successful and well-executed campaign. The team's commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -274,7 +274,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz has been a game-changer for my drop shipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in drop shipping and automation saved me countless hours and significantly boosted my revenue. I couldn't be happier with the results and highly recommend EcomGeekz for drop shopping entrepreneurs.</p>
+                    <p><?= $brand_name ?? '' ?> has been a game-changer for my drop shipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in drop shipping and automation saved me countless hours and significantly boosted my revenue. I couldn't be happier with the results and highly recommend <?= $brand_name ?? '' ?> for drop shopping entrepreneurs.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -299,7 +299,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team's professionalism and attention to detailed were impressive, and I'm thrilled with the revenue my app is generating. I highly recommend EcomGeekz fpr mobile app development.</p>
+                    <p><?= $brand_name ?? '' ?> made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team's professionalism and attention to detailed were impressive, and I'm thrilled with the revenue my app is generating. I highly recommend <?= $brand_name ?? '' ?> fpr mobile app development.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -324,7 +324,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz helped me elevate my personal brand to new heights. Thier tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience. The professionalism and commitment of the EcomGeekz team exceeded my expectations, making them the perfect choice for anyone looking to enhance their personal brand.</p>
+                    <p><?= $brand_name ?? '' ?> helped me elevate my personal brand to new heights. Thier tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience. The professionalism and commitment of the <?= $brand_name ?? '' ?> team exceeded my expectations, making them the perfect choice for anyone looking to enhance their personal brand.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -354,7 +354,7 @@
                     <img class="bedge" src="assets/images/crown.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz transformed my Shopify store with their Dropshipping Automation service. They handled everything from inventory management to customer support efficiently. Their service is top-notch!</p>
+                    <p><?= $brand_name ?? '' ?> transformed my Shopify store with their Dropshipping Automation service. They handled everything from inventory management to customer support efficiently. Their service is top-notch!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -379,7 +379,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>I am incredibly impressed with EcomGeekz' Drop shipping Shopify Automation service. They optimized my store and automated processes, allowing me to focus on scaling my business. Highly recommend!</p>
+                    <p>I am incredibly impressed with <?= $brand_name ?? '' ?>' Drop shipping Shopify Automation service. They optimized my store and automated processes, allowing me to focus on scaling my business. Highly recommend!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -404,7 +404,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>From start to finish, EcomGeekz provided exceptional service. They took care of all the legalities and paperwork, allowing me to concentrate on building my business. I highly recommend their business formation services.</p>
+                    <p>From start to finish, <?= $brand_name ?? '' ?> provided exceptional service. They took care of all the legalities and paperwork, allowing me to concentrate on building my business. I highly recommend their business formation services.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -429,7 +429,7 @@
                     <img class="bedge" src="assets/images/tw-verified.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz made the business formation process incredibly smooth and straightforward. Their expertise and support were invaluable. I highly recommend them to anyone looking looking to start a new business!</p>
+                    <p><?= $brand_name ?? '' ?> made the business formation process incredibly smooth and straightforward. Their expertise and support were invaluable. I highly recommend them to anyone looking looking to start a new business!</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -454,7 +454,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>I am thrilled with the results from EcomGeekz's Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up managing my Amazon store incredibly straightforward. The comprehensive support and expert advice were invaluable. leading to a successful and profitable venture. I highly recommend EcomGeekz for anyone looking to thrive on Amazon FBA.</p>
+                    <p>I am thrilled with the results from <?= $brand_name ?? '' ?>'s Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up managing my Amazon store incredibly straightforward. The comprehensive support and expert advice were invaluable. leading to a successful and profitable venture. I highly recommend <?= $brand_name ?? '' ?> for anyone looking to thrive on Amazon FBA.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -479,7 +479,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>Thanks to EcomGeekz, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>
+                    <p>Thanks to  <?= $brand_name ?? '' ?>, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -504,7 +504,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business's success. The team's commitment to my growth and their exceptional service make EcomGeekz the ideal partner for any entrepreneur.</p>
+                    <p><?= $brand_name ?? '' ?> provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business's success. The team's commitment to my growth and their exceptional service make <?= $brand_name ?? '' ?> the ideal partner for any entrepreneur.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -529,7 +529,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team's professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>
+                    <p><?= $brand_name ?? '' ?> made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team's professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -554,7 +554,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>EcomGeekz helped me diversify my income through multiple revenue streams. Their innovate strategies and practical advice were key to my financial growth. The team's dedication to my success was evident throughout our collaboration. I highly recommend EcomGeekz for anyone looking to create sustain revenue streams.</p>
+                    <p><?= $brand_name ?? '' ?> helped me diversify my income through multiple revenue streams. Their innovate strategies and practical advice were key to my financial growth. The team's dedication to my success was evident throughout our collaboration. I highly recommend <?= $brand_name ?? '' ?> for anyone looking to create sustain revenue streams.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -579,7 +579,7 @@
                     <img class="bedge" src="assets/images/tw-verified--gold.png">
                 </div>
                 <div class="content-box">
-                    <p>Working with EcomGeekz on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>
+                    <p>Working with <?= $brand_name ?? '' ?> on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>
                 </div>
                 <div class="testi-star">
                     <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -607,7 +607,7 @@
 <!--    <div class="container">-->
 <!--        <div class="row">-->
 <!--            <div class="col-md-12 text-center mb-5">-->
-<!--                <h2>See what people say about EcomGeekz</h2>-->
+<!--                <h2>See what people say about <?= $brand_name ?? '' ?></h2>-->
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
@@ -621,7 +621,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>I am thrilled with the results from EcomGeekz's Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up and managing my Amazon store incredibly straightforward.I highly recommend EcomGeekz for anyone looking to thrive on Amazon FBA.</p>-->
+<!--                    <p>I am thrilled with the results from <?= $brand_name ?? '' ?>'s Amazon FBA Automation service. Their team guided me through every step, making the complex process of setting up and managing my Amazon store incredibly straightforward.I highly recommend <?= $brand_name ?? '' ?> for anyone looking to thrive on Amazon FBA.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -639,7 +639,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz has been a game-changer for my dropshipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in dropshipping and automation saved me countless hours and significantly boosted my revenue.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> has been a game-changer for my dropshipping business. Their Shopify Automation service streamlined my operations, allowing me to focus on scaling and marketing. The team's expertise in dropshipping and automation saved me countless hours and significantly boosted my revenue.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -657,7 +657,7 @@
                     <!--<img class="bedge" src="assets/images/crown.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>Thanks to EcomGeekz, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>-->
+<!--                    <p>Thanks to  <?= $brand_name ?? '' ?>, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -675,7 +675,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz helped me elevate my personal brand to new heights. Their tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> helped me elevate my personal brand to new heights. Their tailored approach and in-depth understanding of personal branding allowed me to effectively communicate my expertise and attract a wider audience.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -693,7 +693,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>Working with EcomGeekz on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>-->
+<!--                    <p>Working with <?= $brand_name ?? '' ?> on my YouTube Automation has been a fantastic experience. They handled everything from channel setup to content creation and monetization strategies, allowing me to focus on my core strengths. The growth and engagement on my channel have been remarkable, and I am grateful for their exceptional service and support.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -713,7 +713,7 @@
 <!--                    <img class="bedge" src="assets/images/crown.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team’s professionalism and attention to detail were impressive, and I’m thrilled with the revenue my app is generating. I highly recommend EcomGeekz for mobile app development.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> made launching my mobile application a breeze. Their expertise in app development and monetization strategies ensured a smooth process and a successful launch. The team’s professionalism and attention to detail were impressive, and I’m thrilled with the revenue my app is generating. I highly recommend <?= $brand_name ?? '' ?> for mobile app development.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -731,7 +731,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz was instrumental in helping me start my marketing agency. Their comprehensive approach covered everything from business formation to client acquisition strategies. The team's knowledge and support gave me the confidence to launch and grow my agency successfully. I couldn't have done it without EcomGeekz's expert guidance.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> was instrumental in helping me start my marketing agency. Their comprehensive approach covered everything from business formation to client acquisition strategies. The team's knowledge and support gave me the confidence to launch and grow my agency successfully. I couldn't have done it without <?= $brand_name ?? '' ?>'s expert guidance.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -749,7 +749,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz helped me diversify my income through multiple revenue streams. Their innovative strategies and practical advice were key to my financial growth. The team’s dedication to my success was evident throughout our collaboration. I highly recommend EcomGeekz for anyone looking to create sustainable revenue streams.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> helped me diversify my income through multiple revenue streams. Their innovative strategies and practical advice were key to my financial growth. The team’s dedication to my success was evident throughout our collaboration. I highly recommend <?= $brand_name ?? '' ?> for anyone looking to create sustainable revenue streams.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -767,7 +767,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>Launching a Kickstarter campaign with EcomGeekz was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured a successful and well-executed campaign. The team’s commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>-->
+<!--                    <p>Launching a Kickstarter campaign with <?= $brand_name ?? '' ?> was a phenomenal experience. Their expertise in crowdfunding and campaign management ensured a successful and well-executed campaign. The team’s commitment and strategic approach were critical to achieving our funding goals. I am extremely satisfied with their service and support.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -785,7 +785,7 @@
 <!--                    <img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team’s professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> made the process of business formation seamless and stress-free. Their detailed guidance and support helped me navigate the complexities of starting a new business. The team’s professionalism and expertise were invaluable, making them the perfect partner for anyone looking to start a business.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -803,7 +803,7 @@
                     <!--<img class="bedge" src="assets/images/tw-verified--gold.png">-->
 <!--                </div>-->
 <!--                <div class="content-box">-->
-<!--                    <p>EcomGeekz provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business’s success. The team’s commitment to my growth and their exceptional service make EcomGeekz the ideal partner for any entrepreneur.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> provided me with an ultimate business model that transformed my approach to entrepreneurship. Their holistic strategy and innovative solutions were key to my business’s success. The team’s commitment to my growth and their exceptional service make <?= $brand_name ?? '' ?> the ideal partner for any entrepreneur.</p>-->
 <!--                </div>-->
 <!--                <div class="testi-star">-->
 <!--                    <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">-->
@@ -824,7 +824,7 @@
     <div class="container">
         <div class="row testament">
            <div class="col-lg-6">
-               <h2>EcomGeekz transforms executives and founders into thought leaders</h2>
+               <h2><?= $brand_name ?? '' ?> transforms executives and founders into thought leaders</h2>
                <h3><img src="assets/images/Define-your-vision.svg" alt="img" class="img-size">Define your vision</h3>
                <p>We help executives and founders articulate their unique vision, turning their insights into impactful narratives that resonate with their audience and industry.</p>
                
@@ -843,7 +843,7 @@
                 <img src="assets/images/personal-First-Fold.jpg" alt="img" />
                 <div class="upper first image-lable">
                     <div class="txtwrp">
-                      <p>EcomGeekz creates thought leaders!</p>
+                      <p><?= $brand_name ?? '' ?> creates thought leaders!</p>
                     </div>
                   </div>
                </div>
@@ -946,8 +946,8 @@
                 </div>
             </div>
             <div class="col-lg-6 offset-lg-1">
-                <h2>EcomGeekz building trust through personal branding strategies</h2>
-                <p>At EcomGeekz, we transform your personality into your business's competitive advantage by winning trust and building relationships at scale. </p>
+                <h2><?= $brand_name ?? '' ?> building trust through personal branding strategies</h2>
+                <p>At  <?= $brand_name ?? '' ?>, we transform your personality into your business's competitive advantage by winning trust and building relationships at scale. </p>
                 
                 <p>Personal branding isn't just about visibility; it's about creating genuine connections that lead to meaningful business growth.</p>
                 
@@ -971,7 +971,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Benefits of working with EcomGeekz for personal branding strategies</h2>
+                <h2>Benefits of working with <?= $brand_name ?? '' ?> for personal branding strategies</h2>
             </div>
         </div>
         <div class="row">
@@ -979,21 +979,21 @@
                 <div class="important-box">
                     <img src="assets/images/EcomGeekz-Badges-Optimize%20Your-Inventory.svg" alt="img" />
                     <h3>Enhanced trust and credibility</h3>
-                    <p>Working with EcomGeekz boosts your trust and credibility in the market. Our personalized branding strategies help you build authentic relationships, establishing you as a thought leader. This increased trust leads to stronger connections and better business opportunities.</p>
+                    <p>Working with <?= $brand_name ?? '' ?> boosts your trust and credibility in the market. Our personalized branding strategies help you build authentic relationships, establishing you as a thought leader. This increased trust leads to stronger connections and better business opportunities.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="important-box">
                     <img src="assets/images/EcomGeekz-Badges-Superior%20Store-Management.svg" alt="img" />
                     <h3>Increased engagement and reach</h3>
-                    <p>EcomGeekz's personal branding strategies significantly enhance your online engagement and reach. By crafting compelling content that resonates with your target audience, we ensure your message reaches more people. This increased visibility translates into greater influence and business growth.</p>
+                    <p><?= $brand_name ?? '' ?>'s personal branding strategies significantly enhance your online engagement and reach. By crafting compelling content that resonates with your target audience, we ensure your message reaches more people. This increased visibility translates into greater influence and business growth.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="important-box">
                     <img src="assets/images/EcomGeekz-Badges-Maximum-Efficiency.svg" alt="img" />
                     <h3>Customized and strategic approach</h3>
-                    <p>EcomGeekz offers a customized and strategic approach to personal branding. We tailor our strategies to align with your unique goals and values, ensuring that your personal brand stands out. This bespoke approach maximizes the effectiveness of your branding efforts and drives meaningful results.</p>
+                    <p><?= $brand_name ?? '' ?> offers a customized and strategic approach to personal branding. We tailor our strategies to align with your unique goals and values, ensuring that your personal brand stands out. This bespoke approach maximizes the effectiveness of your branding efforts and drives meaningful results.</p>
                 </div>
             </div>
         </div>
@@ -1044,7 +1044,7 @@
                 <!--        <div class="col-lg-12">-->
                 <!--            <div class="d-flex">-->
                 <!--                <input type="checkbox" name="agree" required>-->
-                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from EcomGeekz.</p>-->
+                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from  <?= $brand_name ?? '' ?>.</p>-->
                 <!--            </div>-->
                 <!--        </div>-->
                 <!--        <div class="col-lg-12">-->
@@ -1133,7 +1133,7 @@
                 <div class="reserve-box">
                     <img src="assets/images/Online-reputation-management.svg" alt="img" />
                     <h3>Online reputation management</h3>
-                    <p>Maintaining a positive online reputation is crucial for personal branding. EcomGeekz offers proactive reputation management services to monitor and safeguard your digital presence. We employ strategic measures to mitigate risks and enhance your credibility across digital platforms.</p>
+                    <p>Maintaining a positive online reputation is crucial for personal branding. <?= $brand_name ?? '' ?> offers proactive reputation management services to monitor and safeguard your digital presence. We employ strategic measures to mitigate risks and enhance your credibility across digital platforms.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -1147,7 +1147,7 @@
                 <div class="reserve-box">
                     <img src="assets/images/Thought-leadership-positioning.svg" alt="img" />
                     <h3>Thought leadership positioning</h3>
-                    <p>EcomGeekz positions you as a thought leader in your industry through targeted thought leadership campaigns. We assist in publishing articles, participating in industry forums, and speaking engagements to establish your authority. This strategic positioning enhances your reputation and opens doors to new opportunities.</p>
+                    <p><?= $brand_name ?? '' ?> positions you as a thought leader in your industry through targeted thought leadership campaigns. We assist in publishing articles, participating in industry forums, and speaking engagements to establish your authority. This strategic positioning enhances your reputation and opens doors to new opportunities.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -1200,12 +1200,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        How does EcomGeekz approach personal branding strategies?
+        How does <?= $brand_name ?? '' ?> approach personal branding strategies?
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <p>At EcomGeekz, we take a strategic approach to personal branding. We begin with a thorough assessment of your current brand presence and goals. Then, we develop customized strategies focused on content creation, social media optimization, thought leadership positioning, and online reputation management.</p>
+         <p>At  <?= $brand_name ?? '' ?>, we take a strategic approach to personal branding. We begin with a thorough assessment of your current brand presence and goals. Then, we develop customized strategies focused on content creation, social media optimization, thought leadership positioning, and online reputation management.</p>
       </div>
     </div>
   </div>

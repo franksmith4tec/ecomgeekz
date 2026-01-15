@@ -19,13 +19,13 @@
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-page">
-                    <li><a href="index">Home</a></li>
+                    <li><a href="<?= $base_url ?? '' ?>">Home</a></li>
                     <li><a href="ultimate-business-model-2.php" class="active">Ultimate Business Model</a></li>
                 </ul>
                 <h1>Fuel your business growth and navigate economic challenges</h1>
-                <p>In the face of global economic uncertainties, digital services provide a strategic advantage. Partner with EcomGeekz to navigate obstacles and drive your business towards success in a digital-first landscape.</p>
+                <p>In the face of global economic uncertainties, digital services provide a strategic advantage. Partner with <?= $brand_name ?? '' ?> to navigate obstacles and drive your business towards success in a digital-first landscape.</p>
                 <h6>Achieve min $100,000 ARR</h6>
-                <a href="at-appointment.php" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
+                <a href="at-appointment" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
                 <!--<img src="assets/images/Trustpilot-Stars.svg" alt="img"  class="mt-3" />-->
                 <div class="txt-left">
                     <!-- TrustBox widget - Micro TrustScore -->
@@ -48,14 +48,14 @@
             <div class="col-lg-8 text-center offset-lg-2">
                 <div class="txt-center">
                     <h2>Expand your reach and profitability globally</h2>
-                    <p>At EcomGeekz, we specialize in leveraging global resources to help you establish a profitable business model. By setting up operations in low-cost labor countries and offering high-value digital services globally, we ensure long-term profitability and market expansion.</p>
+                    <p>At  <?= $brand_name ?? '' ?>, we specialize in leveraging global resources to help you establish a profitable business model. By setting up operations in low-cost labor countries and offering high-value digital services globally, we ensure long-term profitability and market expansion.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="register-box">
                     <img src="assets/images/EcomGeekz-Badges-Strategic%20business-setup.svg" alt="img" />
                     <h3>Strategic business setup</h3>
-                    <p>At EcomGeekz, we specialize in guiding entrepreneurs and investors to set up new ventures strategically. Our focus is on creating diverse revenue streams through efficient global operations.</p>
+                    <p>At  <?= $brand_name ?? '' ?>, we specialize in guiding entrepreneurs and investors to set up new ventures strategically. Our focus is on creating diverse revenue streams through efficient global operations.</p>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                 <div class="register-box">
                     <img src="assets/images/EcomGeekz-Badges-Tailored%20growth-plans.svg" alt="img" />
                     <h3>Tailored growth plans</h3>
-                    <p>We customize growth plans at EcomGeekz to maximize profitability and market reach for every business. Our approach ensures each client receives a unique strategy that aligns perfectly with their goals.</p>
+                    <p>We customize growth plans at <?= $brand_name ?? '' ?> to maximize profitability and market reach for every business. Our approach ensures each client receives a unique strategy that aligns perfectly with their goals.</p>
                 </div>
             </div>
 
@@ -71,13 +71,13 @@
                 <div class="register-box">
                     <img src="assets/images/EcomGeekz-Badges_Affordable-revenue-solutions.svg" alt="img" />
                     <h3>Affordable revenue solutions</h3>
-                    <p>EcomGeekz provides affordable solutions to launch and expand businesses globally. Through our strategic approach, clients achieve sustainable growth and gain a competitive edge in the market.</p>
+                    <p><?= $brand_name ?? '' ?> provides affordable solutions to launch and expand businesses globally. Through our strategic approach, clients achieve sustainable growth and gain a competitive edge in the market.</p>
                 </div>
             </div>
             <div class="col-lg-8 text-center offset-lg-2 mt-3">
                 <div class="txt-center">
                     <p>This strategic approach not only mitigates economic challenges but also maximizes your revenue potential across different regions, setting your business up for sustainable growth and success.</p>
-                    <a href="at-appointment.php" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
+                    <a href="at-appointment" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
                 </div>
             </div>
 
@@ -92,7 +92,7 @@
 <!--    <div class="container">-->
 <!--        <div class="row testament">-->
 <!--           <div class="col-lg-7">-->
-<!--               <h2>Start your last will and testament with EcomGeekz</h2>-->
+<!--               <h2>Start your last will and testament with <?= $brand_name ?? '' ?></h2>-->
 <!--               <h3><span>1</span>Answer our quick questions</h3>-->
 <!--               <p>These include choosing someone to settle your affairs, deciding what you want to leave to loved ones or charities, and naming a guardian for your minor children.</p>-->
 <!--               <h3><span>2</span> We'll create your will</h3>-->
@@ -129,39 +129,39 @@
     <div class="container">
         <div class="row testament">
            <div class="col-lg-6 my-auto">
-               <h2 class="">EcomGeekz helping coaches, consultants, and entrepreneurs accelerate to their first or next $100K quickly. <img src="assets/images/rocket.png" alt="img" class="rocketimg"></h2>
+               <h2 class=""><?= $brand_name ?? '' ?> helping coaches, consultants, and entrepreneurs accelerate to their first or next $100K quickly. <img src="assets/images/rocket.png" alt="img" class="rocketimg"></h2>
                <!--<h2 class="noweight">While you focus on building the business you love, we handle all the processes of setting up LLC/C-corp formation, EIN (Tax ID), US bank account opening, and running your business in the US.</h2>-->
                 
                 <h3><img src="assets/images/EcomGeekz-Badges_Company-Formation.svg" alt="img" class="img-size"> Achieve your financial goals</h3>
-                <p>EcomGeekz offers a tailored approach to help coaches, consultants, and entrepreneurs reach their first or next $100K quickly. Our proven strategies ensure your business goals are met efficiently and effectively.</p>
+                <p><?= $brand_name ?? '' ?> offers a tailored approach to help coaches, consultants, and entrepreneurs reach their first or next $100K quickly. Our proven strategies ensure your business goals are met efficiently and effectively.</p>
                    
                 <h3><img src="assets/images/EcomGeekz-Badges_Proven-success-strategies.svg" alt="img" class="img-size"> Proven success strategies</h3>
-                <p>Our team at EcomGeekz leverages data-driven insights and personalized plans to accelerate your growth. We provide the tools and support needed to help service providers and agency owners achieve significant financial milestones swiftly.</p>
+                <p>Our team at <?= $brand_name ?? '' ?> leverages data-driven insights and personalized plans to accelerate your growth. We provide the tools and support needed to help service providers and agency owners achieve significant financial milestones swiftly.</p>
 
                 <h3><img src="assets/images/EcomGeekz-Badges_Fast-track-your-growth.svg" alt="img" class="img-size"> Fast-track your growth</h3>
-                <p>With EcomGeekz, you get a strategic advantage to grow your business and maximize profits. Our cost-effective methods and expert guidance make reaching $100K an attainable and swift goal for all clients.</p>
+                <p>With  <?= $brand_name ?? '' ?>, you get a strategic advantage to grow your business and maximize profits. Our cost-effective methods and expert guidance make reaching $100K an attainable and swift goal for all clients.</p>
                 
                 
                 <h2 class="noweight">Why do you need to go with an Ultimate Business Model</h2>
                 
                 <h3><img src="assets/images/EcomGeekz-Badges_Payment-Processing.svg" alt="img" class="img-size"> Ensure financial stability</h3>
-                <p>Diversifying income streams is key to financial security, especially in today's volatile market. EcomGeekz's Ultimate Business Model helps you build a stable revenue source, shielding your finances from economic fluctuations.</p>
+                <p>Diversifying income streams is key to financial security, especially in today's volatile market. <?= $brand_name ?? '' ?>'s Ultimate Business Model helps you build a stable revenue source, shielding your finances from economic fluctuations.</p>
                 
                 <h3><img src="assets/images/EcomGeekz-Badges-Boost-profit-potential.svg" alt="img" class="img-size"> Boost profit potential</h3>
-                <p>With the Ultimate Business Model, you can leverage cost-effective operations in low-cost labor markets while offering premium services. EcomGeekz's strategic approach maximizes your profitability, ensuring high returns on your investment.</p>
+                <p>With the Ultimate Business Model, you can leverage cost-effective operations in low-cost labor markets while offering premium services. <?= $brand_name ?? '' ?>'s strategic approach maximizes your profitability, ensuring high returns on your investment.</p>
                 
                 <h3><img src="assets/images/EcomGeekz-Badges-expand-globally.svg" alt="img" class="img-size"> Expand globally</h3>
-                <p>The Ultimate Business Model enables seamless global expansion, opening doors to new markets. EcomGeekz provides the tools and strategies to establish a strong international presence, driving sustainable growth for your business.</p>
+                <p>The Ultimate Business Model enables seamless global expansion, opening doors to new markets. <?= $brand_name ?? '' ?> provides the tools and strategies to establish a strong international presence, driving sustainable growth for your business.</p>
 
            </div>
            <div class="col-lg-5 offset-lg-1">
                <div class="trade-box">
                     <div class="d-flex">
                     <div>
-                       <h3>During your consultation call with Ahmed, Strategic Business Coach at EcomGeekz</h3>
+                       <h3>During your consultation call with Ahmed, Strategic Business Coach at <?= $brand_name ?? '' ?></h3>
                        <h5>Achieve min $100,000 ARR</h5>
                        <h6>Discover how our startegies not only achieve success but also sustain it in the ever-changing business landscape.</h6>
-                       <a href="at-appointment.php" class="themes-btn">Schedule a free call</a>
+                       <a href="at-appointment" class="themes-btn">Schedule a free call</a>
                     </div>
                     <div>
                         <img src="assets/images/ATK.png" alt="img" />
@@ -198,8 +198,8 @@
                 </div>
             </div>
             <div class="col-lg-6 offset-lg-1">
-                <h2>Revolutionizing your business journey with EcomGeekz's proven methods</h2>
-                <p>EcomGeekz drives success with a strategic roadmap designed for side hustles and full-scale ventures. Our plan ensures each step is optimized for efficiency, leading to recurring profitable revenues and sustainable business growth.</p>
+                <h2>Revolutionizing your business journey with <?= $brand_name ?? '' ?>'s proven methods</h2>
+                <p><?= $brand_name ?? '' ?> drives success with a strategic roadmap designed for side hustles and full-scale ventures. Our plan ensures each step is optimized for efficiency, leading to recurring profitable revenues and sustainable business growth.</p>
                 <p>We leverage data-driven insights to uncover the best opportunities for passive income. By tailoring our strategies to your unique business needs, we help you stay ahead in the competitive digital landscape and maximize your earning potential.</p>
                 <h2>Data-Driven insights and continuous support</h2>
                 <p><b>Transforming Dreams into Reality</b></p>
@@ -216,7 +216,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2> Benefits of launching Ultimate Business with EcomGeekz</h2>
+                <h2> Benefits of launching Ultimate Business with <?= $brand_name ?? '' ?></h2>
             </div>
         </div>
         <div class="row">
@@ -224,27 +224,27 @@
                 <div class="important-box">
                     <img src="assets/images/testament-img-1.png" alt="img" />
                     <h3>Proven experience in business success</h3>
-                    <p>Partner with EcomGeekz to leverage our proven strategies and extensive experience in launching and scaling profitable businesses. Benefit from our insights to achieve sustainable growth and long-term success.</p>
+                    <p>Partner with <?= $brand_name ?? '' ?> to leverage our proven strategies and extensive experience in launching and scaling profitable businesses. Benefit from our insights to achieve sustainable growth and long-term success.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="important-box">
                     <img src="assets/images/testament-img-2.png" alt="img" />
                     <h3>Accelerate passive income growth</h3>
-                    <p>Unlock the potential of passive income streams with EcomGeekz. Our strategic approach and tailored solutions empower you to generate recurring revenue effortlessly, ensuring financial stability and growth.</p>
+                    <p>Unlock the potential of passive income streams with  <?= $brand_name ?? '' ?>. Our strategic approach and tailored solutions empower you to generate recurring revenue effortlessly, ensuring financial stability and growth.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="important-box">
                     <img src="assets/images/testament-img-3.png" alt="img" />
                     <h3>Guaranteed profitable revenue streams</h3>
-                    <p>With EcomGeekz, guarantee profitable revenue streams from the outset. Our meticulous planning and execution strategies are designed to maximize your business's profitability and ensure consistent financial success.</p>
+                    <p>With  <?= $brand_name ?? '' ?>, guarantee profitable revenue streams from the outset. Our meticulous planning and execution strategies are designed to maximize your business's profitability and ensure consistent financial success.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <a href="at-appointment.php" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
+                <a href="at-appointment" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
             </div>
         </div>
     </div>
@@ -256,7 +256,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Do It Yourself vs. Partner with EcomGeekz</h2>
+                <h2>Do It Yourself vs. Partner with <?= $brand_name ?? '' ?></h2>
             </div>
         </div>
         <div class="row">
@@ -281,9 +281,9 @@
             </div>
             <div class="col-lg-6">
                 <div class="add-box sty">
-                   <h3>Benefits with EcomGeekz</h2>
+                   <h3>Benefits with <?= $brand_name ?? '' ?></h2>
                     <ul>
-                    <li><b>Proven Experience: </b>With EcomGeekz, you benefit from our extensive experience in business formation, ensuring a smooth and efficient setup process that establishes a strong foundation for your success. We handle every detail, leveraging our expertise to launch your business seamlessly.</li>
+                    <li><b>Proven Experience: </b>With  <?= $brand_name ?? '' ?>, you benefit from our extensive experience in business formation, ensuring a smooth and efficient setup process that establishes a strong foundation for your success. We handle every detail, leveraging our expertise to launch your business seamlessly.</li>
                     
                     <li><b>Immediate Strategic Access:</b>  Gain access to a well-researched and developed business strategy from day one, allowing you to bypass the lengthy planning phase and start implementing actionable plans immediately.</li>
                     
@@ -342,7 +342,7 @@
         <div class="row">
             <div class="col-lg-7 offset-lg-2 text-center">
                 <div class="navwrp">
-                    <h2>How does it feel to have a side hustle making profits for you while you do what you love, and how does EcomGeekz help achieve this?</h2>
+                    <h2>How does it feel to have a side hustle making profits for you while you do what you love, and how does <?= $brand_name ?? '' ?> help achieve this?</h2>
                                 <p>Imagine waking up every day knowing that while you pursue your passions, your side hustle is steadily generating profits. </p>
                     <ul class="tabbing-links">
                         
@@ -358,11 +358,11 @@
                             <div class="col-lg-6">
                                <div class="txt-main">
                                    <h2>We partner with you from the ground up</h2>
-                                <p>The freedom and satisfaction that come with financial security and independence are unparalleled. With EcomGeekz, this dream becomes a reality. </p>
+                                <p>The freedom and satisfaction that come with financial security and independence are unparalleled. With  <?= $brand_name ?? '' ?>, this dream becomes a reality. </p>
                         
                                 <p>We partner with you from the ground up, transforming your ideas into a thriving digital business. Our comprehensive approach ensures monthly and annual recurring profits, allowing you to focus on what you love while we handle the rest. </p>
                                 
-                                 <p>From initial setup to ongoing management, EcomGeekz brings expertise, efficiency, and a strategic roadmap to your entrepreneurial journey. Our commitment to your success means we don't just set up a business; we establish a profitable venture that grows alongside you, providing stability and opening doors to endless possibilities.</p>
+                                 <p>From initial setup to ongoing management, <?= $brand_name ?? '' ?> brings expertise, efficiency, and a strategic roadmap to your entrepreneurial journey. Our commitment to your success means we don't just set up a business; we establish a profitable venture that grows alongside you, providing stability and opening doors to endless possibilities.</p>
                             </div>
                      </div> 
                             <div class="col-lg-6">
@@ -383,7 +383,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Partnering with EcomGeekz helps you focus on other things</h2>
+                <h2>Partnering with <?= $brand_name ?? '' ?> helps you focus on other things</h2>
             </div>
             <div class="col-lg-4">
                 <div class="register-box">
@@ -412,7 +412,7 @@
 
             <div class="row mt-5">
                 <div class="col-xxl-12 col-xl-12 col-lg-12 offset-lg-12 text-center">
-                    <a href="at-appointment.php" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
+                    <a href="at-appointment" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
                 </div>
             </div>
 
@@ -458,7 +458,7 @@
                 <!--        <div class="col-lg-12">-->
                 <!--            <div class="d-flex">-->
                 <!--                <input type="checkbox" name="agree" required>-->
-                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from EcomGeekz.</p>-->
+                <!--                <p>I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from  <?= $brand_name ?? '' ?>.</p>-->
                 <!--            </div>-->
                 <!--        </div>-->
                 <!--        <div class="col-lg-12">-->
@@ -481,8 +481,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
-                <h2>Why choose EcomGeekz?</h2>
-                <p>At EcomGeekz, we provide a comprehensive suite of services designed to help entrepreneurs, business owners, and investors establish and grow profitable digital businesses. </p>
+                <h2>Why choose <?= $brand_name ?? '' ?></h2>
+                <p>At  <?= $brand_name ?? '' ?>, we provide a comprehensive suite of services designed to help entrepreneurs, business owners, and investors establish and grow profitable digital businesses. </p>
                 
                 <p>From strategic planning and legal documentation to team hiring and marketing execution, our expert guidance ensures every aspect of your business is handled with precision and care. Discover how our tailored approach can transform your vision into a successful, revenue-generating enterprise.</p>
             </div>
@@ -493,7 +493,7 @@
                     <img src="assets/images/EcomGeekz-services--Amazon.svg" alt="img" />
                     <h2 class="gradient-heading">Crafting your success blueprint</h2>
                     <h3>Strategic business model and plan</h3>
-                    <p>EcomGeekz devises a comprehensive business model and strategic plan tailored to your vision, setting the foundation for a thriving enterprise with clear, actionable steps.</p>
+                    <p><?= $brand_name ?? '' ?> devises a comprehensive business model and strategic plan tailored to your vision, setting the foundation for a thriving enterprise with clear, actionable steps.</p>
                 </div>
               </div>
 
@@ -502,7 +502,7 @@
                     <img src="assets/images/EcomGeekz-services--dropshipping.svg" alt="img" />
                     <h2 class="gradient-heading">Seamless global expansion</h2>
                     <h3>Multi-location company formation</h3>
-                    <p>EcomGeekz startegic business execution facilitates the formation of your company across multiple locations, ensuring compliance with local regulations and optimizing for global market reach.</p>
+                    <p><?= $brand_name ?? '' ?> startegic business execution facilitates the formation of your company across multiple locations, ensuring compliance with local regulations and optimizing for global market reach.</p>
                 </div>
                 </div>
 
@@ -511,7 +511,7 @@
                     <img src="assets/images/EcomGeekz-services--ecommerce-store.svg" alt="img" />
                     <h2 class="gradient-heading">Ironclad legal framework</h2>
                     <h3>Legal documentation and contracts</h3>
-                    <p>EcomGeekz prepares all necessary legal documents and contracts, safeguarding your business interests and ensuring smooth operational processes from the start.</p>
+                    <p><?= $brand_name ?? '' ?> prepares all necessary legal documents and contracts, safeguarding your business interests and ensuring smooth operational processes from the start.</p>
                 </div>
                 </div>
 
@@ -529,7 +529,7 @@
                     <img src="assets/images/EcomGeekz-services-youtube-automation.svg" alt="img" />
                     <h2 class="gradient-heading">Assembling your dream team</h2>
                     <h3>Team hiring and allocation</h3>
-                    <p>EcomGeekz recruits top talent and strategically allocates team members to roles that maximize productivity and align with your business objectives.</p>
+                    <p><?= $brand_name ?? '' ?> recruits top talent and strategically allocates team members to roles that maximize productivity and align with your business objectives.</p>
                 </div>
                 </div>
               <div class="col-lg-4">
@@ -553,7 +553,7 @@
                     <img src="assets/images/EcomGeekz-services-revenue-streams.svg" alt="img" />
                     <h2 class="gradient-heading">Maximizing revenue streams</h2>
                     <h3>Growth and profit</h3>
-                    <p>EcomGeekz focuses on creating recurring, profitable revenue streams through strategic planning and execution, allowing you to achieve financial stability and growth.</p>
+                    <p><?= $brand_name ?? '' ?> focuses on creating recurring, profitable revenue streams through strategic planning and execution, allowing you to achieve financial stability and growth.</p>
                 </div>
                 </div>
                 <div class="col-lg-4">
@@ -565,7 +565,7 @@
                 </div>
                 </div>
                 <div class="col-lg-12 mt-3 centerCol text-center">
-                    <a href="at-appointment.php" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
+                    <a href="at-appointment" class="themes-btn">SCHEDULE A FREE CONSULTATION</a>
                 </div>
         </div>
     </div>
@@ -591,26 +591,26 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <p>The Ultimate Business Model is a strategic service designed to help entrepreneurs, business owners, and investors set up and run a profitable digital business. We focus on creating companies in low-cost labor countries and offering high-ticket digital services to clients in lucrative markets. EcomGeekz manages the entire process, from company formation to team hiring and training, ensuring a seamless and efficient setup that maximizes your profits.</p>
+         <p>The Ultimate Business Model is a strategic service designed to help entrepreneurs, business owners, and investors set up and run a profitable digital business. We focus on creating companies in low-cost labor countries and offering high-ticket digital services to clients in lucrative markets. <?= $brand_name ?? '' ?> manages the entire process, from company formation to team hiring and training, ensuring a seamless and efficient setup that maximizes your profits.</p>
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-       What makes EcomGeekz's Ultimate Business Model different from other business setup services?
+       What makes <?= $brand_name ?? '' ?>'s Ultimate Business Model different from other business setup services?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <p>EcomGeekz's Ultimate Business Model stands out due to our proven experience, strategic approach, and comprehensive support. We handle every aspect of your business formation and operations, leveraging our expertise to ensure a smooth and efficient process. Our focus on creating recurring profitable revenue streams and passive income opportunities sets us apart, providing you with a reliable and scalable business model.</p>
+         <p><?= $brand_name ?? '' ?>'s Ultimate Business Model stands out due to our proven experience, strategic approach, and comprehensive support. We handle every aspect of your business formation and operations, leveraging our expertise to ensure a smooth and efficient process. Our focus on creating recurring profitable revenue streams and passive income opportunities sets us apart, providing you with a reliable and scalable business model.</p>
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        How long does it take to set up a business with EcomGeekz's Ultimate Business Model?
+        How long does it take to set up a business with <?= $brand_name ?? '' ?>'s Ultimate Business Model?
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -625,7 +625,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingfour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-        Can I book a free consultation with EcomGeekz?
+        Can I book a free consultation with <?= $brand_name ?? '' ?>
       </button>
     </h2>
     <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
@@ -638,12 +638,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingfive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-       How does EcomGeekz ensure transparency and involvement throughout the process?
+       How does <?= $brand_name ?? '' ?> ensure transparency and involvement throughout the process?
       </button>
     </h2>
     <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz maintains complete transparency throughout the entire process. We keep you informed and involved at every step, providing regular updates and clear communication. Our goal is to build trust and confidence by ensuring you understand how your business is progressing and how we are working to achieve your goals.</p>
+        <p><?= $brand_name ?? '' ?> maintains complete transparency throughout the entire process. We keep you informed and involved at every step, providing regular updates and clear communication. Our goal is to build trust and confidence by ensuring you understand how your business is progressing and how we are working to achieve your goals.</p>
         
       </div>
     </div>
@@ -654,12 +654,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingsix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-        How does EcomGeekz handle confidentiality and data security?
+        How does <?= $brand_name ?? '' ?> handle confidentiality and data security?
       </button>
     </h2>
     <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>At EcomGeekz, we prioritize the confidentiality and security of our clients' information. We implement strict data protection protocols and confidentiality agreements to ensure that your business details and strategies remain secure. Our commitment to safeguarding your privacy is unwavering, and we employ the latest security measures to protect your sensitive data.</p>
+        <p>At  <?= $brand_name ?? '' ?>, we prioritize the confidentiality and security of our clients' information. We implement strict data protection protocols and confidentiality agreements to ensure that your business details and strategies remain secure. Our commitment to safeguarding your privacy is unwavering, and we employ the latest security measures to protect your sensitive data.</p>
       </div>
     </div>
   </div>
@@ -680,12 +680,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingeight">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseight" aria-expanded="false" aria-controls="collapseight">
-       How does EcomGeekz's partner program work?
+       How does <?= $brand_name ?? '' ?>'s partner program work?
       </button>
     </h2>
     <div id="collapseight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz's partner program is designed to provide you with a hands-off approach to managing your business. We take care of all operational aspects, from hiring and training your team to managing finances and ensuring smooth operations. By partnering with EcomGeekz, you benefit from our expertise and experience, allowing you to focus on growing your business and enjoying the profits without the stress of daily management.</p>
+        <p><?= $brand_name ?? '' ?>'s partner program is designed to provide you with a hands-off approach to managing your business. We take care of all operational aspects, from hiring and training your team to managing finances and ensuring smooth operations. By partnering with  <?= $brand_name ?? '' ?>, you benefit from our expertise and experience, allowing you to focus on growing your business and enjoying the profits without the stress of daily management.</p>
       </div>
     </div>
   </div>
@@ -693,12 +693,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingeight1">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseight1" aria-expanded="false" aria-controls="collapseight1">
-      What ongoing support does EcomGeekz provide after the business is set up?
+      What ongoing support does <?= $brand_name ?? '' ?> provide after the business is set up?
       </button>
     </h2>
     <div id="collapseight1" class="accordion-collapse collapse" aria-labelledby="headingeight1" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz offers continuous support to ensure the long-term success of your business. Our team of experts is available to provide guidance, address any challenges, and implement strategies to optimize your operations. We conduct regular reviews and adjustments to keep your business on the path to growth and profitability.</p>
+        <p><?= $brand_name ?? '' ?> offers continuous support to ensure the long-term success of your business. Our team of experts is available to provide guidance, address any challenges, and implement strategies to optimize your operations. We conduct regular reviews and adjustments to keep your business on the path to growth and profitability.</p>
       </div>
     </div>
   </div>
@@ -706,12 +706,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingeight2">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseight2" aria-expanded="false" aria-controls="collapseight2">
-       How does EcomGeekz ensure my business stays competitive in the market?
+       How does <?= $brand_name ?? '' ?> ensure my business stays competitive in the market?
       </button>
     </h2>
     <div id="collapseight2" class="accordion-collapse collapse" aria-labelledby="headingeight2" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <p>EcomGeekz employs data-driven insights and market research to keep your business ahead of the competition. We continuously monitor industry trends, customer feedback, and performance metrics to make informed decisions. Our proactive approach ensures that your business adapts to changing market conditions and remains competitive, profitable, and sustainable.
+        <p><?= $brand_name ?? '' ?> employs data-driven insights and market research to keep your business ahead of the competition. We continuously monitor industry trends, customer feedback, and performance metrics to make informed decisions. Our proactive approach ensures that your business adapts to changing market conditions and remains competitive, profitable, and sustainable.
 
 </p>
       </div>
@@ -731,7 +731,7 @@
 <!--    <div class="container">-->
 <!--        <div class="row">-->
 <!--            <div class="col-lg-12">-->
-<!--                <h2>Why use EcomGeekz to set up your LLC?</h2>-->
+<!--                <h2>Why use <?= $brand_name ?? '' ?> to set up your LLC?</h2>-->
 <!--            </div>-->
 <!--            <div class="col-lg-4">-->
 <!--                <div class="register-box">-->
@@ -776,7 +776,7 @@
 <!--            <div class="col-lg-4">-->
 <!--                <div class="customer-box box-col-1">-->
 <!--                    <i class="fas fa-quote-left"></i>-->
-<!--                    <p>EcomGeekz made everything 10 times easier for my business. Fast, easy, and very professional.</p>-->
+<!--                    <p><?= $brand_name ?? '' ?> made everything 10 times easier for my business. Fast, easy, and very professional.</p>-->
 <!--                    <p class="mt-3">—Luis C.</p>-->
 <!--                    <div class="d-flex">-->
 <!--                        <i class="fas fa-star"></i>-->
@@ -790,7 +790,7 @@
 <!--            <div class="col-lg-4">-->
 <!--                <div class="customer-box box-col-2">-->
 <!--                    <i class="fas fa-quote-left"></i>-->
-<!--                    <p>This is my second LLC created with EcomGeekz. I highly trust their process and professional specialists.</p>-->
+<!--                    <p>This is my second LLC created with  <?= $brand_name ?? '' ?>. I highly trust their process and professional specialists.</p>-->
 <!--                    <p class="mt-3">—Reginald C.</p>-->
 <!--                    <div class="d-flex">-->
 <!--                        <i class="fas fa-star"></i>-->

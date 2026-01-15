@@ -25,7 +25,7 @@
                 <h1>Thank You!</h1>
                 <p>Begin your journey to success as you effortlessly launch and scale your marketing agency. Our expert guidance ensures you target monthly revenues of up to $10,000 with clarity and ease.</p>
                
-                <a href="index.php" class="themes-btn">Back to Home</a>
+                <a href="<?= $base_url ?? '' ?>" class="themes-btn">Back to Home</a>
               
             </div>
             <div class="col-lg-6"></div>
