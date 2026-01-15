@@ -1,11 +1,11 @@
-<?php 
+<?php
 $title = "Business Strategists with you, every step of the way";
 $keywords = "book writing,creative writing book ";
 $description = "";
 $og_title = $title;
 $og_description = $description;
 
-include("include/header.php"); 
+include("include/header.php");
 ?>
 
 <body class="hompg head-twenty home-pg">
@@ -75,7 +75,7 @@ include("include/header.php");
                 </div>
                 <div class="col-lg-7 offset-lg-1">
                     <h2 class="white" data-aos="fade-up" data-aos-duration="1000">Our Experts, By Your Side at Every Step </h2>
-                    <p class="white" data-aos="fade-up" data-aos-duration="1300">Starting a business is the easy part; building it into something lasting and thriving is the true challenge. Many try, but only a few succeed. With  <?= $brand_name ?? '' ?>, you can become the entrepreneur you’ve always dreamed of being—confident, capable, and unstoppable. </p>
+                    <p class="white" data-aos="fade-up" data-aos-duration="1300">Starting a business is the easy part; building it into something lasting and thriving is the true challenge. Many try, but only a few succeed. With <?= $brand_name ?? '' ?>, you can become the entrepreneur you’ve always dreamed of being—confident, capable, and unstoppable. </p>
                     <ul>
                         <li data-aos="fade-up" data-aos-duration="1500"><a href="faq">Get quick help</a></li>
                         <li data-aos="fade-up" data-aos-duration="1800"><a href="#_" data-bs-toggle="modal" data-bs-target="#infoModal">Schedule an appointment</a></li>
@@ -336,7 +336,7 @@ include("include/header.php");
                 <div class="col-lg-4">
                     <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">$150 Million+</h2>
                     <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1300">Generated</h3>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1600">Our digital partners have generated over $150M+ in revenue and counting after partnering with  <?= $brand_name ?? '' ?>.</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1600">Our digital partners have generated over $150M+ in revenue and counting after partnering with <?= $brand_name ?? '' ?>.</p>
                 </div>
             </div>
         </div>
@@ -376,13 +376,13 @@ include("include/header.php");
                         <img src="assets/images/first-fold.jpg" alt="img" />
                         <div class="legaal-inner">
                             <img src="assets/images/lightbulb.svg" alt="img" />
-                            <h6>75% of our clients experienced a remarkable 3X increase in revenue with  <?= $brand_name ?? '' ?>.</h6>
+                            <h6>75% of our clients experienced a remarkable 3X increase in revenue with <?= $brand_name ?? '' ?>.</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1">
                     <h3>Elevate Your Business to New Heights </h3>
-                    <p>Unleash your potential with our strategic services crafted to drive growth and maximize revenue. Discover tailored solutions that set your business apart—explore now!</p> 
+                    <p>Unleash your potential with our strategic services crafted to drive growth and maximize revenue. Discover tailored solutions that set your business apart—explore now!</p>
                     <ul>
                         <li><a href="amazon-fba-automation">Amazon FBA Automation</a></li>
                         <li><a href="tiktok-shop-automation">TikTok Shop Automation</a></li>
@@ -516,7 +516,7 @@ include("include/header.php");
                             <img class="bedge" src="assets/images/tw-verified.png">
                         </div>
                         <div class="content-box">
-                            <p>I couldn't be happier with the service provided by  <?= $brand_name ?? '' ?>. They handled every detail of forming my business, Leaving me free to focus on my passion. Their professionalism and efficiency are unmatched.</p>
+                            <p>I couldn't be happier with the service provided by <?= $brand_name ?? '' ?>. They handled every detail of forming my business, Leaving me free to focus on my passion. Their professionalism and efficiency are unmatched.</p>
                         </div>
                         <div class="testi-star">
                             <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -771,7 +771,7 @@ include("include/header.php");
                             <img class="bedge" src="assets/images/tw-verified--gold.png">
                         </div>
                         <div class="content-box">
-                            <p>Thanks to  <?= $brand_name ?? '' ?>, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>
+                            <p>Thanks to <?= $brand_name ?? '' ?>, I was able to launch my ecommerce brand with confidence and ease. Their step-by-step guidance and personalized strategy helped me build a strong online presence and attract a loyal customer base. The team's dedication and knowledge were evident throughout the process, making them an invaluable partner in my business journey.</p>
                         </div>
                         <div class="testi-star">
                             <img class="brand-icon" src="assets/images/EcomGeekz-Badges-Logo.svg" alt="img" class="mt-3">
@@ -1385,7 +1385,7 @@ include("include/header.php");
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>At  <?= $brand_name ?? '' ?>, we offer a comprehensive suite of services designed to elevate your business at every stage. From strategic business planning to cutting-edge digital marketing, brand development, and beyond, our expertise covers it all. Explore our services page to discover how we can tailor our solutions to fit your unique needs and propel your business to new heights.</p>
+                                    <p>At <?= $brand_name ?? '' ?>, we offer a comprehensive suite of services designed to elevate your business at every stage. From strategic business planning to cutting-edge digital marketing, brand development, and beyond, our expertise covers it all. Explore our services page to discover how we can tailor our solutions to fit your unique needs and propel your business to new heights.</p>
                                 </div>
                             </div>
                         </div>
@@ -1438,7 +1438,7 @@ include("include/header.php");
                             </h2>
                             <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Absolutely! At  <?= $brand_name ?? '' ?>, we prioritize your privacy and adhere to strict confidentiality practices. Your information is secure with us, and we’ll never share it without your explicit consent.</p>
+                                    <p>Absolutely! At <?= $brand_name ?? '' ?>, we prioritize your privacy and adhere to strict confidentiality practices. Your information is secure with us, and we’ll never share it without your explicit consent.</p>
                                 </div>
                             </div>
                         </div>
@@ -1479,7 +1479,7 @@ include("include/header.php");
                             </h2>
                             <div id="collapsnine" class="accordion-collapse collapse" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Absolutely! At  <?= $brand_name ?? '' ?>, we’re committed to your long-term success. Our ongoing support ensures you stay agile and continue to grow as your business evolves, no matter what challenges you face.</p>
+                                    <p>Absolutely! At <?= $brand_name ?? '' ?>, we’re committed to your long-term success. Our ongoing support ensures you stay agile and continue to grow as your business evolves, no matter what challenges you face.</p>
                                 </div>
                             </div>
                         </div>
