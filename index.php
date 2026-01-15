@@ -35,7 +35,7 @@ include("include/header.php");
                         <a href="amazon-fba-automation" class="" data-aos="fade-up" data-aos-duration="1500"><img class="main-ban-img" src="assets/images/amazon.svg" alt="img" /> Amazon FBA Automation</a>
                         <a href="walmart-automation" class="" data-aos="fade-up" data-aos-duration="1600"><img class="main-ban-img walmart-automation-img wal-bg" src="assets/images/walmart.svg" alt="img" /> Walmart Automation</a>
                         <a href="shopify-dropshipping-automation" class="" data-aos="fade-up" data-aos-duration="1700"><img class="main-ban-img" src="assets/images/shopify.svg" alt="img" /> Shopify Dropshipping Automation</a>
-                        <h1>FFFF ZZZZZZZ</h1>
+                        <h1>DDD</h1>
                         <br>
                         <img src="assets/images/verified-partner-badge.svg" style="
                             width: 110px;
