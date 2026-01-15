@@ -1,5 +1,5 @@
 <?php
-$title = "Business Strategists with you, every step of the way";
+$title = "Business Strategists with you, every step of the way 1";
 $keywords = "book writing,creative writing book ";
 $description = "";
 $og_title = $title;
