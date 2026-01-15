@@ -43,13 +43,16 @@
     $linkedin = "https://www.linkedin.com/ecomgeekz";
     $youtube = "https://www.youtube.com/@ecomgeekz";
     $twitter = "https://www.twitter.com";
+
+    $recaptcha_sitekey = "6LfYw_kqAAAAAI5GA9-wd_TLCH4iMy2TY16tKyjC";
+    $recaptcha_secretKey = '6LfYw_kqAAAAAD7EdbLRnZmZhuqka-iIIsj_TBVD';
     
 
     $google_site_verification = "";
     $facebook_domain_verification = "";
     ?>
 
-    <title><?= $title. " | " .$brand_name ?></title>
+    <title><?= $title ?? '' ?> | <?= $brand_name ?></title>
     <meta charset="utf-8">
     <meta name="description" content="<?= $description ?? '' ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

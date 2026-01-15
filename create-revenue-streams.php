@@ -1,6 +1,12 @@
+<?php 
+$title = "Create Revenue Streams";
+$keywords = "book writing,creative writing book";
+$description = "";
+$og_title = $title;
+$og_description = $description;
 
-
-<?php include("include/header.php"); ?>
+include("include/header.php"); 
+?>
 
 
 

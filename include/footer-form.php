@@ -71,7 +71,7 @@
                         </div>
                         <div class="form-input-btn">
                             <!-- <div class="g-recaptcha" data-sitekey="6Le_QeQqAAAAAPXDATxoqyjjFgttqw73RyUbuYTy" data-callback="enableFooterSubmitBtn"></div> -->
-                           <div class="wrap-gc"><div class="g-recaptcha" data-sitekey="6LfYw_kqAAAAAI5GA9-wd_TLCH4iMy2TY16tKyjC" data-callback="enableFooterSubmitBtn"></div></div> 
+                           <div class="wrap-gc"><div class="g-recaptcha" data-sitekey="<?= $recaptcha_sitekey ?? '' ?>" data-callback="enableFooterSubmitBtn"></div></div> 
                             <button class="btn-reg" id="footerSubmitBtn" disabled="disabled" type="submit">Submit</button>
                         </div>
                     </form>

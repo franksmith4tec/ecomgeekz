@@ -438,7 +438,7 @@ $adminMessage  = '
             
                                         <tr>
                                             <td align="center" style="">
-                                          <p><?= $brand_name ?? '' ?></p>
+                                          <p></p>
                                             </td>
                                         </tr>
       
@@ -500,7 +500,7 @@ $adminMessage  = '
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Copyright © 2024  <?= $brand_name ?? '' ?>. All Rights Reserved. 
+                    Copyright © 2024. All Rights Reserved. 
                   </td>
                 </tr>
               </table>
@@ -946,7 +946,7 @@ $adminMessage  = '
             
                                         <tr>
                                             <td align="center" style="">
-                                          <p><?= $brand_name ?? '' ?></p>
+                                          <p></p>
                                             </td>
                                         </tr>
       
@@ -1008,7 +1008,7 @@ $adminMessage  = '
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Copyright © 2024  <?= $brand_name ?? '' ?>. All Rights Reserved. 
+                    Copyright © 2024  . All Rights Reserved. 
                   </td>
                 </tr>
               </table>

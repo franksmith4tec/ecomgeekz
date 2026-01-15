@@ -159,7 +159,7 @@ if (in_array($userIp, $bannedIps)) {
 
                   <div class="form-input-btn">
                     <!-- <div class="g-recaptcha" data-sitekey="6Le_QeQqAAAAAPXDATxoqyjjFgttqw73RyUbuYTy" data-callback="enableSubmitBtn"></div> -->
-                    <div class="g-recaptcha" data-sitekey="6LfYw_kqAAAAAI5GA9-wd_TLCH4iMy2TY16tKyjC" data-callback="enableSubmitBtn"></div>
+                    <div class="g-recaptcha" data-sitekey="<?= $recaptcha_sitekey ?? '' ?>" data-callback="enableSubmitBtn"></div>
                     <button class="btn-reg" id="mySubmitBtn" type="submit" disabled="disabled">Submit</button>
 
                   </div>
@@ -214,9 +214,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       if ($formType === 'form1') {
         if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
-          // $secretKey = '6Le_QeQqAAAAAA7JwQbx6w6_2CzP8ZyhOVjEIhcr';
-          $secretKey = '6LfYw_kqAAAAAD7EdbLRnZmZhuqka-iIIsj_TBVD';
-          $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
+          $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $recaptcha_secretKey . '&response=' . $_POST['g-recaptcha-response']);
           $response = json_decode($verifyResponse);
           if ($response->success) {
         
@@ -702,9 +700,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       elseif ($formType === 'news') {
         if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
-          // $secretKey = '6Le_QeQqAAAAAA7JwQbx6w6_2CzP8ZyhOVjEIhcr';
-          $secretKey = '6LfYw_kqAAAAAD7EdbLRnZmZhuqka-iIIsj_TBVD';
-          $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
+          $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $recaptcha_secretKey . '&response=' . $_POST['g-recaptcha-response']);
           $response = json_decode($verifyResponse);
         
           if ($response->success) {
@@ -813,9 +809,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
           if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
-            // $secretKey = '6Le_QeQqAAAAAA7JwQbx6w6_2CzP8ZyhOVjEIhcr';
-            $secretKey = '6LfYw_kqAAAAAD7EdbLRnZmZhuqka-iIIsj_TBVD';
-            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
+            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $recaptcha_secretKey . '&response=' . $_POST['g-recaptcha-response']);
             $response = json_decode($verifyResponse);
 
             if ($response->success) {
@@ -1410,7 +1404,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <form class="news-letterz" method="POST" action="#">
           <input type="hidden" name="form_type" value="news">
           <!-- <div class="g-recaptcha" data-sitekey="6Le_QeQqAAAAAPXDATxoqyjjFgttqw73RyUbuYTy" data-callback="enableSubmitBtn"></div> -->
-          <div class="g-recaptcha" data-sitekey="6LfYw_kqAAAAAI5GA9-wd_TLCH4iMy2TY16tKyjC" data-callback="enableSubmitBtn"></div>
+          <div class="g-recaptcha" data-sitekey="<?= $recaptcha_sitekey ?? '' ?>" data-callback="enableSubmitBtn"></div>
           <div class="news-letter-b">
             <input type="email" name="emailx" placeholder="Enter email address" required>
             <input type="hidden" name="ip" value="<?php echo $userIp; ?>">

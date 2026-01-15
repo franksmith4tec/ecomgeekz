@@ -263,11 +263,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </head>
                 <body>
                 <p>Hello  <strong>$name</strong>,</p>
-                <p>Thank you for signing up with <?= $brand_name ?? '' ?>—your trusted partner in e-commerce fulfillment and automation.</p>
+                <p>Thank you for signing up with —your trusted partner in e-commerce fulfillment and automation.</p>
                 <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
                 </p>
                 <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
-                <p>We look forward to helping you grow your business with  <?= $brand_name ?? '' ?>.</p>
+                <p>We look forward to helping you grow your business with  .</p>
                 <p>Best regards,</p>
                 </body>
                 </html>
@@ -608,7 +608,7 @@ $adminMessage  = '
             
                                         <tr>
                                             <td align="center" style="">
-                                          <p><?= $brand_name ?? '' ?></p>
+                                          <p></p>
                                             </td>
                                         </tr>
       
@@ -670,7 +670,7 @@ $adminMessage  = '
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Copyright © 2024  <?= $brand_name ?? '' ?>. All Rights Reserved. 
+                    Copyright © 2024  . All Rights Reserved. 
                   </td>
                 </tr>
               </table>
@@ -726,11 +726,11 @@ header("Location: thank-you.php");
                 </head>
                 <body>
                 <p>Hello  <strong>$emailx</strong>,</p>
-                <p>Thank you for signing up with <?= $brand_name ?? '' ?>—your trusted partner in e-commerce fulfillment and automation.</p>
+                <p>Thank you for signing up with —your trusted partner in e-commerce fulfillment and automation.</p>
                 <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
                 </p>
                 <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
-                <p>We look forward to helping you grow your business with  <?= $brand_name ?? '' ?>.</p>
+                <p>We look forward to helping you grow your business with  .</p>
                 <p>Best regards,</p>
                 </body>
                 </html>
@@ -800,11 +800,11 @@ header("Location: thank-you.php");
                   </head>
                   <body>
                   <p>Hello  <strong>$name</strong>,</p>
-                  <p>Thank you for signing up with <?= $brand_name ?? '' ?>—your trusted partner in e-commerce fulfillment and automation.</p>
+                  <p>Thank you for signing up with —your trusted partner in e-commerce fulfillment and automation.</p>
                   <p>We’re excited to connect with you and explore how we can help streamline your e-commerce operations and achieve your business goals. Let’s schedule a quick call to discuss your needs and how our tailored solutions can deliver the results you’re looking for.
                   </p>
                   <p>Please reply to this email with your preferred time, and we’ll be happy to accommodate your schedule.</p>
-                  <p>We look forward to helping you grow your business with  <?= $brand_name ?? '' ?>.</p>
+                  <p>We look forward to helping you grow your business with  .</p>
                   <p>Best regards,</p>
                   </body>
                   </html>
@@ -1145,7 +1145,7 @@ header("Location: thank-you.php");
               
                                           <tr>
                                               <td align="center" style="">
-                                            <p><?= $brand_name ?? '' ?></p>
+                                            <p></p>
                                               </td>
                                           </tr>
         
@@ -1207,7 +1207,7 @@ header("Location: thank-you.php");
                   </tr>
                   <tr>
                     <td class="content-block powered-by">
-                      Copyright © 2024  <?= $brand_name ?? '' ?>. All Rights Reserved. 
+                      Copyright © 2024  . All Rights Reserved. 
                     </td>
                   </tr>
                 </table>
