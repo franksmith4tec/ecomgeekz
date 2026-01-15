@@ -45,8 +45,6 @@
     $twitter = "https://www.twitter.com";
 
     $recaptcha_sitekey = "6LfYw_kqAAAAAI5GA9-wd_TLCH4iMy2TY16tKyjC";
-    $recaptcha_secretKey = '6LfYw_kqAAAAAD7EdbLRnZmZhuqka-iIIsj_TBVD';
-    
 
     $google_site_verification = "";
     $facebook_domain_verification = "";
