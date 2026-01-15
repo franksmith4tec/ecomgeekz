@@ -17,7 +17,7 @@
     }
 
 
-    $brand_name = "EcomGeekz";
+    $brand_name = "EcomGeekz 123";
     $brand_name_h = "ECOMGEEKZ";
     $brand_address = "10685B Hazelhurst Dr #39849<br> Houston, TX 77043";
     $brand_address_us = "";
