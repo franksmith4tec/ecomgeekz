@@ -48,6 +48,23 @@
 
     $google_site_verification = "";
     $facebook_domain_verification = "";
+
+    // Function to get the user's IP address
+    function getIpAddress()
+    {
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    } else {
+        $ip = $_SERVER['REMOTE_ADDR'];
+    }
+    return $ip;
+    }
+
+    // Retrieve the user's IP address
+    $userIp = getIpAddress();
+
     ?>
 
     <title><?= $title ?? '' ?> | <?= $brand_name ?></title>

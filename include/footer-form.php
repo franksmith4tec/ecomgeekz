@@ -8,13 +8,13 @@
             </div>
             <div class="col-lg-6">
                 <div class="form-on-top">
-                    <form class="lead-formx" id="lead-formx2" method="POST">
+                    <form class="lead-formx" method="POST" action="mailapi.php">
                         <h6>Let’s Get Started</h6>
                         <p>Are you ready to turn your vision into a thriving business? Take the first step towards success by sharing essential details about your venture with us. We're here to guide you through the journey.</p>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-inputs">
-                                    <input type="hidden" name="form_type" value="form1">
+                                    <input type="hidden" name="form_type" value="get_started">
                                     <input type="text" name="name" value="" placeholder="Name" onkeydown="return /^[A-Za-z\s]+$/.test(event.key)" required>
                                 </div>
                             </div>
@@ -32,10 +32,13 @@
                         <div class="form-inputs mb-0">
                             <textarea name="message" placeholder="Message"></textarea>
                         </div>
+
+                        <?php if(1==0) { ?>
                         <input type="hidden" name="countryname" value="<?php echo $countryname; ?>">
                         <input type="hidden" name="cityname" value="<?php echo $cityname; ?>">
                         <input type="hidden" name="time" value="<?php echo $time; ?>">
-                        <input type="hidden" name="ip" value="<?php echo $ip; ?>">
+                        <?php } ?>
+                        <input type="hidden" name="ip" value="<?php echo $userIp; ?>">
 
                         <!--                                             
                             <div class="form-checkbox form-checkbox-contest">
@@ -72,7 +75,7 @@
                         <div class="form-input-btn">
                             <!-- <div class="g-recaptcha" data-sitekey="6Le_QeQqAAAAAPXDATxoqyjjFgttqw73RyUbuYTy" data-callback="enableFooterSubmitBtn"></div> -->
                            <div class="wrap-gc"><div class="g-recaptcha" data-sitekey="<?= $recaptcha_sitekey ?? '' ?>" data-callback="enableFooterSubmitBtn"></div></div> 
-                            <button class="btn-reg" id="footerSubmitBtn" disabled="disabled" type="submit">Submit</button>
+                            <button class="btn-reg" id="footerSubmitBtn" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -86,37 +89,3 @@
     
     .wrap-gc {position:absolute; margin:54px 0px 0px 35px; }
 </style>
-
-<script>
-    // AJAX Form Submission
-$("#lead-formx2").submit(function (event) {
-  event.preventDefault(); // Prevent default form submission
-  $("#loader").fadeIn(); // Show the loader
-
-  // Serialize form data
-  var formData = $(this).serialize();
-
-  // Submit form via AJAX
-  $.ajax({
-      url: "", // Submit to the same page or provide the exact URL
-      type: "POST",
-      data: formData,
-      success: function (response) {
-          $("#loader").fadeOut(); // Hide the loader
-
-          // Check the response from the server
-          if (response.trim() === "success") {
-              // Redirect to the thank-you page
-              window.location.href = "thank-you.php";
-          } else {
-              // Display the server error message
-              $("#form-response").html(`<div class="error-message">${response}</div>`);
-          }
-      },
-      error: function () {
-          $("#loader").fadeOut(); // Hide the loader
-          alert("An error occurred while submitting the form. Please try again.");
-      },
-  });
-});
-</script>

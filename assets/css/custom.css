@@ -819,7 +819,8 @@ button.btn.popx-close.btn-secondary {
     cursor: pointer;
     border: none;
     border-radius: 10px !important;
-    font-weight: bold;
+    font-weight: bold;    
+    background-color: rgba(239, 239, 239, 0.3);
     /* text-transform: uppercase; */
 }
 
