@@ -1,16 +1,6 @@
 <?php
-
-if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')
-    $protocol = 'https://';
-else {
-    $protocol = 'http://';
-}
-
-if ($_SERVER["HTTP_HOST"] == 'localhost') {
-    $base_url =  $protocol . $_SERVER["HTTP_HOST"].'/ecomgeekz/pay';
-} else {
-    $base_url =  $protocol . $_SERVER["HTTP_HOST"].'/pay';
-}
+include("../include/variables.php");
+$base_pay_url = $base_url .'/pay';
 
 return [
     'stripe' => [

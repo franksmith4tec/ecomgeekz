@@ -1,4 +1,6 @@
 <?php
+include("../include/variables.php"); 
+
 $payment_config = include 'config/payment_config.php';
 ?>
 <!doctype html>
@@ -112,7 +114,7 @@ $payment_config = include 'config/payment_config.php';
                             <li class="phone">
                                 <img id="img-top-header" src="https://trademarkrepublic.com/assets/images/phone.svg" alt=""><a href="tel:+1 (855) 783-2616">+1 (855) 783-2616</a>
                             </li>
-                            <li class="mes"><img id="img-top-header" src="https://trademarkrepublic.com/assets/images/mes.svg" alt=""><a href="mailto:support@ecomgeekz.com">support@ecomgeekz.com</a></li>
+                            <li class="mes"><img id="img-top-header" src="https://trademarkrepublic.com/assets/images/mes.svg" alt=""><a href="mailto:<?= $support_email ?? '' ?>"><?= $support_email ?? '' ?></a></li>
                         </ul>
 
                     </div>
@@ -124,7 +126,7 @@ $payment_config = include 'config/payment_config.php';
                 <div class="row align-items-center">
                     <div class="col-6 col-md-3">
                         <a href="#" class="logo">
-                            <img src="<?= $payment_config['base_url'] ?>/assets/images/logo.svg" alt="" class="img-fluid" id="forms-logo">
+                            <img src="<?= $base_pay_url ?? '' ?>/assets/images/logo.svg" alt="" class="img-fluid" id="forms-logo">
                         </a>
                     </div>
                 </div>
@@ -792,11 +794,11 @@ $payment_config = include 'config/payment_config.php';
             <div class="row">
                 <div class="row ftr_btm">
                     <div class="col-md-9">
-                        <h6><a href="<?= $payment_config['base_url'] ?>/privacy-policy" class="link-style-topbar">Privacy Policy</a></h6>
-                        <p class="whitex">EcomGeekz is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="<?= $payment_config['base_url'] ?>/terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="<?= $payment_config['base_url'] ?>/privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
+                        <h6><a href="<?= $base_url ?? '' ?>/privacy-policy" class="link-style-topbar">Privacy Policy</a></h6>
+                        <p class="whitex"><?= $brand_name ?? '' ?> is a technology company. We are not a law or financial firm, nor can we offer official legal or financial advice. What you see on our website, and any of our communication over email, Whatsapp, Slack, SMS, Zoom call, Intercom, social media and any other forms of communication is purely for general and educational matters, and should not be taken as official legal or financial advice. By using our website and service, you are explicitly accepting our <a style="    text-decoration: underline;" href="<?= $base_url ?? '' ?>/terms-of-service">Terms of Service</a>, <a style="text-decoration: underline;" href="<?= $base_url ?? '' ?>/privacy-policy">Privacy Policy</a>, and Data Processing Addendum.</p>
                     </div>
                     <div class="col-md-3">
-                        <span>© Copyright 2025 EcomGeekz</span>
+                        <span>© Copyright <?= date('Y') ?> <?= $brand_name ?? '' ?></span>
                     </div>
                 </div>
             </div>

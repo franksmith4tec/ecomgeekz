@@ -1,3 +1,6 @@
+<?php
+$payment_config = include 'config/payment_config.php';
+?>
 <!DOCTYPE html>
 <html>
 
@@ -5,10 +8,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow" />
-    <title>EcomGeekz | Payment Link</title>
-    <meta name="description" content="{{ $description }}">
-    <meta name="keywords" content="{{ $keywords }}">
-    <meta name="author" content="ecomgeekz">
+    <title><?= $brand_name ?? '' ?> | Payment Link</title>
+    <meta name="description" content="<?= $description ?? '' ?>">
+    <meta name="keywords" content="<?= $keywords ?? '' ?>">
+    <meta name="author" content="<?= $brand_name ?? '' ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Css start -->
@@ -54,7 +57,7 @@
                 <div class="container" <?php echo (isset($_GET['do_post']) ? "style='display:none;'" : "style='display:block;'") ?>>
                     <div class="col-lg-8 col-md-8 col-sm-12 col-md-offset-2 col-xs-12 payment-way">
                         <div class="digi-form">
-                            <h3 class="m-1o">Link Generator for Payment - EcomGeekz <a class="hidex" href="#" data-toggle="modal" data-target="#myModal"> (Payment History)</a></h3>
+                            <h3 class="m-1o">Link Generator for Payment - <?= $brand_name ?? '' ?> <a class="hidex" href="#" data-toggle="modal" data-target="#myModal"> (Payment History)</a></h3>
 
                             <!-- Form Request -->
                             <!-- Form for payment type start -->
@@ -79,7 +82,6 @@
                                     </div>
 
                                     <div class="">
-                                        <!-- <input type="hidden" name="_token" value="{{ csrf_token() }}" /> -->
                                         <input type="submit" value="submit" class="btn">
                                     </div>
 
@@ -217,8 +219,8 @@
                                     <div class="col-md-4">
                                         <div class="checkout-form-list">
                                             <div class="form-group radio-green">
-                                                <input id="radio0" name="brand_name" value="EcomGeekz" type="radio" checked>
-                                                <label for="radio0">EcomGeekz</label>
+                                                <input id="radio0" name="brand_name" value="<?= $brand_name ?? '' ?>" type="radio" checked>
+                                                <label for="radio0"><?= $brand_name ?? '' ?></label>
                                             </div>
                                         </div>
                                     </div>
@@ -444,7 +446,7 @@
                                             <label>Sales person</label>
                                             <select name="sales_person" id="" class="form-control" required>
                                                 <option value="">Select email address</option>
-                                                <option value="support@ecomgeekz.com" selected>support@ecomgeekz.com</option>
+                                                <option value="<?= $support_email ?? '' ?>" selected><?= $support_email ?? '' ?></option>
                                             </select>
                                         </div>
                                     </div>
@@ -455,7 +457,6 @@
                                     <!-- SUbmit button -->
                                     <div class="col-md-12">
                                         <input type="hidden" name="_do_post" value="1" />
-                                        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                                         <input type="submit" value="submit" class="btn">
                                     </div>
                                 </form>
@@ -507,7 +508,6 @@
                             <div class="row form-req">
                                 <h3 class="m-1o">:: Payment Link Generated ::</h3>
                                 <div class="contact-details">
-                                    <!-- <li><label for="">An email is also sent to <i>"{{ env('MAIL_TO_ADMIN"</i>, <i>"{{ isset($sales_person) ? $sales_person : ""; }}"</i></label></li> -->
                                     <li><label for="">Click on the button below to go to the payment link</label></li>
                                     <a id="payment_link_btn" href="" target="_blank"><button>CLICK HERE FOR PAYMENT LINK</button></a>
                                 </div>

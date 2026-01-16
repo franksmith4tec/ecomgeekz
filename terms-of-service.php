@@ -33,7 +33,7 @@ include("include/header.php");
       <div class="row">
          <div class="txtwrp">
              <p><strong>1. Introduction</strong></p>
-               <p><span>Welcome to <?= $brand_name ?? '' ?> ("Company," "we," "our," "us"). These Terms and Conditions ("Terms") govern your use of our website located at https://ecomgeekz.com (the "Site") and any related services provided by the Company (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Services.</span></p>
+               <p><span>Welcome to <?= $brand_name ?? '' ?> ("Company," "we," "our," "us"). These Terms and Conditions ("Terms") govern your use of our website located at <?= $base_url ?? '' ?> (the "Site") and any related services provided by the Company (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Services.</span></p>
                
 
                <p><strong>2. Changes to Terms</strong></p>
@@ -133,7 +133,7 @@ include("include/header.php");
             <p>All services are delivered to your "Account Area" as per the date specified in the Order Confirmation Email. An email notification is sent to inform you of your service delivery. All policies pertaining to revisions and refunds are subject to the date and time of service delivery to your account area. We provide a reference number for tracking the status of your order and posting revisions.</p>
             
             <p><strong>17. Communication Policy</strong></p>
-            <p><?= $brand_name ?? '' ?> is not liable for any correspondence from email addresses other than those followed by our own domain, such as "info@ecomgeekz.com," or any toll-free numbers not mentioned on our website. We only take responsibility for communication through email addresses under our domain name and via toll-free numbers mentioned on our website.</p>
+            <p><?= $brand_name ?? '' ?> is not liable for any correspondence from email addresses other than those followed by our own domain, such as "<?= $info_email ?? '' ?>," or any toll-free numbers not mentioned on our website. We only take responsibility for communication through email addresses under our domain name and via toll-free numbers mentioned on our website.</p>
             
             <p><strong>18. Governing Law and Dispute Resolution</strong></p>
             <p>These Terms shall be governed by and construed in accordance with the laws of the State of Illinois, without regard to its conflict of law principles. Any dispute arising out of or relating to these Terms or our Services shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association. The arbitrator's decision shall be final and binding, and judgment on the award may be entered in any court having jurisdiction.</p> 

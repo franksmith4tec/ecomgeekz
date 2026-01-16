@@ -21,6 +21,8 @@ $brand_phone = "+1 (855) 783-2616";
 $brand_call = "8557832616";
 $whatsapp_call = "";
 $brand_email = "hello@ecomgeekz.com";
+$support_email = "support@ecomgeekz.com";
+$info_email = "info@ecomgeekz.com";
 $site_name = "Home | " . $brand_name;
 
 $og_url = $_SERVER["HTTP_HOST"];
