@@ -85,7 +85,7 @@ h3 {
     font-size: 24px;
     font-weight: 600;
     line-height: 1.1;
-    color: black;
+    color: #fff;
     letter-spacing: -1px;
     margin-bottom: 1rem;
     font-family: "Manrope", sans-serif;
@@ -1856,7 +1856,7 @@ header {
 .menu-btns span {
     display: block;
     margin: 8px 0;
-    background: #000000;
+    background: #ffffff;
     width: 35px;
     height: 1px;
     transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -2158,12 +2158,6 @@ button.accordion-button.collapsed i {
 
 .testiomal-sec .accordion-body p {
     font-size: 14px;
-}
-
-
-.important-sec {
-    padding: 0 0 60px;
-
 }
 
 /*home pages css*/
@@ -7384,7 +7378,7 @@ img.main-ban-img {
 .reinstatement-pg .stats-3 {
     position: absolute;
     left: -20px;
-    top: 70px;
+    top: 160px;
     width: 280px;
     box-shadow: 0px 5px 19px 2px #00000047;
 }

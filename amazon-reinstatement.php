@@ -47,7 +47,7 @@ Has your Amazon seller account been suspended? </h1>
             </div>
             <div class="col-lg-6">
                 <div class="ban-imgwrp">
-                    <img src="assets/images/amz-r-Model.png" alt="img"  class="mt-3" />
+                    <!-- <img src="assets/images/amz-r-Model.png" alt="img"  class="mt-3" /> -->
                 </div>
                 <div class="parallax-wrap">
                     <img class="stats-animate stats-1"  value="-1" src="assets/images/amz-r-Stats-01.png" alt="img"  class="mt-3" />
