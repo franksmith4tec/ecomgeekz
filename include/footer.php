@@ -1,4 +1,6 @@
-<?php include("include/footer-form.php"); ?>
+<?php
+include("include/footer-form.php"); 
+?>
 
 <!--Start of Tawk.to Script-->
 <!-- <script type="text/javascript">
@@ -481,14 +483,26 @@ document.addEventListener("DOMContentLoaded", function() {
   <script src="assets/js/bootstrap.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
   <script>
     AOS.init();
   </script>
+  
+  <?php
+  if(isset($_SESSION['flash']['message'])){
+  if ($_SESSION['flash']['success'] == 1) { ?>        
+      <script>
+          toastr.success("<?= $_SESSION['flash']['message'] ?>");
+      </script>
 
-
-
-
-
+  <?php } else if($_SESSION['flash']['success'] == 0){ ?>
+      <script>
+          toastr.error("<?= $_SESSION['flash']['message'] ?>");
+      </script>
+  <?php }
+  unset($_SESSION['flash']);
+  } ?>
 
 
   <script>

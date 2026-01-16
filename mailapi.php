@@ -1,5 +1,16 @@
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+session_start();
+}
 require_once('PHPMailer/send_email.php');
+
+if(!isset($_POST['email']) || empty($_POST['email'])){
+    $_SESSION['flash']['message'] = "Form fields are required!";
+    $_SESSION['flash']['success'] = "0";
+
+    header('Location: ' . $base_url);
+    exit;
+}
 
 // List of banned IP addresses
 $bannedIps = [
@@ -26,7 +37,7 @@ if (isset($_POST['ip']) && in_array($_POST['ip'], $bannedIps)) {
     $logMessage = "Banned IP attempt: " . $_POST['ip'] . " at " . date('Y-m-d H:i:s') . "\n";
     file_put_contents('banned_ips.log', $logMessage, FILE_APPEND);
 
-    header('Location: ' . $base_url . '?msg=Your IP address is banned from submitting this form.');
+    header('Location: ' . $base_url);
     exit;
 }
 
@@ -38,19 +49,26 @@ $base_url = $referer_url['scheme'] . '://' . $referer_url['host'] . $referer_url
 if ($_SERVER["HTTP_HOST"] != 'localhost') {
 
     if (!isset($_POST['g-recaptcha-response'])) {
-        header('Location: ' . $base_url . '?msg=' . urlencode('Please complete the captcha'));
+        
+        $_SESSION['flash']['message'] = "Please complete the captcha";
+        $_SESSION['flash']['success'] = "0";
+
+        header('Location: ' . $base_url);
         exit;
     }
 
     $captcha = $_POST['g-recaptcha-response'];
     $secret = '6LfMIU0sAAAAAALPV9v8b9eF8LQRtoEBgc2xI4nR';
     $response = file_get_contents(
-        "https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $captcha . "&remoteip=" . $_SERVER['REMOTE_ADDR']
+        "https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $captcha
     );
     $response = json_decode($response);
 
-    if (!$response->success || $response->score <= 0.5) {
-        header('Location: ' . $base_url . '?msg=' . urlencode('Captcha verification failed'));
+    if (!$response->success || (isset($response->score) && $response->score <= 0.5)) {
+        $_SESSION['flash']['message'] = "Captcha verification failed";
+        $_SESSION['flash']['success'] = "0";
+
+        header('Location: ' . $base_url);
         exit;
     }
 }
@@ -61,7 +79,7 @@ $brand_name         = "EcomGeekz";
 $year               = date("Y");
 $admin_email        = 'hello@ecomgeekz.com';
 $user_email         = $_POST['email'];
-$name               = $_POST['name'];
+$name               = $_POST['name'] ?? '';
 $clientSubject      = "Thank You for Contacting Us - " . $brand_name;
 $subject            = "Request from " . $_POST['email'];
 $logo_url           = "assets/images/logo.png";
@@ -503,10 +521,11 @@ $adminSent = send_mail($admin_email, $subject, $adminMessageBody, 'admin');
 
 // Check overall success
 if ($clientSent == 'send' || $adminSent == 'send') {
-    $response = "Thank you! Your information has been received.";
+    $_SESSION['flash']['message'] = "Thank you! Your information has been sent.";
+    $_SESSION['flash']['success'] = "1";
 } else {
-    $response = "Sorry, there was an issue sending your information. Please try again.";
+    $_SESSION['flash']['message'] = "Sorry, there was an issue sending your information. Please try again.";
+    $_SESSION['flash']['success'] = "0";
 }
-
-header('Location: ' . $base_url . '?msg=' . urlencode($response));
+header('Location: ' . $base_url);
 exit;
