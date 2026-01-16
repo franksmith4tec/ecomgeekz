@@ -620,7 +620,7 @@ color: white;
 }
 .final-botm h6 {
     margin-bottom: 10px;
-    color: #fff;
+    color: #000000;
     font-weight: 400;
     margin-top: 20px;
     font-size: 12px;
@@ -628,7 +628,7 @@ color: white;
 }
 
 .final-botm a {
-    color: #fff;
+    color: #000000;
     font-size: 20px;
     font-family: 'Manrope';
     margin-bottom: 20px;

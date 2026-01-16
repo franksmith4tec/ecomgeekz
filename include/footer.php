@@ -170,8 +170,9 @@
           <div class="list-itemwrp">
             <ul>
               <h4>Find Us</h4>
-              <h4 class="white">Locations</h4>
 
+              <li><a href="javascript:;">Locations
+</a></li>
               <li><a href="javascript:;"><?= $brand_address ?? '' ?>
 </a></li>
               <!--<li><a href="javascript:;">360 S Market St <br> San Jose, CA 95113</a></li>-->
