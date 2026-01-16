@@ -2817,6 +2817,10 @@ footer .txtwrp p {
     animation: arrow-move 1s infinite;
 }
 
+.news-letterz {
+    margin-top:10px;
+}
+
 .news-letter-b {
     display: flex;
     background: #a801bd;
