@@ -104,7 +104,7 @@
 
                     <label for="RememberMe">
 
-                      By checking this box, I agree to receive SMS messages about appointment scheduling, notice reminders, application updates, and billing notifications from <?= $brand_name ?? '' ?> at the phone number provided above. The SMS frequency may vary. Data rates may apply. Text HELP for assistance. Reply STOP to opt out of receiving SMS messages. Please review our <a href="/privacy-policy" class="white-text">Privacy Policy</a> and <a href="/terms-of-service" class="white-text">Terms of Service</a>.
+                      By checking this box, I agree to receive SMS messages about appointment scheduling, notice reminders, application updates, and billing notifications from <?= $brand_name ?? '' ?> at the phone number provided above. The SMS frequency may vary. Data rates may apply. Text HELP for assistance. Reply STOP to opt out of receiving SMS messages. Please review our <a href="privacy-policy" class="white-text">Privacy Policy</a> and <a href="terms-of-service" class="white-text">Terms of Service</a>.
                     </label>
 
                   </div>

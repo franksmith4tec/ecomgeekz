@@ -69,7 +69,7 @@
                             <input name="RememberMe" type="hidden" value="false">
                             <input class="styled" data-val="true" data-val-required="Требуется поле Remember me?." id="RememberMe" name="RememberMe" type="checkbox" value="true">
                             <label for="RememberMe">
-                                By checking this box, I agree to receive SMS messages about appointment scheduling, notice reminders, application updates, and billing notifications from <?= $brand_name ?? '' ?> at the phone number provided above. The SMS frequency may vary. Data rates may apply. Text HELP for assistance. Reply STOP to opt out of receiving SMS messages. Please review our <a href="/privacy-policy" style="color:#a801bd;">Privacy Policy</a> and <a href="/terms-of-service" style="color:#a801bd;">Terms of Service</a>.
+                                By checking this box, I agree to receive SMS messages about appointment scheduling, notice reminders, application updates, and billing notifications from <?= $brand_name ?? '' ?> at the phone number provided above. The SMS frequency may vary. Data rates may apply. Text HELP for assistance. Reply STOP to opt out of receiving SMS messages. Please review our <a href="privacy-policy" style="color:#a801bd;">Privacy Policy</a> and <a href="terms-of-service" style="color:#a801bd;">Terms of Service</a>.
                             </label>
                         </div>
                         <div class="form-input-btn">
