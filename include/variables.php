@@ -42,7 +42,7 @@ $linkedin = "https://www.linkedin.com/ecomgeekz";
 $youtube = "https://www.youtube.com/@ecomgeekz";
 $twitter = "https://www.twitter.com";
 
-$recaptcha_sitekey = "6LfYw_kqAAAAAI5GA9-wd_TLCH4iMy2TY16tKyjC";
+$recaptcha_sitekey = "6LfMIU0sAAAAAMbfozi6tVfPRNvy0TexpHAVOn2p";
 
 $google_site_verification = "";
 $facebook_domain_verification = "";

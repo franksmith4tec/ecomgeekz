@@ -43,7 +43,7 @@ if ($_SERVER["HTTP_HOST"] != 'localhost') {
     }
 
     $captcha = $_POST['g-recaptcha-response'];
-    $secret = '6LfYw_kqAAAAAD7EdbLRnZmZhuqka-iIIsj_TBVD';
+    $secret = '6LfMIU0sAAAAAALPV9v8b9eF8LQRtoEBgc2xI4nR';
     $response = file_get_contents(
         "https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $captcha . "&remoteip=" . $_SERVER['REMOTE_ADDR']
     );
