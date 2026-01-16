@@ -64,7 +64,7 @@ include("include/header.php");
                    
                    
                    <p><strong>1. Introduction</strong></p>
-                   <p class="themes-p" style="padding: 0 0 0 !important;">At  <?= $brand_name ?? '' ?>, accessible from https://ecomgeekz.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains information about the types of information LetsEcom LLC, DBA <?= $brand_name ?? '' ?> collects and records and how we use it. </p>
+                   <p class="themes-p" style="padding: 0 0 0 !important;">At <?= $brand_name ?? '' ?>, accessible from <?= $base_url ?? '' ?>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains information about the types of information LetsEcom LLC, DBA <?= $brand_name ?? '' ?> collects and records and how we use it. </p>
                    <p class="themes-p" style="padding: 0 0 0 !important;">By accessing or using our services, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 </p>
                    
@@ -135,7 +135,7 @@ include("include/header.php");
                       <li>Google: https://policies.google.com/technologies/ads</li> </ul>
                       
                       <p><strong>7. Privacy Policies of Advertising Partners</strong></p>
-               <p><span>You may consult this list to find the Privacy Policy for each of the advertising partners of LetsEcom LLC, DBA <?= $brand_name ?? '' ?> Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons in their respective advertisements and links that appear on LetsEcom LLC, DBA  <?= $brand_name ?? '' ?>, which are sent directly to users' browsers. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit. Note that LetsEcom LLC, DBA <?= $brand_name ?? '' ?> has no access to or control over these cookies that third-party advertisers use.</span></p>
+               <p><span>You may consult this list to find the Privacy Policy for each of the advertising partners of LetsEcom LLC, DBA <?= $brand_name ?? '' ?> Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons in their respective advertisements and links that appear on LetsEcom LLC, DBA <?= $brand_name ?? '' ?>, which are sent directly to users' browsers. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit. Note that LetsEcom LLC, DBA <?= $brand_name ?? '' ?> has no access to or control over these cookies that third-party advertisers use.</span></p>
                       
                       
                     <p><strong>8. Third-Party Privacy Policies</strong></p>
@@ -183,7 +183,7 @@ include("include/header.php");
                Phone: <a class="text-white" href="tel:<?= $brand_phone ?? ' ' ?>"><?= $brand_phone ?? ' ' ?></a></span></p>
                
                 <p><strong>15. SMS Compliance</strong></p>
-               <p><span>By opting into SMS, you are agreeing to receive SMS messages from  <?= $brand_name ?? '' ?>. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy. Message HELP for help. Reply STOP to any message to opt out. SMS consent is not shared with third parties for marketing purposes.</span></p> 
+               <p><span>By opting into SMS, you are agreeing to receive SMS messages from <?= $brand_name ?? '' ?>. This includes SMS messages for appointment scheduling, appointment reminders, project updates, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy. Message HELP for help. Reply STOP to any message to opt out. SMS consent is not shared with third parties for marketing purposes.</span></p> 
                
                <p><span>By using our services, you acknowledge that you have read and understood this Privacy Policy and agree to our collection, use, and disclosure of your personal information as described herein.</span></p> 
                
