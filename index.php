@@ -29,7 +29,7 @@ include("include/header.php");
                         <!--<img class="home-trust-img" src="assets/images/Trustpilot-Stars.svg" alt="img" data-aos="zoom-in-down">-->
 
                         <a class="tw" target="_blank" href="<?= $trustpilot_url ?? '' ?>"> <img src="assets/images/tw.png" /> </a>
-
+                        <h1>ffff</h1>
                         <h1 class="" data-aos="fade-up" data-aos-duration="1000">Your <span class="markers" style="display:inline-block; color:#a801bd;">Ultimate </span> Business Ally</h1>
                         <p class="" data-aos="fade-up" data-aos-duration="1300">Unlock your potential with <?= $brand_name ?? '' ?>! Discover how our expert guidance and time-tested strategies can help you build thriving passive income streams and elevate your entrepreneurial journey to new heights.</p>
                         <a href="amazon-fba-automation" class="" data-aos="fade-up" data-aos-duration="1500"><img class="main-ban-img" src="assets/images/amazon.svg" alt="img" /> Amazon FBA Automation</a>
